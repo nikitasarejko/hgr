@@ -1,15 +1,17 @@
 {% include header.html %}
 
-<h2>{{ page.title }}</h2>
+<h1>{{ page.title }}</h1>
 
-<div class="post">
-    {{ content }}
-</div>
+{{ content }}
 
-<div>
-    {{ page.staff.name }}
+<div class="blog-posts">
+    {% for person in site.team %}
 
-    <img src="{{ page.portrait_image }}" />
+        <a href="{{ person.url }}">
+            <h2>{{ person.title }}</h2>
+            <p>{{ person.keyfacts.position }}</p>
+            <p><img src="{{ person.portrait_image }}" /></p>
+        </a>
 
-    {{ page.staff.position }}
+    {% endfor %}
 </div>

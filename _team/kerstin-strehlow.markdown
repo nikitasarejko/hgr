@@ -1,6 +1,9 @@
 ---
 title: Kerstin Strehlow
 portrait_image: "/uploads/roman-denisenko-JLxE8wafwg0-unsplash.jpg"
+keyfacts:
+  position: CEO
+  bereich: Geschäftsführung
 layout: team
 ---
 
