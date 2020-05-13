@@ -1,0 +1,46 @@
+---
+---
+
+@import './reset.css';
+@import './typography.css';
+@import './utility.css';
+
+// Variables
+$background-color: #fff;
+$primary-color: #ff3300;
+$black: #262626;
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $background-color;
+    color: $black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 2.4rem 4.8rem;
+}
+
+nav {
+
+    a {
+        margin-left: 2.4rem;
+        text-decoration: none;
+        color: $black;
+    }
+
+}
+
+// .container {
+//     display: grid;
+//     grid-template-columns: [full-start] repeat(2, 1fr) [center-start] repeat(8, 1fr) [center-end] repeat(2, 1fr);
+// }
+
+.hero {
+    grid-column: center-start / center-end;
+}
