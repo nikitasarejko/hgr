@@ -8,7 +8,6 @@ collections:
   team:
     title: Team
     output: true
-    portrait: image
   uploads:
     title: Uploads
     output: true
