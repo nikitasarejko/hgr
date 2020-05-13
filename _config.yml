@@ -18,6 +18,34 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+collections:
+  people:
+    title: People
+    output: true
+    portrait: image
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: people
+  values:
+    layout: default
+
 title: HGR Immobilienmanagement
 email: info@nikitasarejko.com
 description: >- # this means to ignore newlines until "baseurl:"
