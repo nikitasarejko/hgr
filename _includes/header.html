@@ -12,8 +12,8 @@
         <a href="/"><img src="/assets/img/hgr-logo-red.svg"></a>
 
         <nav>
-            <a href="/">Home</a>
-            <a href="/team/">Team</a>
+            <a href="/" {% if page.url == "/" %} class="selected"{% endif %}>Home</a>
+            <a href="/team/" {% if page.url == "/team/" %} class="selected"{% endif %}>Team</a>
             <a href="/verwaltung/">Verwaltung</a>
             <a href="/referenzen/">Referenzen</a>
             <a href="/blog/">Blog</a>
