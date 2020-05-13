@@ -7,7 +7,7 @@ staff:
   name: Max Mustermann
   position: CEO
   start: 2016
-layout: people
+layout: default
 
 ---
 
