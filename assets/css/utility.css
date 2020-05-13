@@ -1,0 +1,31 @@
+.mb0 {
+    margin-bottom: 0;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.ml0 {
+    margin-left: 0;
+}
+
+.mr0 {
+    margin-right: 0;
+}
+
+.mb-sm {
+    margin-bottom: 1.6rem;
+}
+
+.mb-md {
+    margin-bottom: 4rem;
+}
+
+.mb-lg {
+    margin-bottom: 6.4rem;
+}
+
+.mb-xlg {
+    margin-bottom: 8rem;
+}

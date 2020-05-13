@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Space Grotesk";
+    font-weight: 400;
+    src: url(../fonts/SpaceGrotesk-Regular.woff2), url(../fonts/SpaceGrotesk-Regular.woff);
+}
+
+:root {
+    --base-font: "Space Grotesk"
+}
+
+body {
+    font-family: var(--base-font), Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: var(--base-font), Helvetica, sans-serif;
+}
+
+h1 {
+   font-size: 4.624rem; 
+}
+
+h2 {
+    font-size: 3.653rem;
+}
+
+h3 {
+    font-size: 2.281rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+nav a {
+    font-size: 2.281rem;
+}
+
+.hero h1 {
+    font-size: 6.583rem;
+}
