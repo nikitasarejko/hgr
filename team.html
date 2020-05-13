@@ -6,11 +6,11 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <div class="blog-posts">
-    {% for post in site.people %}
+    {% for person in site.team %}
 
-        <a href="{{ post.url }}">
-            <h2>{{ post.title }}</h2>
-            <p>{{ post.excerpt }}</p>
+        <a href="{{ person.url }}">
+            <h2>{{ person.title }}</h2>
+            <p>{{ person.position }}</p>
         </a>
 
     {% endfor %}
