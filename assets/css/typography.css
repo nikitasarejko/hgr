@@ -12,6 +12,7 @@ body {
     font-family: var(--base-font), Helvetica, sans-serif;
     font-weight: 400;
     font-size: 1.8rem;
+    line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -38,6 +39,7 @@ nav a {
     font-size: 2.281rem;
 }
 
-.hero h1 {
-    font-size: 6.583rem;
+.hero__right h1 {
+    font-size: 3.653rem;
+    line-height: 1.25;
 }

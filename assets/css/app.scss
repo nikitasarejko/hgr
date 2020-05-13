@@ -20,9 +20,14 @@ body {
 }
 
 header {
+    position: absolute;
+    top: 0;
+    left: 0;
+
     display: flex;
     justify-content: space-between;
     background-color: #fff;
+    width: 100%;
     padding: 4rem;
 }
 
@@ -34,4 +39,27 @@ nav {
         color: $black;
     }
 
+    a.selected {
+        border-bottom: 2px solid $black;
+    }
+
+}
+
+.hero {
+    display: flex;
+    background-color: #fff;
+    height: 90vh;
+    align-items: flex-end;
+
+    &__left {
+        height: 80vh;
+        width: 66.666vw;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &__right {
+        width: 33.333vw;
+        padding: 8rem;
+    }
 }
