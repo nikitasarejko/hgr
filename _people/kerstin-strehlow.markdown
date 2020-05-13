@@ -1,11 +1,13 @@
 ---
+title: Ordinary Joe
+date: 2020-05-13 02:00:00 +02:00
+position: 0
+portrait_image: "/uploads/roman-denisenko-JLxE8wafwg0-unsplash.jpg"
+staff:
+  name: Max Mustermann
+  position: CEO
+  start: 2016
 layout: people
-title: Kerstin Strehlow
-date: 2020-05-13 10:36:00 Z
-bio:
-  name: Kerstin Strehlow
-  position: Geschäftsführerin
-  image: "/uploads/roman-denisenko-JLxE8wafwg0-unsplash.jpg"
 ---
 
 Die Berliner Immobilienfachfrau, mit familiären Wurzeln auf Rügen, führt das Unternehmen abseits ausgetretener Pfade.

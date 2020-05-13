@@ -7,3 +7,13 @@ layout: default
         <h1 class="hero__heading">HGR ihr Immobilienmanager auf der Insel Rügen</h1>
     </div>
 </section>
+
+<div class="blog-posts">
+    {% for person in site.people %}
+
+        <a href="{{ person.url }}">
+            <h2>{{ person.title }}</h2>
+        </a>
+
+    {% endfor %}
+</div>

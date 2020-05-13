@@ -1,10 +1,12 @@
 ---
 title: HGR Immobilienmanagement
 timezone: UTC
+
 collections:
   people:
     title: People
     output: true
+    portrait: image
   posts:
     title: Posts
     output: true
@@ -27,6 +29,7 @@ defaults:
     type: people
   values:
     layout: default
+
 email: info@nikitasarejko.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
