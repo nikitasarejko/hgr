@@ -1,0 +1,24 @@
+{% include header.html %}
+
+
+<section class="container">
+    <div class="hero">
+        <h1 class="hero__heading">{{ content }}</h1>
+    </div>
+</section>
+
+<section class="container">
+
+        {% for person in site.team %}
+            <div>
+                <a href="{{ person.url }}">
+                    <h2>{{ person.title }}</h2>
+                </a>
+            </div>
+
+        {% endfor %}
+
+</section>
+
+</body>
+</html>
