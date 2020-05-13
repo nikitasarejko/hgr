@@ -3,13 +3,13 @@
 
 <section class="container">
     <div class="hero">
-        <h1 class="hero__heading">{{ content }}</h1>
+        <h1 class="hero__heading">{{ page.hero-headline }}</h1>
     </div>
 </section>
 
 <section class="container">
 
-        {% for person in site.team %}
+        {% for person in site.team reversed %}
             <div>
                 <a href="{{ person.url }}">
                     <h2>{{ person.title }}</h2>

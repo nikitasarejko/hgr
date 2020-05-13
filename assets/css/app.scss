@@ -23,24 +23,15 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #fff;
-    padding: 2.4rem 4.8rem;
+    padding: 4rem;
 }
 
 nav {
 
     a {
-        margin-left: 2.4rem;
+        margin-left: 6.4rem;
         text-decoration: none;
         color: $black;
     }
 
-}
-
-.container {
-    display: grid;
-    grid-template-columns: [full-start] repeat(2, 1fr) [center-start] repeat(8, 1fr) [center-end] repeat(2, 1fr);
-}
-
-.hero {
-    grid-column: center-start / center-end;
 }
