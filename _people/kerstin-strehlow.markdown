@@ -1,6 +1,6 @@
 ---
 title: Ordinary Joe
-date: 2020-05-13 02:00:00 +02:00
+date: 2020-05-13 00:00:00 Z
 position: 0
 portrait_image: "/uploads/roman-denisenko-JLxE8wafwg0-unsplash.jpg"
 staff:
@@ -8,7 +8,6 @@ staff:
   position: CEO
   start: 2016
 layout: people
-
 ---
 
 Die Berliner Immobilienfachfrau, mit familiären Wurzeln auf Rügen, führt das Unternehmen abseits ausgetretener Pfade.
