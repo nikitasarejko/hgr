@@ -1,5 +1,6 @@
 ---
+title: Home
+hero-headline: HGR Immobilienmanagement. Wir verwalten ihr Grundstück.
 layout: home
 ---
 
-HGR Immobilienmanagement. Wir verwalten ihr Grundstück.
