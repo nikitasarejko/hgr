@@ -5,7 +5,6 @@ collections:
   people:
     title: People
     output: true
-    portrait: image
   posts:
     title: Posts
     output: true

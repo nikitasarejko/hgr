@@ -1,4 +1,5 @@
 ---
+layout: people
 title: Kerstin Strehlow
 date: 2020-05-13 10:36:00 Z
 bio:
