@@ -36,10 +36,10 @@ nav {
 
 }
 
-// .container {
-//     display: grid;
-//     grid-template-columns: [full-start] repeat(2, 1fr) [center-start] repeat(8, 1fr) [center-end] repeat(2, 1fr);
-// }
+.container {
+    display: grid;
+    grid-template-columns: [full-start] repeat(2, 1fr) [center-start] repeat(8, 1fr) [center-end] repeat(2, 1fr);
+}
 
 .hero {
     grid-column: center-start / center-end;
