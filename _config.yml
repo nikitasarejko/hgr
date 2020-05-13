@@ -2,13 +2,13 @@
 title: HGR Immobilienmanagement
 timezone: UTC
 collections:
+  people:
+    title: People
+    output: true
+    portrait: image
   posts:
     title: Posts
     output: true
-  people:
-    title: Schmock
-    output: true
-    portrait: image
   uploads:
     title: Uploads
     output: true
