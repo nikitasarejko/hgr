@@ -8,6 +8,7 @@ staff:
   position: CEO
   start: 2016
 layout: people
+
 ---
 
 Die Berliner Immobilienfachfrau, mit familiären Wurzeln auf Rügen, führt das Unternehmen abseits ausgetretener Pfade.
