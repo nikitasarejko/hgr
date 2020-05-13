@@ -2,17 +2,16 @@
 title: HGR Immobilienmanagement
 timezone: UTC
 collections:
+  people:
+    title: People
+    output: true
+    portrait: image
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
-  people:
-    title: People
-    output: true
-    portrait: image
-
 defaults:
 - scope:
     path: ''
