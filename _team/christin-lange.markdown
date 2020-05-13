@@ -1,6 +1,6 @@
 ---
 title: Christin Lange
-date: 2020-05-13 14:38:00 Z
+layout: team-profile
 portrait_image: "/uploads/roman-denisenko-JLxE8wafwg0-unsplash.jpg"
 keyfacts:
   position: Buchhalterin

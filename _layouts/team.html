@@ -5,7 +5,7 @@
 {{ content }}
 
 <div class="blog-posts">
-    {% for person in site.team %}
+    {% for person in site.team reversed %}
 
         <a href="{{ person.url }}">
             <h2>{{ person.title }}</h2>
