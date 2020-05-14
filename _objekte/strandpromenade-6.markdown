@@ -1,6 +1,7 @@
 ---
 title: Strandpromenade 6
 date: 2020-05-14 13:52:00 Z
+layout: referenz-profile
 keyfacts:
   image: "/uploads/chuttersnap-d-RvuGRo4XQ-unsplash.jpg"
   ort: Binz

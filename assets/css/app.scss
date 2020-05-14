@@ -108,15 +108,25 @@ nav {
 .hero {
     display: flex;
     background-color: #fff;
-    height: 74vh;
+    height: 71vh;
     align-items: flex-end;
 
     &__left {
         height: 80vh;
         width: 66.666vw;
-        background-position: center;
-        background-size: cover;
+        background-color: $primary-color;
+        overflow: hidden;
+
         @include b-r-b();
+
+        &__img {
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+
+            animation: fade-from-left 1.5s 1s ease forwards;
+        }
     }
 
     &__right {
@@ -128,4 +138,9 @@ nav {
         padding: 8rem;
         @include b-b();
     }
+}
+
+@keyframes fade-from-left {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1;  }
 }
