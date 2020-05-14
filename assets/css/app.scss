@@ -121,7 +121,8 @@ nav {
 
     &__right {
         display: flex;
-        align-items: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
         width: 33.333vw;
         height: 80vh;
         padding: 8rem;
