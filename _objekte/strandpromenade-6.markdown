@@ -1,5 +1,6 @@
 ---
 title: Strandpromenade 6
+layout: referenz-profile
 date: 2020-05-14 13:52:00 Z
 keyfacts:
   image: "/uploads/chuttersnap-d-RvuGRo4XQ-unsplash.jpg"
