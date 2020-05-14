@@ -10,6 +10,69 @@ $background-color: #fff;
 $primary-color: #ff3300;
 $black: #262626;
 
+// Mixins
+@mixin b-a {
+    border: 1px solid $black;
+}
+
+@mixin b-t {
+    border-top: 1px solid $black;
+}
+
+@mixin b-b {
+    border-bottom: 1px solid $black;
+}
+
+@mixin b-h {
+    border-left: 1px solid $black;
+    border-right: 1px solid $black;
+}
+
+@mixin b-v {
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+}
+
+@mixin b-t-r {
+    border-top: 1px solid $black;
+    border-right: 1px solid $black;
+}
+
+@mixin b-t-l {
+    border-top: 1px solid $black;
+    border-left: 1px solid $black;
+}
+
+@mixin b-r-b {
+    border-right: 1px solid $black;
+    border-bottom: 1px solid $black;
+}
+
+@mixin b-b-l {
+    border-bottom: 1px solid $black;
+    border-left: 1px solid $black;
+}
+
+@mixin b-t-r-b {
+    border-top: 1px solid $black;
+    border-right: 1px solid $black;
+    border-bottom: 1px solid $black;
+}
+
+@mixin b-t-r-l {
+    border-top: 1px solid $black;
+    border-right: 1px solid $black;
+    border-left: 1px solid $black;
+}
+
+@mixin b-t-b-l {
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+    border-left: 1px solid $black;
+}
+
+
+
 html {
     font-size: 62.5%;
 }
@@ -20,15 +83,12 @@ body {
 }
 
 header {
-    position: absolute;
-    top: 0;
-    left: 0;
-
     display: flex;
     justify-content: space-between;
     background-color: #fff;
     width: 100%;
     padding: 4rem;
+    @include b-b();
 }
 
 nav {
@@ -40,7 +100,7 @@ nav {
     }
 
     a.selected {
-        border-bottom: 2px solid $black;
+        border-bottom: 1px solid $black;
     }
 
 }
@@ -48,7 +108,7 @@ nav {
 .hero {
     display: flex;
     background-color: #fff;
-    height: 90vh;
+    height: 74vh;
     align-items: flex-end;
 
     &__left {
@@ -56,10 +116,15 @@ nav {
         width: 66.666vw;
         background-position: center;
         background-size: cover;
+        @include b-r-b();
     }
 
     &__right {
+        display: flex;
+        align-items: flex-end;
         width: 33.333vw;
+        height: 80vh;
         padding: 8rem;
+        @include b-b();
     }
 }
