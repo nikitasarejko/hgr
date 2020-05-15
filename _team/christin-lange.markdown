@@ -1,6 +1,7 @@
 ---
 title: Christin Lange
 portrait_image: "/uploads/haydn-golden-lkNRfy82q-I-unsplash.jpg"
+ident: christinlange
 keyfacts:
   position: Buchhalterin
   bereich: Buchhaltung und Finanzen
