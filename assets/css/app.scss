@@ -173,3 +173,33 @@ section.wir {
 .active {
     display: block;
 }
+
+section.team {
+    display: flex;
+    height: 100vh;
+}
+
+.team__left {
+    width: 50vw;
+    height: 100%;
+    background-color: $black;
+}
+
+.team__right {
+    width: 50vw;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+.team__right__image {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+    display: none;
+}
+
+.visible {
+    display: block;
+}

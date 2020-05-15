@@ -50,4 +50,24 @@
     </div>
 </section>
 
+<section class="container team">
+
+    <div class="team__left">
+        {% for person in site.team reversed %}
+            <div>
+                <a href="#{{ person.ident }}" data-profile-image="{{ person.ident }}">
+                    <h2>{{ person.title }}</h2>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="team__right">
+        {% for person in site.team reversed %}
+            <div id="{{ person.ident }}" class="team__right__image" style="background-image: url('{{ person.portrait_image }}');"></div>
+        {% endfor %}
+    </div>
+
+</section>
+
 {% include footer.html %}
