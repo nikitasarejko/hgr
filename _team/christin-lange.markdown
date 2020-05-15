@@ -1,10 +1,10 @@
 ---
 title: Christin Lange
-layout: team-profile
-portrait_image: "/uploads/roman-denisenko-JLxE8wafwg0-unsplash.jpg"
+portrait_image: "/uploads/haydn-golden-lkNRfy82q-I-unsplash.jpg"
 keyfacts:
   position: Buchhalterin
   bereich: Buchhaltung und Finanzen
+layout: team-profile
 ---
 
 Bei unserem Youngster paaren sich Köpfchen und Methodik.
