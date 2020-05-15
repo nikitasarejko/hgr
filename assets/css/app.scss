@@ -71,8 +71,6 @@ $black: #262626;
     border-left: 1px solid $black;
 }
 
-
-
 html {
     font-size: 62.5%;
 }
@@ -124,8 +122,9 @@ nav {
             background-size: cover;
             height: 100%;
             width: 100%;
+            opacity: 0;
 
-            animation: fade-from-left 1.5s 1s ease forwards;
+            animation: fade-from-left 2s 1s ease forwards;
         }
     }
 
@@ -141,6 +140,6 @@ nav {
 }
 
 @keyframes fade-from-left {
-    from { transform: translateY(100%); opacity: 0; }
+    from { transform: translateY(0); opacity: 0; }
     to { transform: translateY(0); opacity: 1;  }
 }
