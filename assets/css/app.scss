@@ -143,3 +143,33 @@ nav {
     from { transform: translateY(0); opacity: 0; }
     to { transform: translateY(0); opacity: 1;  }
 }
+
+section.wir {
+    display: flex;
+    height: 95vh;
+    width: 100%;
+}
+
+.inhalt,
+.links {
+    height: 100%;
+    width: 50vw;
+}
+
+.box {
+    height: 100%;
+    width: 50vw;
+    display: none;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.active {
+    display: block;
+}
