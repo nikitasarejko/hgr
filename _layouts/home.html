@@ -54,8 +54,8 @@
 
     <div class="team__left">
         {% for person in site.team reversed %}
-            <div>
-                <a href="#{{ person.ident }}" data-profile-image="{{ person.ident }}">
+            <div class="team__left__name" data-profile-image="{{ person.ident }}" data-url="{{ person.portrait_image }}">
+                <a href="#{{ person.ident }}">
                     <h2>{{ person.title }}</h2>
                 </a>
             </div>
@@ -66,6 +66,7 @@
         {% for person in site.team reversed %}
             <div id="{{ person.ident }}" class="team__right__image" style="background-image: url('{{ person.portrait_image }}');"></div>
         {% endfor %}
+        <!-- <div class="team__right__image visible"></div> -->
     </div>
 
 </section>
