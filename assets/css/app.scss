@@ -8,6 +8,7 @@
 // Variables
 $background-color: #fff;
 $primary-color: #ff3300;
+$grey-light: #F4F1EE;
 $black: #262626;
 
 // Mixins
@@ -103,11 +104,10 @@ nav {
 
 }
 
+// Startseite
 .hero {
     display: flex;
     background-color: #fff;
-    height: 71vh;
-    align-items: flex-end;
 
     &__left {
         height: 80vh;
@@ -124,7 +124,7 @@ nav {
             width: 100%;
             opacity: 0;
 
-            animation: fade-from-left 2s 1s ease forwards;
+            animation: fade-in 2s 1s ease forwards;
         }
     }
 
@@ -139,41 +139,6 @@ nav {
     }
 }
 
-@keyframes fade-from-left {
-    from { transform: translateY(0); opacity: 0; }
-    to { transform: translateY(0); opacity: 1;  }
-}
-
-section.wir {
-    display: flex;
-    height: 95vh;
-    width: 100%;
-}
-
-.inhalt,
-.links {
-    height: 100%;
-    width: 50vw;
-}
-
-.box {
-    height: 100%;
-    width: 50vw;
-    display: none;
-}
-
-.red {
-    background-color: red;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.active {
-    display: block;
-}
-
 section.team {
     display: flex;
     height: 100vh;
@@ -183,12 +148,21 @@ section.team {
     width: 50vw;
     height: 100%;
     background-color: $black;
+
+    &__name h2 {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    &__name.current h2 {
+        color: $primary-color;
+    }
 }
 
 .team__right {
     width: 50vw;
     height: 100%;
-    background-color: #f2f2f2;
+    background-color: $grey-light;
 }
 
 .team__right__image {
@@ -202,4 +176,148 @@ section.team {
 
 .visible {
     display: block;
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.fade.in {
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+// Unternehmen
+
+// Team
+.team-header {
+    display: flex;
+
+    &__left {
+        width: 33.333vw;
+        padding: 4rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        @include b-r-b();
+    }
+
+    &__right {
+        width: 66.667vw;
+        @include b-b();
+    }
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    & h3.toggle {
+        display: inline-block;
+        border-bottom: 2px solid;
+        cursor: pointer;
+
+        &:hover {
+            border-bottom: 2px solid transparent;
+        }
+    }
+
+    &__item {
+        padding: 4rem;
+        background-color: $primary-color;
+        @include b-r-b();
+
+        &:nth-child(3n) {
+            border-right: none;
+        }
+    }
+
+    &__bio {
+        visibility: initial;
+        display: block;
+        height: auto;
+        opacity: 1;
+        transform: translateY(0);
+        transition: all .5s ease;
+
+        &.hidden {
+            display: block;
+            visibility: hidden;
+            height: 0;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: none;
+        }
+
+    }
+
+    &__phone,
+    &__mail {
+        display: flex;
+        align-items: center;
+
+        & img {
+            height: 3rem;
+            margin-left: -0.6rem;
+            margin-right: 0.6rem;
+        }
+    }
+
+    &__tabelle p {
+        border-bottom: 1px solid $black;
+        padding-bottom: .5rem;
+        padding-top: .5rem;
+    }
+}
+
+// Referenzen
+.referenzen-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    &__intro {
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @include b-r-b();
+
+        & p {
+            max-width: 64rem;
+        }
+    }
+
+    &__facts {
+        padding: 4rem;
+        width: 40%;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: row-reverse;
+        @include b-b();
+
+        &:nth-child(odd) {
+            @include b-r-b();
+        }
+    }
+
+    &__image {
+        background-size: cover;
+        background-position: center;
+        height: 87vh;
+        width: 60%;
+    }
+}
+
+// Kontakt
+
+// Animation
+@keyframes fade-in {
+    from { transform: translateY(0); opacity: 0; }
+    to { transform: translateY(0); opacity: 1;  }
 }

@@ -39,32 +39,19 @@
 
 </section>
 
-<section class="wir">
-    <div class="links">
-        <p id="one">One</p>
-        <p id="two">Two</p>
-    </div>
-    <div class="inhalt">
-        <div class="box red active"></div>
-        <div class="box blue"></div>
-    </div>
-</section>
-
 <section class="container team">
 
     <div class="team__left">
         {% for person in site.team reversed %}
-            <div class="team__left__name" data-profile-image="{{ person.ident }}" data-url="{{ person.portrait_image }}">
-                <a href="#{{ person.ident }}">
-                    <h2>{{ person.title }}</h2>
-                </a>
+            <div class="team__left__name">
+                <h2>{{ person.title }}</h2>
             </div>
         {% endfor %}
     </div>
 
     <div class="team__right">
         {% for person in site.team reversed %}
-            <div id="{{ person.ident }}" class="team__right__image" style="background-image: url('{{ person.portrait_image }}');"></div>
+            <div class="team__right__image fade" style="background-image: url('{{ person.portrait_image }}');"></div>
         {% endfor %}
         <!-- <div class="team__right__image visible"></div> -->
     </div>
