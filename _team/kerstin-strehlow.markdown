@@ -1,6 +1,6 @@
 ---
 title: Kerstin Strehlow
-position: 0
+position: Geschäftsführerin
 portrait_image: "/uploads/roman-denisenko-JLxE8wafwg0-unsplash.jpg"
 telefon: "(03 83 93) 13 79 00"
 mail: kerstin.strehlow@hgr.de
