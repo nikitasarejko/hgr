@@ -43,3 +43,21 @@ nav a {
     font-size: 3.653rem;
     line-height: 1.25;
 }
+
+/* Team */
+.team-header__left p {
+    max-width: 64rem;
+}
+
+h2.team-grid__title {
+    margin-bottom: -1rem;
+}
+
+h3.team-grid__position {
+    margin-bottom: 2rem;
+}
+
+p.team-grid__headline {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}

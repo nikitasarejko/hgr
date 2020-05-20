@@ -1,18 +1,30 @@
 {% include header.html %}
 
-<h1>{{ page.title }}</h1>
 
-<div class="blog-posts">
-    {% for objekt in site.objekte reversed %}
 
-        <a href="{{ objekt.url }}">
-            <h2>{{ objekt.title }}</h2>
-            <p>{{ objekt.keyfacts.ort }}</p>
-            <p>{{ objekt.keyfacts.adresse }}</p>
-            <p><img src="{{ objekt.keyfacts.image }}" /></p>
-        </a>
 
-    {% endfor %}
-</div>
+<section class="referenzen-grid">
+
+    <div class="referenzen-grid__intro">
+        <h1 class="mb-sm">{{ page.title }}</h1>
+        {{  content }}
+    </div>
+
+    
+
+        {% for objekt in site.objekte reversed %}
+        <div class="referenzen-grid__item">
+            <div class="referenzen-grid__facts">
+                <h3>{{ objekt.title }}</h3>
+                <p>{{ objekt.keyfacts.ort }}</p>
+                <p>{{ objekt.keyfacts.adresse }}</p>
+            </div>
+
+            <div class="referenzen-grid__image" style="background-image:url('{{ objekt.keyfacts.image }}');"></div>
+        </div>
+        {% endfor %}
+    
+
+</section>
 
 {% include footer.html %}

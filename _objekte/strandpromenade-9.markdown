@@ -1,10 +1,10 @@
 ---
-title: Strandpromenade 6
+title: Strandpromenade 9
 layout: referenz-profile
 keyfacts:
   image: "/uploads/chuttersnap-d-RvuGRo4XQ-unsplash.jpg"
   ort: Binz
-  adresse: Strandpromenade 6
+  adresse: Strandpromenade 9
 ---
 
 At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.

@@ -1,19 +1,49 @@
 {% include header.html %}
 
-<h1>{{ page.title }}</h1>
+<section class="team-header">
+    <div class="team-header__left">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+    </div>
 
-{{ content }}
+    <div class="team-header__right">
+        <img src="{{ page.group_image }}" alt="Team Group Image">
+    </div>
+    
 
-<div class="blog-posts">
+</section>
+
+<section class="team-grid">
     {% for person in site.team reversed %}
+    <div class="team-grid__item">
+
+        <div class="team-grid__keyfacts mb-md">
+            <h2 class="team-grid__title">{{ person.title }}</h2>
+            <h3 class="team-grid__position">{{ person.position }}</h3>
+            <div class="team-grid__phone"><img src="/assets/img/phone.svg" alt=""><p>{{ person.telefon }}</p></div>
+            <div class="team-grid__mail"><img src="/assets/img/mail.svg" alt=""><p>{{ person.mail }}</p></div>
+        </div>
+
+        <h3 class="toggle mb-sm">INFO</h3>
+
+        <div class="team-grid__bio hidden">
+            <p class="team-grid__info mb-sm">{{ person.bio }}</p>
+            <p class="team-grid__headline">Schwerpunkte</p>
+            <div class="team-grid__tabelle mb-md">
+                <p>{{ person.schwerpunkte.eins }}</p>
+                <p>{{ person.schwerpunkte.zwei }}</p>
+                <p>{{ person.schwerpunkte.drei }}</p>
+                <p>{{ person.schwerpunkte.vier }}</p>
+                <p>{{ person.schwerpunkte.fuenf }}</p>   
+            </div>
+        </div>
 
         <a href="{{ person.url }}">
-            <h2>{{ person.title }}</h2>
-            <p>{{ person.keyfacts.position }}</p>
-            <p><img src="{{ person.portrait_image }}" /></p>
+            <img src="{{ person.portrait_image }}" />
         </a>
 
+    </div>
     {% endfor %}
-</div>
+</section>
 
 {% include footer.html %}
