@@ -2,7 +2,7 @@
 title: Strandpromenade 9
 layout: referenz-profile
 keyfacts:
-  image: "/uploads/chuttersnap-d-RvuGRo4XQ-unsplash.jpg"
+  image: "/uploads/putbusser.jpg"
   ort: Binz
   adresse: Strandpromenade 9
 ---

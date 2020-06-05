@@ -10,21 +10,31 @@
         {{  content }}
     </div>
 
-    
+    <div class="referenzen-grid__heroimage" style="background-image: url({{ page.hero_image }});"></div>
 
-        {% for objekt in site.objekte reversed %}
-        <div class="referenzen-grid__item">
-            <div class="referenzen-grid__facts">
+</section>
+
+
+{% for objekt in site.objekte reversed %}
+    <div class="referenzen-objekt-grid">
+        <div class="referenzen-objekt-grid__left">
+            <div class="referenzen-objekt-grid__image" style="background-image:url('{{ objekt.keyfacts.image }}');"></div>
+
+            <div class="referenzen-objekt-grid__facts">
                 <h3>{{ objekt.title }}</h3>
                 <p>{{ objekt.keyfacts.ort }}</p>
                 <p>{{ objekt.keyfacts.adresse }}</p>
-            </div>
-
-            <div class="referenzen-grid__image" style="background-image:url('{{ objekt.keyfacts.image }}');"></div>
+            </div>     
         </div>
-        {% endfor %}
-    
 
-</section>
+        <div class="referenzen-objekt-grid__right">
+            <div class="anim" data-delay="0.25s">
+                <h1>{{ objekt.quote.name }}</h1>
+                <h3 class="mb-md">{{ objekt.quote.anschrift }}</h3>
+                <p>{{ objekt.quote.text }}</p>
+            </div>
+        </div>
+    </div>
+{% endfor %}
 
 {% include footer.html %}
