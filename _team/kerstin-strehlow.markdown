@@ -1,6 +1,6 @@
 ---
 title: Kerstin Strehlow
-position: Geschäftsführerin
+position: 0
 portrait_image: "/uploads/kerstin-strehlow-portrait.jpg"
 telefon: "(03 83 93) 13 79 00"
 mail: kerstin.strehlow@hgr.de
