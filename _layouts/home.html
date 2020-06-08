@@ -1,41 +1,18 @@
 {% include header.html %}
 
-
 <section class="hero">
     <div class="hero__left">
-        <div class="hero__left__img" style="background-image: url('{{ page.hero-image }}');"></div>
+        <div class="hero__left__img anim" style="background-image: url('{{ page.hero-image }}');" data-delay="0s"></div>
     </div>
     <div class="hero__right">
-        <h1 class="mb-sm">{{ page.hero-headline }}</h1>
-        <h3>{{ page.hero-subheadline }}</h3>
+        <h1 class="mb-sm anim" data-delay="0.25s">{{ page.hero-headline }}</h1>
+        <h3 class="anim" data-delay="0.5s">{{ page.hero-subheadline }}</h3>
     </div>
 </section>
 
 <section class="container">
 
-        {% for person in site.team reversed %}
-            <div>
-                <a href="{{ person.url }}">
-                    <h2>{{ person.title }}</h2>
-                </a>
-            </div>
-
-        {% endfor %}
-
-</section>
-
-<section class="container">
-
-    {% for objekt in site.objekte reversed %}
-        <div>
-            <a href="{{ objekt.url }}">
-                <h2>{{ objekt.title }}</h2>
-                <p>{{ objekt.ort }}</p>
-                <p>{{ objekt.adresse }}</p>
-            </a>
-        </div>
-
-    {% endfor %}
+<div>{{ page.content }}</div>
 
 </section>
 
@@ -43,15 +20,27 @@
 
     <div class="team__left">
         {% for person in site.team reversed %}
+
+        {% if forloop.first == true %}
+            <div class="team__left__name current">
+                <h2>{{ person.title }}</h2>
+            </div>
+        {% else %}
             <div class="team__left__name">
                 <h2>{{ person.title }}</h2>
             </div>
+        {% endif %}
+
         {% endfor %}
     </div>
 
     <div class="team__right">
         {% for person in site.team reversed %}
+        {% if forloop.first == true %}
+            <div class="team__right__image fade visible in" style="background-image: url('{{ person.portrait_image }}');"></div>
+        {% else %}
             <div class="team__right__image fade" style="background-image: url('{{ person.portrait_image }}');"></div>
+        {% endif %}
         {% endfor %}
         <!-- <div class="team__right__image visible"></div> -->
     </div>

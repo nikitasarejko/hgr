@@ -1,7 +1,7 @@
 ---
 title: Kerstin Strehlow
-position: Geschäftsführerin
-portrait_image: "/uploads/roman-denisenko-JLxE8wafwg0-unsplash.jpg"
+position: 0
+portrait_image: "/uploads/kerstin-strehlow-portrait.jpg"
 telefon: "(03 83 93) 13 79 00"
 mail: kerstin.strehlow@hgr.de
 bio: Die Berliner Immobilienfachfrau, mit familiären Wurzeln auf Rügen, führt das
