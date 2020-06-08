@@ -12,29 +12,7 @@
 
 <section class="container">
 
-        {% for person in site.team reversed %}
-            <div>
-                <a href="{{ person.url }}">
-                    <h2>{{ person.title }}</h2>
-                </a>
-            </div>
-
-        {% endfor %}
-
-</section>
-
-<section class="container">
-
-    {% for objekt in site.objekte reversed %}
-        <div>
-            <a href="{{ objekt.url }}">
-                <h2>{{ objekt.title }}</h2>
-                <p>{{ objekt.ort }}</p>
-                <p>{{ objekt.adresse }}</p>
-            </a>
-        </div>
-
-    {% endfor %}
+<div>{{ page.content }}</div>
 
 </section>
 
@@ -42,15 +20,27 @@
 
     <div class="team__left">
         {% for person in site.team reversed %}
+
+        {% if forloop.first == true %}
+            <div class="team__left__name current">
+                <h2>{{ person.title }}</h2>
+            </div>
+        {% else %}
             <div class="team__left__name">
                 <h2>{{ person.title }}</h2>
             </div>
+        {% endif %}
+
         {% endfor %}
     </div>
 
     <div class="team__right">
         {% for person in site.team reversed %}
+        {% if forloop.first == true %}
+            <div class="team__right__image fade visible in" style="background-image: url('{{ person.portrait_image }}');"></div>
+        {% else %}
             <div class="team__right__image fade" style="background-image: url('{{ person.portrait_image }}');"></div>
+        {% endif %}
         {% endfor %}
         <!-- <div class="team__right__image visible"></div> -->
     </div>
