@@ -1,9 +1,9 @@
 ---
 title: Christin Lange
-position: 0
-portrait_image: "/uploads/haydn-golden-lkNRfy82q-I-unsplash.jpg"
+position: Finanzbuchhalterin
+portrait_image: "/uploads/christin-lange-portrait.jpg"
 telefon: "(03 83 93) 13 79 10"
-mail: christin.lange@hgr.de
+mail: christin.lange@hgr-premium.de
 bio: Bei unserem Youngster paaren sich Köpfchen und Methodik. Aufgeschlossen und mit
   vielfältigen Ideen unterstützt sie glänzend das Team in allen Bereichen.
 schwerpunkte:

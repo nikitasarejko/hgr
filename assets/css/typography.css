@@ -39,6 +39,15 @@ nav a {
     font-size: 1.8rem;
 }
 
+.container__headline h1 {
+    text-transform: uppercase;
+}
+
+.team__left__headline h1 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
 .hero__right h1 {
     font-size: 3.653rem;
     line-height: 1.25;

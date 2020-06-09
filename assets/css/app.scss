@@ -142,9 +142,25 @@ nav {
     }
 }
 
+.container {
+
+    @include b-b();
+
+    &__headline {
+        text-align: center;
+    }
+
+    &__paragraph {
+        text-align: center;
+        max-width: 98rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 section.team {
     display: flex;
-    height: 100vh;
+    height: 90vh;
 }
 
 .team__left {
@@ -152,9 +168,32 @@ section.team {
     height: 100%;
     background-color: $black;
 
+    &__headline {
+        border-bottom: 1px solid #fff;
+
+        & h1 {
+            margin: 2rem 4rem;
+        }
+    }
+
+    &__namelist {
+        padding: 4rem;
+    }
+
+    &__paragraph {
+        max-width: 80rem;
+        color: #fff;
+    }
+
     &__name h2 {
         color: #fff;
+        display: inline;
         cursor: pointer;
+
+        &:hover {
+            color: $primary-color;
+        }
+
     }
 
     &__name.current h2 {
@@ -169,7 +208,7 @@ section.team {
 }
 
 .team__right__image {
-    background-position: center;
+    background-position: top;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -408,8 +447,8 @@ section.team {
 // Animation
 @-webkit-keyframes anim1 {
     from {
-    -webkit-transform: translateY(150px);
-            transform: translateY(150px);
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
             opacity: 0;
     }
     to {
@@ -421,8 +460,8 @@ section.team {
   
 @keyframes anim1 {
     from {
-    -webkit-transform: translateY(150px);
-    transform: translateY(150px);
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
     opacity: 0;
     }
     to {
