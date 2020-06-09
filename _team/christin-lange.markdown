@@ -1,6 +1,6 @@
 ---
 title: Christin Lange
-position: Finanzbuchhalterin
+position: 0
 portrait_image: "/uploads/christin-lange-portrait.jpg"
 telefon: "(03 83 93) 13 79 10"
 mail: christin.lange@hgr-premium.de

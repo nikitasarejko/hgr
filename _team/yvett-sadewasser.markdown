@@ -1,6 +1,6 @@
 ---
 title: Yvett Sadewasser
-position: Teamassistentin
+position: 0
 portrait_image: "/uploads/yvett-sadewasser-portrait.jpg"
 telefon: "(03 83 93) 13 79 00"
 mail: yvett.sadewasser@hgr-premium.de
