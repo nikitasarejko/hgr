@@ -12,35 +12,44 @@
 
 <section class="container">
 
-<div>{{ page.content }}</div>
+<div class="container__headline mt-xlg mb-sm">
+    <h1 class="anim" data-delay="0s">{{ page.mission-headline }}</h1>
+</div>
+
+<div class="container__paragraph mb-xlg">
+    <div class="anim" data-delay="0.25s">{{ page.mission-text }}</div>
+</div>
 
 </section>
 
 <section class="container team">
 
+
     <div class="team__left">
-        {% for person in site.team reversed %}
+        <div class="team__left__headline mb-md">
+            <h1 class="anim" data-delay="0.25s">{{ page.team-headline }}</h1>
+        </div>
 
-        {% if forloop.first == true %}
-            <div class="team__left__name current">
-                <h2>{{ person.title }}</h2>
+        <div class="team__left__namelist anim" data-delay="0.25s">
+            <div class="team__left__paragraph mb-md">
+                {{ page.team-text }}
             </div>
-        {% else %}
-            <div class="team__left__name">
-                <h2>{{ person.title }}</h2>
-            </div>
-        {% endif %}
+            {% for person in site.team reversed %}
 
-        {% endfor %}
+
+
+                <div class="team__left__name">
+                    <h2>{{ person.title }}</h2>
+                </div>
+    
+            {% endfor %}
+        </div>
     </div>
 
     <div class="team__right">
+        <div class="team__right__image fade visible in" style="background-image: url('{{ page.team-image }}');"></div>
         {% for person in site.team reversed %}
-        {% if forloop.first == true %}
-            <div class="team__right__image fade visible in" style="background-image: url('{{ person.portrait_image }}');"></div>
-        {% else %}
             <div class="team__right__image fade" style="background-image: url('{{ person.portrait_image }}');"></div>
-        {% endif %}
         {% endfor %}
         <!-- <div class="team__right__image visible"></div> -->
     </div>

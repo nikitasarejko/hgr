@@ -1,9 +1,9 @@
 ---
-title: Max Mustermann
+title: Yvett Sadewasser
 position: 0
-portrait_image: "/uploads/sam-burriss-uaq0y8pb6W4-unsplash.jpg"
+portrait_image: "/uploads/yvett-sadewasser-portrait.jpg"
 telefon: "(03 83 93) 13 79 00"
-mail: max.mustermann@hgr.de
+mail: yvett.sadewasser@hgr-premium.de
 bio: Die beliebte Rüganerin verfügt über jahrzehntelange Erfahrung bei der Instandhaltung
   von Immobilien und ist stets im Bilde. Mit Präzision und Stringenz steuert sie jedes
   Vorhaben in ein sicheres Ziel.

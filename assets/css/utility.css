@@ -33,3 +33,23 @@
 .mb-xlg {
     margin-bottom: 12rem;
 }
+
+.mt-xs {
+    margin-top: 1rem;
+}
+
+.mt-sm {
+    margin-top: 2.4rem;
+}
+
+.mt-md {
+    margin-top: 4rem;
+}
+
+.mt-lg {
+    margin-top: 8rem;
+}
+
+.mt-xlg {
+    margin-top: 12rem;
+}
