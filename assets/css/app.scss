@@ -7,11 +7,14 @@
 
 // Variables
 $background-color: #fff;
-$primary-color: #ff3300;
-$grey-light: #F4F1EE;
-$grey-medium: #CFCAC5;
-$grey-dark: #AAA39D;
+$primary-color: #FF3300;
+$secondary-color: #FF4B1F;
+$grey-light: #EBE4DC;
+$grey-medium: #C8BFB5;
+$grey-dark: #A69A8F;
 $black: #262626;
+
+$timing: cubic-bezier(0.23, 1, 0.32, 1);
 
 // Mixins
 @mixin b-a {
@@ -81,6 +84,7 @@ html {
 body {
     background-color: $background-color;
     color: $black;
+    padding-bottom: 20.6rem;
 }
 
 header {
@@ -106,6 +110,12 @@ nav {
         border-bottom: 1px solid $black;
     }
 
+}
+
+.page {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
 }
 
 // Startseite
@@ -236,14 +246,21 @@ section.team {
 
     &__left {
         width: 33.333vw;
-        padding: 4rem;
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
-
+        justify-content: flex-end;
 
         @include b-r-b();
+
+        &__headline {
+            padding: 2rem 4rem;
+            @include b-b();
+        }
+
+        &__paragraph {
+            padding: 2rem 4rem;
+        }
     }
 
     &__right {
@@ -290,13 +307,58 @@ section.team {
     &__content {
         width: 66.667vw;
         background-color: $background-color;
-        padding: 8rem;
         @include b-b();
 
-        & h3 {
+        &__headline {
+            padding: 2rem 4rem;
+            @include b-b();
+        }
+
+        &__paragraph {
+            padding: 4rem;
+        }
+
+        & h4 {
             max-width: 80rem;
         }
     }
+}
+
+.split-halves {
+    min-height: 87vh;
+    width: 100%;
+    display: flex;
+
+    &__content {
+        width: 50vw;
+        @include b-r-b();
+    }
+
+    &__imagewrapper {
+        width: 50vw;
+        overflow: hidden;
+        @include b-b();
+    }
+
+    &__heroimage {
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &__headline {
+        padding: 2rem 4rem;
+        @include b-b();
+    }
+
+    &__paragraph {
+        padding: 4rem;
+    }
+}
+
+#map {
+    height: 100%;
+    width: 50vw;
 }
 
 // Unternehmen
@@ -306,7 +368,12 @@ section.team {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
+    & img.portrait {
+        padding: 0 4rem 4rem 4rem;
+    }
+
     & h3.toggle {
+        margin: 0 4rem 4rem 4rem;
         display: inline-block;
         border-bottom: 2px solid;
         cursor: pointer;
@@ -317,12 +384,57 @@ section.team {
     }
 
     &__item {
-        padding: 4rem;
         background-color: $primary-color;
+        transition: background-color .75s ease;
         @include b-r-b();
+
+        &:hover {
+            background-color: $secondary-color;
+            transition: background-color 0s ease;
+        }
+
+        &__wrapper {
+            padding: 2rem 4rem 4rem 4rem;
+        }
 
         &:nth-child(3n) {
             border-right: none;
+        }
+
+        &__headline {
+            padding: 2rem 4rem;
+            @include b-b();
+        }
+
+        &__paragraph {
+            padding: 2rem 4rem;
+        }
+
+        &.dark {
+            background-color: $black;
+            color: #fff;
+
+            & .team-grid__item__headline {
+                border-bottom: 1px solid $grey-light;
+            }
+        }
+
+        &.light {
+            background-color: $grey-light;
+            color: $black;
+        }
+    }
+
+    &__keyfacts {
+        padding: 2rem 4rem;
+        @include b-b();
+    }
+
+    &__contact {
+        display: flex;
+
+        & .team-grid__icon:first-child {
+            margin-right: 4rem;
         }
     }
 
@@ -333,6 +445,7 @@ section.team {
         opacity: 1;
         transform: translateY(0);
         transition: all .5s ease;
+        padding: 0 4rem;
 
         &.hidden {
             display: block;
@@ -345,8 +458,7 @@ section.team {
 
     }
 
-    &__phone,
-    &__mail {
+    &__icon {
         display: flex;
         align-items: center;
 
@@ -362,6 +474,33 @@ section.team {
         padding-bottom: .5rem;
         padding-top: .5rem;
     }
+
+    &__portraitwrapper {
+
+        & img.portrait {
+            transform: translate(0, 120%);
+        }
+
+        &.in-view {
+            transform: translateY(0, 0);
+        }
+
+    }
+}
+
+.portraitwrapper {
+    overflow: hidden;
+}
+
+.portraitwrapper img.portrait {
+    transform: translate(0, 50%);
+    opacity: 0;
+    transition: all 1s 0.25s $timing;
+}
+
+.portraitwrapper.in-view img.portrait {
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 // Referenzen
@@ -370,11 +509,18 @@ section.team {
     grid-template-columns: repeat(2, 1fr);
 
     &__intro {
-        padding: 4rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         @include b-r-b();
+
+        &__headline {
+            padding: 2rem 4rem;
+            @include b-b();
+        }
+
+        &__paragraph {
+            padding: 4rem;
+        }
 
         & p {
             max-width: 64rem;
@@ -382,10 +528,14 @@ section.team {
     }
 
     &__heroimage {
-        height: 87vh;
+        height: 70vh;
         background-size: cover;
         background-position: center;
-        @include b-b();
+
+        &wrapper {
+            overflow: hidden;
+            @include b-b();
+        }
     }
 }
 
@@ -395,23 +545,67 @@ section.team {
 
     &:nth-of-type(even) {
         flex-direction: row-reverse;
+    }
+
+    &:nth-of-type(2n) {
 
         & .referenzen-objekt-grid__left {
             background-color: $black;
             color: #fff;
             border-right: none;
+
+            & .referenzen-objekt-grid__object {
+                border-bottom: 1px solid $grey-light;
+            }
         }
 
         & .referenzen-objekt-grid__right {
             background-color: $black;
             color: #fff;
             @include b-r-b();
+
+            & .referenzen-objekt-grid__quote {
+                border-bottom: 1px solid $grey-light;
+            }
+        }
+    }
+
+    &:nth-of-type(3n) {
+
+        & .referenzen-objekt-grid__left {
+            background-color: $grey-light;
+        }
+
+        & .referenzen-objekt-grid__right {
+            background-color: $grey-light;
+        }
+    }
+
+    &:nth-of-type(4n) {
+
+        & .referenzen-objekt-grid__left {
+            background-color: $grey-medium;
+            color: $black;
+
+            & .referenzen-objekt-grid__object {
+                @include b-b();
+            }
+        }
+
+        & .referenzen-objekt-grid__right {
+            background-color: $grey-medium;
+            color: $black;
+
+            & .referenzen-objekt-grid__quote {
+                @include b-b();
+            }
         }
     }
 
     &__left {
         width: 50vw;
         min-height: 80vh;
+        overflow: hidden;
 
         display: flex;
 
@@ -425,13 +619,17 @@ section.team {
     &__right {
         width: 50vw;
         min-height: 80vh;
-        padding: 8rem;
         @include b-b();
     }
 
     &__facts {
         width: 40%;
-        padding: 4rem;
+    }
+
+    &__object {
+        padding: 2rem 4rem;
+        overflow: hidden;
+        @include b-b();
     }
 
     &__image {
@@ -439,10 +637,69 @@ section.team {
         height: 80vh;
         background-position: center;
         background-size: cover;
+
+        transform: translate(0, 25%);
+        opacity: 0;
+
+        transition: all 1s 0.25s $timing;
+
+        &.in-view {
+            transform: translate(0, 0);
+            opacity: 1;
+        }
+    }
+
+    &__quote {
+        padding: 4rem;
+        overflow: hidden;
+        @include b-b();
+    }
+
+    &__person {
+        padding: 4rem;
     }
 }
 
 // Kontakt
+
+// Footer
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+footer.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    background-color: $primary-color;
+}
+
+div.footer-section {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+
+    @include b-r-b();
+
+    & nav {
+        margin: 0 auto;
+    }
+
+    & nav a {
+        display: block;
+        margin-left: auto;
+    }
+
+    & img {
+        height: 3.2rem;
+        width: auto;
+    }
+
+}
 
 // Animation
 @-webkit-keyframes anim1 {

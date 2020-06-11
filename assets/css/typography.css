@@ -31,12 +31,21 @@ h3 {
     font-size: 2.281rem;
 }
 
+h4 {
+    font-size: 2.027rem;
+}
+
 p {
     font-size: 1.8rem;
 }
 
 nav a {
     font-size: 1.8rem;
+}
+
+/* General */
+.split-halves__headline h1 {
+    text-transform: uppercase;
 }
 
 .container__headline h1 {
@@ -53,12 +62,21 @@ nav a {
     line-height: 1.25;
 }
 
+.page-header__left__headline h1 {
+    text-transform: uppercase;
+}
+
 /* Team */
 .team-header__left p {
     max-width: 64rem;
 }
 
+.team-grid__item__headline h2 {
+    text-transform: uppercase;
+}
+
 h2.team-grid__title {
+    text-transform: uppercase;
     margin-bottom: -1rem;
 }
 
@@ -69,4 +87,36 @@ h3.team-grid__position {
 p.team-grid__headline {
     font-size: 1.4rem;
     text-transform: uppercase;
+}
+
+/* Unternehmen */
+.split-thirds__content__headline h2 {
+    text-transform: uppercase;
+}
+
+/* Referenzen */
+.referenzen-grid__intro__headline h1 {
+    text-transform: uppercase;
+}
+
+/* Footer */
+
+.footer-section__headline {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.footer-section__content p {
+    font-size: 2.027rem;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #262626;
+    border-bottom: 1px solid transparent;
+    transition: all .5s ease;
+}
+
+.footer-section a:hover {
+    border-bottom: 1px solid #262626;
 }
