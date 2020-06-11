@@ -619,6 +619,11 @@ section.team {
     &__right {
         width: 50vw;
         min-height: 80vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
         @include b-b();
     }
 
