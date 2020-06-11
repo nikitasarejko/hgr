@@ -2,8 +2,12 @@
 
 <section class="page-header">
     <div class="page-header__left">
-        <h1 class="anim" data-delay="0.25s">{{ page.title }}</h1>
-        <div class="anim" data-delay="0.5s">{{ content }}</div>
+        <div class="page-header__left__headline">
+            <h1 class="anim" data-delay="0.25s">{{ page.title }}</h1>
+        </div>
+        <div class="page-header__left__paragraph">
+            <div class="anim" data-delay="0.5s">{{ content }}</div>
+        </div>
     </div>
 
     <div class="page-header__right">
@@ -13,18 +17,28 @@
 
 <div class="split-thirds">
     <div class="split-thirds__imagecontainer">
-        <div class="split-thirds__image anim" style="background-image: url({{ page.image_left }});" data-delay="0s"></div>
+        <div class="split-thirds__image anim" style="background-image: url('{{ page.image_left }}');" data-delay="0s"></div>
     </div>
     <div class="split-thirds__content">
-        <h3 class="anim" data-delay=".5s">{{ page.beschreibung_erster_abschnitt }}</h3>
+        <div class="split-thirds__content__headline">
+            <h2 class="anim" data-delay="0.25s">{{ page.headline_erster_abschnitt }}</h2>
+        </div>
+        <div class="split-thirds__content__paragraph">
+            <h4 class="anim" data-delay=".5s">{{ page.beschreibung_erster_abschnitt }}</h4>
+        </div>
     </div>
 </div>
 <div class="split-thirds">
     <div class="split-thirds__imagecontainer">
-        <div class="split-thirds__image anim" style="background-image: url({{ page.image_right }});" data-delay="0s"></div>
+        <div class="split-thirds__image anim" style="background-image: url('{{ page.image_right }}');" data-delay="0s"></div>
     </div>
     <div class="split-thirds__content">
-        <h3 class="anim" data-delay=".5s">{{ page.beschreibung_zweiter_abschnitt }}</h3>
+        <div class="split-thirds__content__headline">
+            <h2 class="anim" data-delay="0.25s">{{ page.headline_zweiter_abschnitt }}</h2>
+        </div>
+        <div class="split-thirds__content__paragraph">
+            <h4 class="anim" data-delay=".5s">{{ page.beschreibung_zweiter_abschnitt }}</h4>
+        </div>
     </div>
 </div>
 

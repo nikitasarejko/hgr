@@ -35,7 +35,7 @@ observer = new IntersectionObserver((entries) => {
 
     entries.forEach(entry => {
         if(entry.intersectionRatio > 0) {
-            entry.target.style.animation = `anim1 1s ${entry.target.dataset.delay} forwards ease-out`;
+            entry.target.style.animation = `anim1 1s ${entry.target.dataset.delay} forwards cubic-bezier(0.23, 1, 0.32, 1)`;
         }
         else {
             entry.target.style.animation = 'none';
@@ -46,4 +46,29 @@ observer = new IntersectionObserver((entries) => {
 
 images.forEach(image => {
     observer.observe(image)
+})
+
+const portraits = document.querySelectorAll("div.portraitwrapper")
+const referenzen = document.querySelectorAll("div.referenzen-objekt-grid__image")
+
+imageObserver = new IntersectionObserver((imageEntries) => {
+
+    imageEntries.forEach(imageEntry => {
+        if(imageEntry.intersectionRatio >= 0.1) {
+            imageEntry.target.classList.add("in-view")
+        }
+        else {
+            imageEntry.target.classList.remove("in-view")
+        }
+    })
+}, {
+    threshold: [0, 0.1, 1]
+})
+
+portraits.forEach(portrait => {
+    imageObserver.observe(portrait)
+})
+
+referenzen.forEach(referenz => {
+    imageObserver.observe(referenz)
 })

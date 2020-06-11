@@ -1,5 +1,5 @@
 ---
-title: Strandpromenade 9
+title: Villa Riba
 layout: referenz-profile
 keyfacts:
   image: "/uploads/DSC0853-min.jpg"

@@ -1,6 +1,50 @@
-<div><h2>Das hier ist der Footer</h2></div>
+</div>
+
+<footer class="footer-grid">
+    <div class="footer-section">
+        <div class="footer-section__headline mb-md">Copyright</div>
+        <div class="footer-section__content"><p>&copy; 2020 HGR Premium - Gesellschaft für Verwaltung und Vermittlung von Immobilien mbH<p></div>
+    </div>
+    <div class="footer-section">
+        <div class="footer-section__headline mb-md">Kontakt</div>
+        <div class="footer-section__content">
+            <p>+49 (03 83 93) 13 79 00</p>
+            <p><a href="mailto:mail@hgr-premium.de">mail@hgr-premium.de</a><p>
+        </div>
+    </div>
+    <div class="footer-section">
+        <div class="footer-section__headline mb-md">Links</div>
+        <div class="footer-section__content">
+            <p><a href="">Impressum</a><p>
+            <p><a href="">Karriere</a><p>
+        </div>
+    </div>
+    <div class="footer-section">
+        <div class="footer-section__headline mb-md">Social Media</div>
+        <div class="footer-section__content">
+            <p><a href="">Facebook</a><img src="/assets/img/arrow-right.svg" alt="External Link Icon"><p>
+            <p><a href="">Instagram</a><img src="/assets/img/arrow-right.svg" alt="External Link Icon"><p>
+        </div>
+    </div>
+</footer>
 
 <script src="/assets/js/jquery.js"></script>
 <script src="/assets/js/script.js"></script>
+<script>
+    function initMap() {
+      var binz = {lat: 54.432624, lng: 13.579601};
+      var map = new google.maps.Map(
+          document.getElementById('map'), {zoom: 16, center: binz});
+      var marker = new google.maps.Marker({position: binz, map: map});
+    }
+        </script>
+        <!--Load the API from the specified URL
+        * The async attribute allows the browser to render the page while the API loads
+        * The key parameter will contain your own API key (which is not needed for this tutorial)
+        * The callback parameter executes the initMap() function
+        -->
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv8iHJHwj5-IpmpD1lADSGPWMXfxmCR1Q&callback=initMap">
+        </script>
 </body>
 </html>

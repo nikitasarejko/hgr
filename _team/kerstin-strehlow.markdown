@@ -1,6 +1,6 @@
 ---
 title: Kerstin Strehlow
-position: 0
+stelle: Geschäftsführung
 portrait_image: "/uploads/kerstin-strehlow-portrait.jpg"
 telefon: "(03 83 93) 13 79 00"
 mail: kerstin.strehlow@hgr-premium.de
@@ -13,6 +13,7 @@ taetigkeitsschwerpunkte:
 - Beratung Eigentümer & Beiräte
 - Strategische Entwicklung
 - Vertrieb & Marketing
+order: 1
 layout: team-profile
 ---
 
