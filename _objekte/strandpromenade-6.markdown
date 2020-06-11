@@ -7,9 +7,8 @@ keyfacts:
 quote:
   name: Max Mustermann
   anschrift: 13349 Berlin
-  text: |-
-    "Seit über 10 Jahren sind wir nicht nur über unsere Ferienwohnungen eng mit der Insel Rügen und vor allem mit Binz verbunden. In den ersten Jahren war die HGR leider noch nicht für die Verwaltung unserer Wohnungseigentümergemeinschaft "Prorer Wiek" zuständig. Glücklicherweise wurden wir 2008 bei der Villa "Hansa" - sozusagen zwangsweise (Erstverwalterbestellung des Bauträgers) - auf die HGR aufmerksam. Zwischenzeitlich wurde dieser Vertrag wieder einstimmig verlängert und auch die Residenz "Prorer Wiek" wird seit 2010 durch die HGR betreut. Frau Strehlow und Ihr Team leben das Thema WEG-Verwaltung.
-    Wie würde man in einem Zeugnis schreiben: Stets zu unserer vollsten Zufriedenheit!"
+  text: '"Kompetent und transparent, zuverlässig und flexibel, freundlich und kommunikativ
+    - wohl dem, der so ein WEG-Team, wie die HGR, für seine Immobilie hat."'
 layout: referenz-profile
 ---
 
