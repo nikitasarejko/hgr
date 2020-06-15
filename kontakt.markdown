@@ -4,9 +4,8 @@ permalink: "/kontakt/"
 hero_img: "/uploads/DSC0246_postproduction-min.jpg"
 kontaktdaten:
   phone: "(03 83 93) 13 79 00"
-  fax: Fax (03 83 93) 13 79 13
+  fax: "(03 83 93) 13 79 13"
   mail: mail@hgr-premium.de
-  web: www.hgr-premium.de
 sprechzeiten:
 - Montag 9 - 12 Uhr & 14 - 17 Uhr
 - Dienstag 9 - 12 Uhr & 14 - 17 Uhr

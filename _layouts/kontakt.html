@@ -8,8 +8,27 @@
             </div>
         </div>
         <div class="split-halves__paragraph">
-            <div class="anim" data-delay="0.5s">
+            <div class="anim mb-md" data-delay="0.5s">
                 {{ content }}
+            </div>
+            <div class="anim" data-delay="0.5s">
+                <div class="split-halves__cell">
+                    <h3>Fon: {{ page.kontaktdaten.phone }}</h3>
+                </div>
+                <div class="split-halves__cell">
+                    <h3>Fax: {{ page.kontaktdaten.fax }}</h3>
+                </div>
+                <div class="split-halves__cell">
+                    <h3>Mail: <a href="mailto:{{ page.kontaktdaten.mail }}">{{ page.kontaktdaten.mail }}</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="split-halves__paragraph">
+            <div class="anim" data-delay="0.5s">
+                <h2>Telefonische Sprechzeiten</h2>
+                {% for tag in page.sprechzeiten %}
+                <p>{{ tag }}</p>
+            {% endfor %}
             </div>
         </div>
     </div>
@@ -22,7 +41,22 @@
     <div class="split-halves__content">
         <div id="map"></div>
     </div>
-    <div class="split-halves__image"></div>
+    <div class="split-halves__content">
+        <div class="split-halves__paragraph">
+            <div class="anim mb-md" data-delay="0.5s">
+                <h2>Treffen Sie uns hier</h2>
+                <div class="split-halves__cell">
+                    <h3>{{ page.adresse.str }}</h3>
+                </div>
+                <div class="split-halves__cell">
+                    <h3>{{ page.adresse.ort }}</h3>
+                </div>
+            </div>
+            <div class="anim" data-delay="0.5s">
+                <p>{{ page.anfahrt-text }}</p>
+            </div>
+        </div>
+    </div>
 </section>
 
 {% include footer.html %}
