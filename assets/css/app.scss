@@ -353,6 +353,20 @@ section.team {
 
     &__paragraph {
         padding: 4rem;
+
+        p {
+            max-width: 80rem;
+        }
+    }
+
+    &__cell {
+        display: flex;
+        align-items: center;
+
+        & img {
+            height: 4.8rem;
+            width: auto;
+        }
     }
 }
 
@@ -623,7 +637,7 @@ section.team {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+
         @include b-b();
     }
 
