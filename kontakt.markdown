@@ -2,27 +2,28 @@
 title: Kontakt
 permalink: "/kontakt/"
 hero_img: "/uploads/DSC0246_postproduction-min.jpg"
-anfahrt-text: |-
-  ## Büro
-
-  18609 Ostseebad Binz OT Prora\
-  Südstrand 204
-
-  ## Anfahrt
-
-  Lorem Ipsum
+kontaktdaten:
+  phone: "(03 83 93) 13 79 00"
+  fax: Fax (03 83 93) 13 79 13
+  mail: mail@hgr-premium.de
+  web: www.hgr-premium.de
+sprechzeiten:
+- Montag 9 - 12 Uhr & 14 - 17 Uhr
+- Dienstag 9 - 12 Uhr & 14 - 17 Uhr
+- Mittwoch 9 - 13 Uhr
+- Dienstag 9 - 12 Uhr & 14 - 17 Uhr
+- Freitag 9 - 13 Uhr
+adresse:
+  str: Südstrand 204
+  ort: 18609 Ostseebad Binz OT Prora
+anfahrt-text: Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+  sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+  At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+  no sea takimata sanctus est Lorem ipsum dolor sit amet.
 layout: kontakt
 ---
 
 ## Nehmen Sie Kontakt zu uns auf
 
-Fon (03 83 93) 13 79 00
-Fax (03 83 93) 13 79 13
-
-[mail@hgr-premium.de](mailto:mail@hgr-premium.de)
-[www.hgr-premium.de](http://www.hgr-premium.de)
-
-## Telefonische Sprechzeiten
-
-Montag, Dienstag, Donnerstag: 9 - 12 Uhr & 14 - 17 Uhr
-Mittwoch, Freitag: 9 - 13 Uhr
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
