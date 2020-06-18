@@ -42,17 +42,52 @@
     
             {% endfor %}
         </div>
+
+        <div class="team__left__biolist anim" data-delay="0.5s">
+            {% assign sorted = site.team | sort: 'order' | reverse %}
+            {% for item in sorted %}
+
+                <div class="team__left__bio">
+                    <div class="arrow-down-right">
+                        <img src="/assets/img/arrow-down-right.svg" alt="Arrow Down Right">
+                    </div>
+                    <h3>{{ item.bio }}</h3>
+                </div>
+    
+            {% endfor %}
+        </div>
+        <div class="team__left__content">
+            <div class="button-wrap button-wrap-dark mt-sm">
+                <a href="/karriere/" class="button-cta button-dark">Zur Übersicht</a>
+            </div>
+        </div>
     </div>
 
     <div class="team__right">
         <div class="team__right__image fade visible in" style="background-image: url('{{ page.team-image }}');"></div>
-        {% assign sorted = site.team | sort: 'order' | reverse %}
-        {% for item in sorted %}
-            <div class="team__right__image fade" style="background-image: url('{{ item.portrait_image }}');"></div>
-        {% endfor %}
-        <!-- <div class="team__right__image visible"></div> -->
+            {% assign sorted = site.team | sort: 'order' | reverse %}
+            {% for item in sorted %}
+
+                <div class="team__right__image fade" style="background-image: url('{{ item.portrait_image }}');"></div>
+
+            {% endfor %}
     </div>
 
+</section>
+
+<section class="container bg-grey">
+    <div class="container__content">
+        <div class="container__content__headline">
+            <h1 class="anim" data-delay="0.25s">Karriere</h1>
+        </div>
+        
+        <div class="container__content__paragraph anim" data-delay="0.375s">
+            <p>{{ page.karriere-text }}</p>
+            <div class="button-wrap mt-sm">
+                <a href="/karriere/" class="button-cta">Zur Übersicht</a>
+            </div>
+        </div>
+    </div>
 </section>
 
 {% include footer.html %}

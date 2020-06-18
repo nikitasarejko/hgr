@@ -2,22 +2,28 @@
 
 <section class="page-header">
     <div class="page-header__left">
-        <h1>{{ page.title }}</h1>
-        {{ content }}
+        <div class="page-header__left__headline">
+            <h1 class="anim" data-delay="0.25s">{{ page.title }}</h1>
+        </div>
+        <div class="page-header__left__paragraph">
+            <div class="anim" data-delay="0.5s">{{ content }}</div>
+        </div>
     </div>
 
     <div class="page-header__right">
-        <img src="{{ page.group_image }}" alt="Team Group Image">
+        <div class="page-header__right__imagewrapper">
+            <img src="{{ page.group_image }}" alt="Team Group Image" class="anim" data-delay="0.5s">    
+        </div>
     </div>
 </section>
 
 <section class="team-grid">
     <div class="team-grid__item dark">
         <div class="team-grid__item__headline">
-            <h2>{{ page.kurzbeschreibung_headline }}</h2>
+            <h2 class="anim" data-delay="0.25s">{{ page.kurzbeschreibung_headline }}</h2>
         </div>
         <div class="team-grid__item__paragraph">
-            <h3 class="anim" data-delay="0.25s">{{ page.kurzbeschreibung_text }}</h3>
+            <h3 class="anim" data-delay="0.375s">{{ page.kurzbeschreibung_text }}</h3>
         </div>
     </div>
     {% assign sorted = site.team | sort: 'order' | reverse %}
@@ -57,10 +63,13 @@
 
     <div class="team-grid__item light">
         <div class="team-grid__item__headline">
-            <h2>{{ page.karriere_headline }}</h2>
+            <h2 class="anim" data-delay="0.25s">{{ page.karriere_headline }}</h2>
         </div>
         <div class="team-grid__item__paragraph">
-            {{ page.karriere_text }}
+            <h3 class="mt-xs anim" data-delay="0.375s">{{ page.karriere_text }}</h3>
+            <div class="button-wrap mt-md anim" data-delay="0.5s">
+                <a href="/karriere/" class="button-cta">Zur Übersicht</a>
+            </div>
         </div>
     </div>
 </section>

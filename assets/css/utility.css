@@ -1,3 +1,7 @@
+.p-md {
+    padding: 4rem;
+}
+
 .mb0 {
     margin-bottom: 0;
 }
@@ -52,4 +56,8 @@
 
 .mt-xlg {
     margin-top: 12rem;
+}
+
+.bg-grey {
+    background-color: #EBE4DC;
 }
