@@ -8,11 +8,11 @@ collections:
   posts:
     title: Posts
     output: true
-  team:
-    title: Team
-    output: true
   stellen:
     title: Stellen
+    output: true
+  team:
+    title: Team
     output: true
   uploads:
     title: Uploads
@@ -49,7 +49,7 @@ description: Write an awesome description for your new site here. You can edit t
   results) and in your feed.xml site description.
 baseurl: 
 url: 
-twitter_username: nnnnikita
+twitter_username: 
 github_username: nikitasarejko
 theme: minima
 plugins:
