@@ -122,6 +122,26 @@ nav {
     background-color: #fff;
 }
 
+@media only screen and (max-width: 144rem) {
+    
+   body {
+       padding-bottom: 17.6rem;
+   }
+
+   header {
+       padding: 3rem;
+   }
+
+   header img {
+       height: 8rem;
+   }
+
+   nav a {
+       margin-left: 4rem;
+   }
+
+}
+
 // Startseite
 .hero {
     display: flex;
@@ -154,6 +174,14 @@ nav {
         overflow: hidden;
         @include b-b();
     }
+}
+
+@media only screen and (max-width: 144rem) {
+    
+    .hero__right {
+        padding: 4rem;
+    }
+
 }
 
 .container {
@@ -194,8 +222,22 @@ nav {
             }
         }
 
-
     }
+}
+
+@media only screen and (max-width: 144rem) {
+    
+    .container__content__paragraph {
+        padding: 3rem;
+        max-width: 80rem;
+    }
+
+    .container__content__headline {
+        padding: 3rem;
+        padding-right: 12rem;
+        width: 25vw;
+    }
+
 }
 
 section.team {
@@ -379,6 +421,14 @@ section.team {
     }
 }
 
+@media only screen and (max-width: 144rem) {
+    
+    .button-wrap {
+        margin-top: 3rem;
+    }
+
+}
+
 // Subpage
 .page-header {
     display: flex;
@@ -525,6 +575,30 @@ section.team {
     width: 50vw;
 }
 
+@media only screen and (max-width: 144rem) {
+    
+    .split-thirds__content__headline {
+        padding: 1.6rem 3rem;
+    }
+
+    .split-thirds__content__paragraph {
+        padding: 3rem;
+    }
+
+    .split-thirds__content h4 {
+        max-width: 64rem;
+    }
+
+    .split-halves__headline {
+        padding: 1.6rem 3rem;
+    }
+
+    .split-halves__paragraph {
+        padding: 3rem;
+    }
+
+}
+
 // Unternehmen
 
 // Team
@@ -660,6 +734,34 @@ section.team {
     
     .team-grid__contact {
         display: block;
+    }
+
+    .team-grid__item__headline,
+    .team-grid__item__keyfacts,
+    .team-grid__item__paragraph,
+    .page-header__left__headline,
+    .team-grid__keyfacts {
+        padding: 1.6rem 3rem;
+    }
+
+    .page-header__left__paragraph {
+        padding: 3rem;
+    }
+
+    .team-grid__icon {
+        margin-bottom: 0;
+    }
+
+    .team-grid img.portrait {
+        padding: 0 3rem 3rem 3rem;
+    }
+
+    .team-grid h3.toggle {
+        margin: 0 3rem 2rem 3rem;
+    }
+
+    .team-grid__bio {
+        padding: 0 3rem;
     }
 
 }
@@ -841,6 +943,33 @@ section.team {
     }
 }
 
+@media only screen and (max-width: 144rem) {
+
+    .referenzen-grid__intro__paragraph,
+    .referenzen-objekt-grid__quote,
+    .referenzen-objekt-grid__person {
+        padding: 3rem;
+    }
+
+    .referenzen-grid__intro__headline,
+    .referenzen-objekt-grid__object {
+        padding: 1.6rem 3rem;
+    }
+    
+    .referenzen-grid__intro p {
+        max-width: 48rem;
+    }
+
+    .referenzen-objekt-grid__image {
+        width: 67%;
+    }
+
+    .referenzen-objekt-grid__facts {
+        width: 33%;
+    }
+
+}
+
 // Kontakt
 
 // Karriere
@@ -939,6 +1068,14 @@ ul {
     max-width: 80rem;
 }
 
+@media only screen and (max-width: 144rem) {
+    
+    .job-keyfacts {
+        padding: 3rem;
+    }
+
+}
+
 // Footer
 footer {
     position: fixed;
@@ -974,6 +1111,18 @@ div.footer-section {
     & img {
         height: 3.2rem;
         width: auto;
+    }
+
+}
+
+@media only screen and (max-width: 144rem) {
+    
+    div.footer-section {
+        padding: 3rem;
+    }
+
+    div.footer-section img {
+        height: 2.4rem;
     }
 
 }

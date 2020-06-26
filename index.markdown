@@ -10,7 +10,7 @@ mission-text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
   At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
   no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
   consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-  dolore magna aliquyam erat, sed diam voluptua.
+  dolore magna aliquyam erat.
 team-headline: Das Team
 team-text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
   eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
