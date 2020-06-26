@@ -1,6 +1,6 @@
 ---
 title: Karriere
-path: "/karriere/"
+permalink: "/karriere/"
 layout: karriere
 ---
 
