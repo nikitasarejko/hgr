@@ -7,8 +7,12 @@ keyfacts:
 quote:
   name: Michael Schumacher
   anschrift: 30451 Hannover
-  text: |-
-    "In den ersten Jahren war die HGR leider noch nicht für die Verwaltung unserer Wohnungseigentümergemeinschaft "Prorer Wiek" zuständig. Glücklicherweise wurden wir 2008 bei der Villa "Hansa" - sozusagen zwangsweise (Erstverwalterbestellung des Bauträgers) - auf die HGR aufmerksam. Zwischenzeitlich wurde dieser Vertrag wieder einstimmig verlängert und auch die Residenz "Prorer Wiek" wird seit 2010 durch die HGR betreut. Frau Strehlow und Ihr Team leben das Thema WEG-Verwaltung."
+  text: '"In den ersten Jahren war die HGR leider noch nicht für die Verwaltung unserer
+    Wohnungseigentümergemeinschaft "Prorer Wiek" zuständig. Glücklicherweise wurden
+    wir 2008 bei der Villa "Hansa" - sozusagen zwangsweise (Erstverwalterbestellung
+    des Bauträgers) - auf die HGR aufmerksam. Zwischenzeitlich wurde dieser Vertrag
+    wieder einstimmig verlängert und auch die Residenz "Prorer Wiek" wird seit 2010
+    durch die HGR betreut. Frau Strehlow und Ihr Team leben das Thema WEG-Verwaltung."'
 layout: referenz-profile
 ---
 
