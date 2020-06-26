@@ -46,7 +46,7 @@ nav a {
 @media only screen and (max-width: 144rem) {
     
     h1 {
-        font-size: 3.653rem; 
+        font-size: 2.887rem; 
      }
      
      h2 {
@@ -54,16 +54,28 @@ nav a {
      }
      
      h3 {
-         font-size: 2.027rem;
+         font-size: 1.802rem;
      }
      
      h4 {
-         font-size: 1.8;
+         font-size: 1.7rem;
      }
      
      p {
          font-size: 1.6rem;
      }
+
+     nav a {
+         font-size: 1.6rem;
+     }
+
+}
+
+@media only screen and (max-width: 144rem) {
+    
+    .team__left__bio h3 {
+        font-size: 1.6rem;
+    }
 
 }
 
@@ -101,6 +113,14 @@ nav a {
 .hero__right h1 {
     font-size: 3.653rem;
     line-height: 1.25;
+}
+
+@media only screen and (max-width: 144rem) {
+    
+    .hero__right h1 {
+        font-size: 2.887rem;
+    }
+
 }
 
 .page-header__left__headline h1 {
@@ -173,6 +193,28 @@ a.button {
     text-rendering: optimizeLegibility;
 }
 
+@media only screen and (max-width: 144rem) {
+    
+    button.job-link-back,
+    a.button {
+        font-size: 1.4rem;
+    }
+
+    .button-cta {
+        font-size: 1.25rem;
+    }
+
+    h3.job-keyfacts__headline {
+        font-size: 1.3rem;
+    }
+
+    ul li {
+        font-size: 1.6rem;
+        line-height: 1.4;
+    }
+
+}
+
 /* Footer */
 
 .footer-section__headline {
@@ -193,4 +235,16 @@ a.button {
 
 .footer-section a:hover {
     border-bottom: 1px solid #262626;
+}
+
+@media only screen and (max-width: 144rem) {
+    
+    .footer-section__content p {
+        font-size: 1.6rem;
+    }
+
+    .footer-section__headline {
+        font-size: 1.3rem;
+    }
+
 }
