@@ -1,0 +1,29 @@
+{% include header.html %}
+
+<div class="split-halves">
+    <div class="split-halves__content">
+        <div class="split-halves__headline">
+            <h1 class="anim" data-delay="0.25s">{{ page.title }}</h1>
+        </div>
+        <div class="split-halves__paragraph anim" data-delay="0.5s">
+                {{ content }}
+        </div>
+    </div>
+    <div class="split-halves__content">
+        <div class="split-halves__paragraph anim" data-delay="0.25s">
+            <h2 class="mb-md">Unsere aktuellen offenen Stellen</h2>
+
+            {% for stelle in site.stellen %}
+                <a href="{{ stelle.url }}">
+                    <div class="karriere-cell mb-xs anim" data-delay="0.5s">
+                        <div class="karriere-cell__left"><h3>{{ stelle.title }}</h3></div>
+                        <div class="karriere-cell__right"><h3>Ansehen und bewerben</h3></div>
+                </div>
+                </a>
+                    
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}

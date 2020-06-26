@@ -8,6 +8,9 @@ collections:
   posts:
     title: Posts
     output: true
+  stellen:
+    title: Stellen
+    output: true
   team:
     title: Team
     output: true
@@ -35,13 +38,18 @@ defaults:
     type: objekte
   values:
     layout: objekte
+- scope:
+    path: ''
+    type: stellen
+  values:
+    layout: karriere
 email: info@nikitasarejko.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
 baseurl: 
 url: 
-twitter_username: nnnnikita
+twitter_username: 
 github_username: nikitasarejko
 theme: minima
 plugins:

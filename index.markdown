@@ -15,6 +15,8 @@ team-headline: Das Team
 team-text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
   eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
 team-image: "/uploads/DSC0424_postproduction.jpg"
+karriere-text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+  eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
 layout: home
 ---
 

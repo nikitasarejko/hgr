@@ -25,7 +25,9 @@ $(document).ready(function () {
         $('.team__left__name.current').removeClass('current');
         $(this).addClass('current');
         $('.team__right__image.visible').removeClass('visible in');
+        $('.team__left__bio.visible').removeClass('visible');
         $('.team__right__image').eq($(this).index()).addClass('visible in');
+        $('.team__left__bio').eq($(this).index()).addClass('visible');
     });
 });
 

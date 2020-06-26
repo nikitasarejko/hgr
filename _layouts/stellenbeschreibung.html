@@ -1,0 +1,67 @@
+{% include header.html %}
+
+<div class="split-halves">
+    <div class="split-halves__content">
+        <div class="split-halves__headline">
+            <h1 class="anim" data-delay="0.25s">{{ page.title }}</h1>
+        </div>
+        <div class="job-keyfacts">
+            <div class="job-keyfacts__container anim" data-delay="0.25s">
+                <h3 class="job-keyfacts__headline">Art</h3>
+                <p>{{ page.keyfacts.stunden }}</p>
+            </div>
+
+            <div class="job-keyfacts__container anim" data-delay="0.375s">
+                <h3 class="job-keyfacts__headline">Startdatum</h3>
+                <p>{{ page.keyfacts.startdatum }}</p>
+            </div>
+
+            <div class="job-keyfacts__container anim" data-delay="0.5s">
+                <h3 class="job-keyfacts__headline">Befristung</h3>
+                <p>{{ page.keyfacts.befristung }}</p>
+            </div>
+        </div>
+        <div class="split-halves__paragraph anim" data-delay="0.625s">
+                {{ content }}
+        </div>
+        <a href="/karriere/" class="button anim" data-delay="0.75s">
+            <button class="job-link-back">
+                &larr; Zurück zur Übersicht
+            </button>
+        </a>
+    </div>
+    <div class="split-halves__content bg-grey p-md">
+        <div class="split-halves__paragraph anim" data-delay="0.25s">
+            <h2 class="mb-xs">Verantwortlichkeiten</h2>
+            <div>
+                <ul>
+                    {% for verantwortlichkeit in page.verantwortlichkeiten %}
+                        <li>{{ verantwortlichkeit }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="split-halves__paragraph anim" data-delay="0.375s">
+            <h2 class="mb-xs">Voraussetzung</h2>
+            <div>
+                <ul>
+                    {% for voraussetzung in page.voraussetzungen %}
+                        <li>{{ voraussetzung }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="split-halves__paragraph anim" data-delay="0.5s">
+            <h2 class="mb-xs">Benefits</h2>
+            <div>
+                <ul>
+                    {% for benefit in page.benefits %}
+                        <li>{{ benefit }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}

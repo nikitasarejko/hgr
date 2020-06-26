@@ -29,6 +29,10 @@ $timing: cubic-bezier(0.23, 1, 0.32, 1);
     border-bottom: 1px solid $black;
 }
 
+@mixin b-r {
+    border-right: 1px solid $black;
+}
+
 @mixin b-h {
     border-left: 1px solid $black;
     border-right: 1px solid $black;
@@ -166,6 +170,32 @@ nav {
         margin-left: auto;
         margin-right: auto;
     }
+
+    &__content {
+        display: flex;
+        overflow: hidden;
+
+        &__headline {
+            padding: 4rem;
+            overflow: hidden;
+            @include b-r();
+
+            h1 {
+                text-transform: uppercase;
+            }
+        }
+
+        &__paragraph {
+            padding: 4rem;
+            max-width: 120rem;
+
+            & p {
+                display: block;
+            }
+        }
+
+
+    }
 }
 
 section.team {
@@ -195,6 +225,10 @@ section.team {
         color: #fff;
     }
 
+    &__content {
+        padding: 4rem;
+    }
+
     &__name h2 {
         color: #fff;
         display: inline;
@@ -209,35 +243,140 @@ section.team {
     &__name.current h2 {
         color: $primary-color;
     }
+
+    &__bio {
+        padding: 0 4rem;
+        max-width: 80rem;
+        height: 0;
+        opacity: 0;
+        transform: translate(0, 25px);
+        transition: all .5s $timing;
+
+        display: flex;
+
+        p,
+        h3 {
+            color: #fff;
+        }
+
+        &.visible {
+            height: auto;
+            opacity: 1;
+            transform: translate(0, 0);
+            transition-delay: .25s;
+        }
+    }
 }
 
 .team__right {
     width: 50vw;
     height: 100%;
-    background-color: $grey-light;
+    background-color: $black;
+    overflow: hidden;
 }
 
 .team__right__image {
     background-position: top;
     background-size: cover;
     width: 100%;
-    height: 100%;
-
-    display: none;
+    height: 0%;
+    transform: translate(0, 100%);
+    transition: all 1s $timing;
 }
 
 .visible {
-    display: block;
+    height: 100%;
+    transform: translate(0, 0);
+    transition: all 1s $timing;
 }
 
 .fade {
     opacity: 0;
-    transition: opacity 1s ease;
+    transition: all 1.5s $timing;
+    transition-delay: .5s;
 }
 
 .fade.in {
     opacity: 1;
-    transition: all 1s ease;
+    transition: all 1s $timing;
+    transition-delay: .25s;
+}
+
+.arrow-down-right {
+    fill: #fff;
+
+    & img {
+        margin-right: 1rem;
+        fill: #fff;
+    }
+}
+
+.button-wrap {
+    text-align: left;
+    position: relative;
+    display: inline-block;
+
+    &::before {
+        content: '';
+        height: 100%;
+        width: 0;
+        background-color: $black;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+
+        -webkit-transition: all .5s $timing;
+        -khtml-transition: all .5s $timing;
+        -moz-transition: all .5s $timing;
+        -ms-transition: all .5s $timing;
+        -o-transition: all .5s $timing;
+        transition: all .5s $timing;
+    }
+
+    &:hover::before {
+        width: 100%;
+
+        -webkit-transition: all .5s $timing;
+        -khtml-transition: all .5s $timing;
+        -moz-transition: all .5s $timing;
+        -ms-transition: all .5s $timing;
+        -o-transition: all .5s $timing;
+        transition: all .5s $timing;
+    }
+}
+
+.button-cta {
+    position: relative;
+    display: inline-block;
+    padding: 1.5rem 2.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    fill: currentcolor;
+    outline: 0;
+    border-radius: 0;
+    background-color: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    z-index: 2;
+    color: $black;
+
+    @include b-a();
+
+    -webkit-transition: all .5s $timing;
+    -khtml-transition: all .5s $timing;
+    -moz-transition: all .5s $timing;
+    -ms-transition: all .5s $timing;
+    -o-transition: all .5s $timing;
+    transition: all .5s $timing;
+
+    &:hover {
+        color: #fff;
+    }
 }
 
 // Subpage
@@ -259,13 +398,22 @@ section.team {
         }
 
         &__paragraph {
-            padding: 2rem 4rem;
+            padding: 4rem;
+            overflow: hidden;
+
+            & p {
+                max-width: 64rem;
+            }
         }
     }
 
     &__right {
         width: 66.667vw;
         @include b-b();
+
+        &__imagewrapper {
+            overflow: hidden;
+        }
     }
 }
 
@@ -330,6 +478,7 @@ section.team {
     display: flex;
 
     &__content {
+        position: relative;
         width: 50vw;
         @include b-r-b();
     }
@@ -353,6 +502,7 @@ section.team {
 
     &__paragraph {
         padding: 4rem;
+        padding-bottom: 2rem;
 
         p {
             max-width: 80rem;
@@ -422,6 +572,10 @@ section.team {
 
         &__paragraph {
             padding: 2rem 4rem;
+
+            & h3, p {
+                max-width: 64rem;
+            }
         }
 
         &.dark {
@@ -502,19 +656,27 @@ section.team {
     }
 }
 
+@media only screen and (max-width: 144rem) {
+    
+    .team-grid__contact {
+        display: block;
+    }
+
+}
+
 .portraitwrapper {
     overflow: hidden;
 }
 
 .portraitwrapper img.portrait {
-    transform: translate(0, 50%);
+    transform: translate(0, 50%) scale(0.98);
     opacity: 0;
     transition: all 1s 0.25s $timing;
 }
 
 .portraitwrapper.in-view img.portrait {
     opacity: 1;
-    transform: translate(0, 0);
+    transform: translate(0, 0) scale(1);
 }
 
 // Referenzen
@@ -680,6 +842,102 @@ section.team {
 }
 
 // Kontakt
+
+// Karriere
+a div.karriere-cell {
+    background-color: #fff;
+    color: $black;
+    transition: all 0s ease;
+}
+
+a div.karriere-cell:hover {
+    background-color: $primary-color;
+    color: $black;
+    transition: all .5s ease;
+}
+
+.karriere-cell {
+    display: flex;
+    justify-content: space-between;
+    @include b-a();
+
+    &__left {
+        padding: 2.4rem;
+    }
+
+    &__right {
+        padding: 2.4rem;
+        border-left: 1px solid $black;
+    }
+}
+
+.job-keyfacts {
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80rem;
+}
+
+a button.job-link-back {
+    text-decoration: none;
+    position: absolute;
+    bottom: 4rem;
+    left: 4rem;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+button.job-link-back,
+button.job-link-back::after {
+  -webkit-transition: all 0.5s $timing;
+	-moz-transition: all 0.5s $timing;
+  -o-transition: all 0.5s $timing;
+	transition: all 0.5s $timing;
+}
+
+button.job-link-back {
+    background: none;
+    border: none;
+    color: $black;
+    display: block;
+    font-weight: bold;
+    padding: 1.5rem 2.75rem;
+    position: relative;
+    text-decoration: none;
+    @include b-a();
+
+    &::before,
+    &::after {
+        background-color: $primary-color;
+        content: '';
+        position: absolute;
+        z-index: -1;
+        height: 100%;
+        right: 0;
+        top: 0;
+        width: 0;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 2rem;
+    max-width: 80rem;
+}
 
 // Footer
 footer {
