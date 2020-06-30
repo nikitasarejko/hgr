@@ -22,6 +22,36 @@
 
 </section>
 
+<section class="split-halves">
+    <div class="split-halves__imagewrapper left">
+        <div class="split-halves__heroimage anim" data-delay="0.25s" style="background-image: url('{{ page.hardfacts-image }}');"></div>
+    </div>
+
+    <div class="split-halves__content">
+        <div class="split-halves__headline anim" data-delay="0.25s"><h1>{{ page.hardfacts-headline }}</h1></div>
+        <div class="split-halves__listingwrapper">
+            <div class="split-halves__listing anim" data-delay="0.25s">
+                <div class="hardfacts">
+                    {{ page.hardfacts.liegschaften }}
+                </div>
+                <h3>Verwaltete Liegschaften</h3>
+            </div>
+            <div class="split-halves__listing anim" data-delay="0.375s">
+                <div class="hardfacts">
+                    {{ page.hardfacts.verwaltungseinheiten }}
+                </div>
+                <h3>Verwaltungseinheiten</h3>
+            </div>
+            <div class="split-halves__listing anim" data-delay="0.5s">
+                <div class="hardfacts">
+                    {{ page.hardfacts.vermoegen }}
+                </div>
+                <h3>Verwaltetes Vermögen</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="container team">
 
     <div class="team__left">
