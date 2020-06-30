@@ -11,6 +11,12 @@ mission-text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
   no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
   consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
   dolore magna aliquyam erat.
+hardfacts-image: "/uploads/DSC0835-min.jpg"
+hardfacts-headline: HGR in Zahlen
+hardfacts:
+  liegschaften: 123
+  verwaltungseinheiten: 33
+  vermoegen: 1.000.000 €
 team-headline: Das Team
 team-text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
   eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
@@ -19,4 +25,3 @@ karriere-text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
   eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
 layout: home
 ---
-

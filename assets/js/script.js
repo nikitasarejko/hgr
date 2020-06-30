@@ -1,24 +1,7 @@
-// $('p#one').on('click', function(){
-//     $('div.active').removeClass('active');
-//     $('div.red').addClass('active');
-// });
-
-// $('p#two').on('click', function(){
-//     $('div.active').removeClass('active');
-//     $('div.blue').addClass('active');
-// });
-
-// $('h3.toggle').on('click', function(){
-//     $(this).html($(this).html() == 'MORE' ? 'CLOSE' : 'MORE');
-//     $('.team-grid__bio').toggleClass('hidden');
-// });
-
 $("h3.toggle").click(function(){
     $(this).html($(this).html() == 'INFO' ? 'X' : 'INFO');
     $(this).siblings().nextAll(".team-grid__bio").toggleClass("hidden");
 });
-
-
 
 $(document).ready(function () {
     $('.team__left__name').click(function () {
@@ -73,4 +56,24 @@ portraits.forEach(portrait => {
 
 referenzen.forEach(referenz => {
     imageObserver.observe(referenz)
+})
+
+const headerTag = document.querySelector(".menu-fixed")
+
+const toggleHeader = function () {
+    const pixels = window.pageYOffset
+    console.log(pixels)
+    
+    if (pixels > 400) {
+        headerTag.classList.add("scrolled")
+    } else {
+        headerTag.classList.remove("scrolled")
+    }
+}
+
+toggleHeader()
+
+
+document.addEventListener("scroll", function () {
+    toggleHeader()
 })

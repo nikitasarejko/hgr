@@ -99,6 +99,24 @@ header {
     width: 100%;
     padding: 4rem;
     @include b-b();
+
+    &.menu-fixed {
+        padding: 1.25rem 4rem;
+        background-color: #fff;
+        position: fixed;
+        top: -7rem;
+        z-index: 69;
+
+        transition: top .5s $timing;
+
+        & img {
+            max-height: 3.2rem;
+        }
+
+        &.scrolled {
+            top: 0;
+        }
+    }
 }
 
 nav {
@@ -238,6 +256,20 @@ nav {
         width: 25vw;
     }
 
+}
+
+.hardfacts {
+    color: $primary-color;
+
+    // &::before {
+    //     content: "";
+    //     display: inline-block;
+    //     height: 8rem;
+    //     width: 8rem;
+    //     border-radius: 50%;
+    //     background-color: $primary-color;
+    //     margin-right: -2rem;
+    // }
 }
 
 section.team {
@@ -537,6 +569,10 @@ section.team {
         width: 50vw;
         overflow: hidden;
         @include b-b();
+        
+        &.left {
+            @include b-r();
+        }
     }
 
     &__heroimage {
@@ -553,6 +589,23 @@ section.team {
     &__paragraph {
         padding: 4rem;
         padding-bottom: 2rem;
+
+        p {
+            max-width: 80rem;
+        }
+    }
+
+    &__listingwrapper {
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__listing {
+        padding: 4rem;
+        padding-bottom: 2rem;
+        @include b-b();
 
         p {
             max-width: 80rem;
@@ -1130,26 +1183,26 @@ div.footer-section {
 // Animation
 @-webkit-keyframes anim1 {
     from {
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
+    -webkit-transform: translateY(100px) skew(3deg, 3deg);
+            transform: translateY(100px) skew(3deg, 3deg);
             opacity: 0;
     }
     to {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
+      -webkit-transform: translateY(0) skew(0);
+              transform: translateY(0) skew(0);
             opacity: 1;
     }
 }
   
 @keyframes anim1 {
     from {
-    -webkit-transform: translateY(100px);
-    transform: translateY(100px);
+    -webkit-transform: translateY(100px) skew(3deg, 3deg);
+    transform: translateY(100px) skew(3deg, 3deg);
     opacity: 0;
     }
     to {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+    -webkit-transform: translateY(0) skew(0);
+    transform: translateY(0) skew(0);
     opacity: 1;
     }
 }

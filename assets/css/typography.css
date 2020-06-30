@@ -43,6 +43,10 @@ nav a {
     font-size: 1.8rem;
 }
 
+header.menu-fixed nav a {
+    font-size: 1.6rem;
+}
+
 @media only screen and (max-width: 144rem) {
     
     h1 {
@@ -69,10 +73,10 @@ nav a {
          font-size: 1.6rem;
      }
 
-}
+     header.menu-fixed nav a {
+        font-size: 1.4rem;
+    }
 
-@media only screen and (max-width: 144rem) {
-    
     .team__left__bio h3 {
         font-size: 1.6rem;
     }
@@ -113,6 +117,11 @@ nav a {
 .hero__right h1 {
     font-size: 3.653rem;
     line-height: 1.25;
+}
+
+.hardfacts {
+    font-size: 12rem;
+    line-height: 1;
 }
 
 @media only screen and (max-width: 144rem) {
