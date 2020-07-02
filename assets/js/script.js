@@ -1,3 +1,25 @@
+const navSlide = () => {
+    const burger = document.querySelector('.menu-mobile__burger')
+    const nav = document.querySelector('.menu-mobile__links')
+    const navLinks = document.querySelectorAll('.menu-mobile__links li')
+
+    burger.addEventListener('click', function() {
+        nav.classList.toggle('nav-active')
+
+        navLinks.forEach((link, index) => {
+            if(link.style.animation) {
+                link.style.animation = ''
+            } else {
+                link.style.animation = `navLinksFade 0.5s cubic-bezier(0.23, 1, 0.32, 1) forwards ${index / 7 + .25}s`;
+            }
+        })
+
+        burger.classList.toggle('toggle');
+    })
+}
+
+navSlide()
+
 $("h3.toggle").click(function(){
     $(this).html($(this).html() == 'INFO' ? 'X' : 'INFO');
     $(this).siblings().nextAll(".team-grid__bio").toggleClass("hidden");

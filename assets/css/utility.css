@@ -106,6 +106,54 @@
 
 }
 
+@media only screen and (max-width: 40rem) {
+    
+    .p-md {
+        padding: 2.4rem;
+    }
+    
+    .mb-xs {
+        margin-bottom: 0.2rem;
+    }
+    
+    .mb-sm {
+        margin-bottom: 0.8rem;
+    }
+    
+    .mb-md {
+        margin-bottom: 1.6rem;
+    }
+    
+    .mb-lg {
+        margin-bottom: 2.4rem;
+    }
+    
+    .mb-xlg {
+        margin-bottom: 4rem;
+    }
+    
+    .mt-xs {
+        margin-top: 0.2rem;
+    }
+    
+    .mt-sm {
+        margin-top: 0.8rem;
+    }
+    
+    .mt-md {
+        margin-top: 1.6rem;
+    }
+    
+    .mt-lg {
+        margin-top: 2.4rem;
+    }
+    
+    .mt-xlg {
+        margin-top: 4rem;
+    }
+
+}
+
 .bg-grey {
     background-color: #EBE4DC;
 }
