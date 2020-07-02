@@ -31,3 +31,23 @@
             <a href="/kontakt/" {% if page.url == "/kontakt/" %} class="selected"{% endif %}>Kontakt</a>
         </nav>
     </header>
+
+    <nav class="menu-mobile">
+        <div class="menu-mobile__logo">
+            <a href="/"><img src="/assets/img/hgr-logo-red-small.svg"></a>
+        </div>
+
+        <ul class="menu-mobile__links">
+            <li><a href="/" {% if page.url == "/" %} class="selected"{% endif %}>Home</a></li>
+            <li><a href="/unternehmen/" {% if page.url == "/unternehmen/" %} class="selected"{% endif %}>Unternehmen</a></li>
+            <li><a href="/team/" {% if page.url == "/team/" %} class="selected"{% endif %}>Team</a></li>
+            <li><a href="/referenzen/" {% if page.url == "/referenzen/" %} class="selected"{% endif %}>Referenzen</a></li>
+            <li><a href="/kontakt/" {% if page.url == "/kontakt/" %} class="selected"{% endif %}>Kontakt</a></li>
+        </ul>
+
+        <div class="menu-mobile__burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
