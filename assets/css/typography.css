@@ -166,6 +166,26 @@ header.menu-fixed nav a {
         font-size: 2.887rem;
     }
 
+    .hardfacts {
+        font-size: 6.4rem;
+        line-height: 1;
+    }
+
+}
+
+@media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
+
+    .container__paragraph {
+        font-size: 1.602rem;
+    }
+
+    .hardfacts {
+        font-size: 2.566rem;
+    }
+
+    .team__left__paragraph {
+        font-size: 1.6rem;
+    }
 }
 
 .page-header__left__headline h1 {
@@ -200,7 +220,13 @@ p.team-grid__headline {
     .team-grid__item h3 {
             font-size: 1.6rem;
     }
+}
 
+@media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
+
+    .team-grid__icon p {
+        font-size: 1.6rem;
+    }
 }
 
 /* Unternehmen */
@@ -264,6 +290,10 @@ a.button {
 
     .referenzen-objekt-grid__quote h2 {
         font-size: 1.802rem;
+    }
+
+    .split-halves__paragraph h2 {
+        font-size: 2.027rem;
     }
 
 }

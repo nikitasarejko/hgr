@@ -432,8 +432,6 @@ section.team {
         transform: translate(0, 25px);
         transition: all .5s $timing;
 
-        display: flex;
-
         p,
         h3 {
             color: #fff;
@@ -464,6 +462,14 @@ section.team {
     transition: all 1s $timing;
 }
 
+.circle-dot {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: $primary-color;
+}
+
 .visible {
     height: 100%;
     transform: translate(0, 0);
@@ -480,15 +486,6 @@ section.team {
     opacity: 1;
     transition: all 1s $timing;
     transition-delay: .25s;
-}
-
-.arrow-down-right {
-    fill: #fff;
-
-    & img {
-        margin-right: 1rem;
-        fill: #fff;
-    }
 }
 
 .button-wrap {
@@ -563,6 +560,108 @@ section.team {
     
     .button-wrap {
         margin-top: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
+
+    .hero {
+        flex-direction: column-reverse;
+
+        &__left {
+            width: 100vw;
+            height: 50vh;
+        }
+
+        &__right {
+            width: 100vw;
+            height: auto;
+            margin-top: 6rem;
+            padding: 4rem 2rem;
+        }
+    }
+
+    .container {
+
+        @include b-b();
+    
+        &__headline {
+            padding: 0 2rem;
+        }
+    
+        &__paragraph {
+            padding: 1.6rem 2rem;
+        }
+    
+        &__content {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+    
+            &__headline {
+                padding: 1.6rem 2rem;
+                // overflow: hidden;
+                width: 100vw;
+                @include b-b();
+    
+                h1 {
+                    text-transform: uppercase;
+                }
+            }
+    
+            &__paragraph {
+                padding: 4rem;
+                max-width: 120rem;
+    
+                & p {
+                    display: block;
+                }
+            }
+    
+        }
+    }
+
+    section.team {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .team {
+
+        &__left {
+            width: 100vw;
+
+            &__headline h1 {
+                margin: 1.6rem 2rem;
+            }
+
+            &__namelist {
+                padding: 2rem;
+            }
+
+            &__name {
+                margin-bottom: .4rem;
+            }
+
+            &__bio {
+                padding: 0 2rem;
+            }
+
+            &__biolist {
+                margin-bottom: 2rem;
+            }
+        }
+
+        &__right {
+            width: 100vw;
+            height: 56vh;
+        }
+    }
+
+    .circle-dot {
+        height: 1.6rem;
+        width: 1.6rem;
     }
 
 }
@@ -716,6 +815,10 @@ section.team {
         p {
             max-width: 80rem;
         }
+
+        &:last-of-type {
+            border-bottom: none;
+        }
     }
 
     &__cell {
@@ -748,12 +851,125 @@ section.team {
         max-width: 64rem;
     }
 
-    .split-halves__headline {
-        padding: 1.6rem 3rem;
+    .split-halves {
+
+        &__headline {
+            padding: 1.6rem 3rem;
+        }
+
+        &__paragraph {
+            padding: 3rem;
+        }
+
+        &__listingwrapper {
+            height: 75%;
+        }
+
     }
 
-    .split-halves__paragraph {
-        padding: 3rem;
+}
+
+@media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
+
+    .page-header {
+        flex-direction: column;
+        margin-top: 6rem;
+
+        &__left {
+            width: 100vw;
+
+            &__headline {
+                padding: 2rem 2rem;
+            }
+
+            &__paragraph {
+                padding: 2rem;
+                border-right: none;
+            }
+        }
+
+        &__right {
+            width: 100vw;
+        }
+    }
+
+    .split-halves {
+        flex-direction: column;
+
+        &__imagewrapper {
+            width: 100vw;
+            height: 50vh;
+        }
+
+        &__content {
+            width: 100vw;
+            border-right: none;
+        }
+
+        &__headline {
+            padding: 1.6rem 2rem;
+        }
+
+        &__listingwrapper {
+            height: auto;
+        }
+
+        &__listing {
+            padding: 2rem;
+        }
+
+        &__paragraph {
+            padding: 2rem;
+        }
+    }
+
+    section.split-halves:first-of-type {
+        margin-top: 6rem;
+    }
+
+    .split-thirds {
+        min-height: auto;
+        flex-direction: column-reverse;
+
+        &:nth-of-type(even) {
+            flex-direction: column-reverse;
+
+            & .split-thirds__imagecontainer {
+                width: 100vw;
+                @include b-b();
+                border-right: none;
+            }
+
+            & .split-thirds__content {
+                width: 100vw;
+                background-color: $grey-light;
+                @include b-b();
+                border-right: none;
+            }
+        }
+
+        &__content {
+            width: 100vw;
+
+            &__headline {
+                padding: 2rem;
+            }
+
+            &__paragraph {
+                padding: 2rem;
+            }
+        }
+
+        &__imagecontainer {
+            width: 100vw;
+            border-right: none;
+        }
+
+        &__image {
+            height: 66.67vh;
+            width: 100vw;
+        }
+
     }
 
 }
@@ -924,6 +1140,62 @@ section.team {
     }
 
 }
+
+@media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
+
+    .page-header {
+
+        &__left {
+            border-right: none;
+
+            &__headline,
+            &__paragraph {
+                padding: 2rem;
+            }
+
+        }
+
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+
+        & h3.toggle {
+            margin: 2rem;
+            margin-top: .8rem;
+        }
+
+        & img.portrait {
+            padding: 0 2rem 4rem 2rem;
+        }
+
+        &__item {
+
+            border-right: none;
+
+            &__headline {
+                padding: 1.6rem 2rem;
+            }
+
+            &__paragraph {
+                padding: 2rem;
+            }
+        }
+
+        &__keyfacts {
+            display: flex;
+            padding: .8rem 2rem;
+        }
+
+        &__icon {
+            margin-right: 4rem;
+        }
+
+        &__bio {
+            padding: 0 2rem;
+        }
+    }
+} 
 
 .portraitwrapper {
     overflow: hidden;
@@ -1292,6 +1564,40 @@ ul {
     
     .job-keyfacts {
         padding: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
+
+    div.karriere-cell {
+        flex-direction: column;
+        margin-bottom: 1.6rem;
+
+        &__left {
+            padding: 1.6rem;
+        }
+
+        &__right {
+            padding: 1.6rem;
+            border-left: none;
+            @include b-t();
+        }
+    }
+
+    .job-keyfacts {
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    .bg-grey {
+        padding: 0;
+    }
+
+    a button.job-link-back {
+        position: relative;
+        left: inherit;
+        bottom: inherit;
+        margin: 2rem;
     }
 
 }
