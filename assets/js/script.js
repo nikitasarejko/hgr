@@ -41,7 +41,7 @@ const images = document.querySelectorAll('.anim');
 observer = new IntersectionObserver((entries) => {
 
     entries.forEach(entry => {
-        if(entry.intersectionRatio > 0) {
+        if(entry.intersectionRatio >= 0.1) {
             entry.target.style.animation = `anim1 1s ${entry.target.dataset.delay} forwards cubic-bezier(0.23, 1, 0.32, 1)`;
         }
         else {
@@ -49,6 +49,8 @@ observer = new IntersectionObserver((entries) => {
         }
     })
 
+}, {
+    threshold: [0, 0.1, 1]
 })
 
 images.forEach(image => {

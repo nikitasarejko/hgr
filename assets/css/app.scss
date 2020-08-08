@@ -310,14 +310,6 @@ nav {
     }
 }
 
-@media only screen and (max-width: 144rem) {
-    
-    .hero__right {
-        padding: 4rem;
-    }
-
-}
-
 .container {
 
     @include b-b();
@@ -357,21 +349,6 @@ nav {
         }
 
     }
-}
-
-@media only screen and (max-width: 144rem) {
-    
-    .container__content__paragraph {
-        padding: 3rem;
-        max-width: 80rem;
-    }
-
-    .container__content__headline {
-        padding: 3rem;
-        padding-right: 12rem;
-        width: 25vw;
-    }
-
 }
 
 .hardfacts {
@@ -557,9 +534,24 @@ section.team {
 }
 
 @media only screen and (max-width: 144rem) {
+
+    .hero__right {
+        padding: 4rem;
+    }
     
     .button-wrap {
         margin-top: 3rem;
+    }
+
+    .container__content__paragraph {
+        padding: 3rem;
+        max-width: 80rem;
+    }
+
+    .container__content__headline {
+        padding: 3rem;
+        padding-right: 12rem;
+        width: 25vw;
     }
 
 }
