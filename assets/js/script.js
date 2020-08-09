@@ -106,7 +106,6 @@ runScripts = function () {
       document.addEventListener("scroll", function () {
         toggleHeader();
       });
-
 }
 
 runScripts();
@@ -135,10 +134,11 @@ barba.init({
         });
       },
       afterEnter({ current, next, trigger }) {
-        runScripts()
+        return new Promise(resolve => {
+            resolve()
+            runScripts()
+        })
       }
     }
   ],
 });
-
-runScripts();

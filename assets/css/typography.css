@@ -83,6 +83,22 @@ header.menu-fixed nav a {
 
 }
 
+@media only screen and (max-device-width: 102.4rem) and (orientation: landscape) { 
+
+    h1 {
+        font-size: 2.566rem; 
+     }
+     
+     h2 {
+         font-size: 2.027rem;
+     }
+     
+     h3 {
+         font-size: 1.802rem;
+     }
+
+}
+
 @media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
     
     h1 {
@@ -170,6 +186,14 @@ header.menu-fixed nav a {
         font-size: 6.4rem;
         line-height: 1;
     }
+
+}
+
+@media only screen and (max-device-width: 102.4rem) and (orientation: landscape) { 
+
+     .hero__right h1 {
+         font-size: 2.566rem;
+     }
 
 }
 
