@@ -14,6 +14,7 @@ $grey-medium: #C8BFB5;
 $grey-dark: #A69A8F;
 $black: #262626;
 
+$duration: 0.25s;
 $timing: cubic-bezier(0.23, 1, 0.32, 1);
 
 // Mixins
@@ -1334,7 +1335,7 @@ section.team {
 
     &__object {
         padding: 2rem 4rem;
-        overflow: hidden;
+        word-break: break-all;
         @include b-b();
     }
 
@@ -1660,6 +1661,28 @@ div.footer-section {
         display: block;
     }
 
+}
+
+// Barba CSS
+.fade-leave-active,
+.fade-enter-active {
+    transition: opacity .25s $timing;
+}
+
+.fade-leave {
+    opacity: 1;
+}
+
+.fade-leave-to {
+    opacity: 0;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-to {
+    opacity: 1;
 }
 
 // Animation
