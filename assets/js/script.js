@@ -119,6 +119,20 @@ barba.init({
       beforeEnter({ current, next, trigger }) {
         const headerLinks = document.querySelectorAll("nav a");
         const href = next.url.path;
+        const mobileNav = document.querySelector('.menu-mobile__links')
+        const burgerIcon = document.querySelector('.menu-mobile__burger')
+
+        if (mobileNav.classList.contains('nav-active')) {
+          mobileNav.classList.remove('nav-active')
+        } else {
+          mobileNav.classList.add('nav-active')
+        }
+
+        if (burgerIcon.classList.contains('toggle')) {
+          burgerIcon.classList.remove('toggle')
+        } else {
+          burgerIcon.classList.add('toggle')
+        }
 
         headerLinks.forEach((link) => {
           if (link.getAttribute("href") === href) {
@@ -128,12 +142,15 @@ barba.init({
           }
         });
 
+        runScripts();
+
         window.scrollTo({
           top: 0,
           behavior: "smooth",
         });
       },
       afterEnter({ current, next, trigger }) {
+
         return new Promise(resolve => {
             resolve()
             runScripts()
