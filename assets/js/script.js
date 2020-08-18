@@ -9,9 +9,13 @@ runScripts = function () {
           nav.classList.toggle("nav-active");
       
           navLinks.forEach((link, index) => {
-            link.style.animation = `navLinksFade 0.5s cubic-bezier(0.23, 1, 0.32, 1) forwards ${
-              index / 7 + 0.25
-            }s`;
+            if (link.style.animation) {
+              link.style.animation = "";
+            } else {
+              link.style.animation = `navLinksFade 0.5s cubic-bezier(0.23, 1, 0.32, 1) forwards ${
+                index / 7 + 0.25
+              }s`;
+            }
           });
       
           burger.classList.toggle("toggle");
@@ -117,6 +121,7 @@ barba.init({
         const href = next.url.path;
         const mobileNav = document.querySelector('.menu-mobile__links')
         const burgerIcon = document.querySelector('.menu-mobile__burger')
+        const navLinks = document.querySelectorAll(".menu-mobile__links li");
 
         if (mobileNav.classList.contains('nav-active')) {
           mobileNav.classList.remove('nav-active')
@@ -125,6 +130,10 @@ barba.init({
         if (burgerIcon.classList.contains('toggle')) {
           burgerIcon.classList.remove('toggle')
         }
+
+        navLinks.forEach((link) => {
+            link.style.animation = "";
+        });
 
         headerLinks.forEach((link) => {
           if (link.getAttribute("href") === href) {
