@@ -262,6 +262,10 @@ nav {
 
     nav a {
         margin-left: 0;
+
+        &.selected {
+            border-bottom: none;
+        }
     }
 
     .menu-mobile {
