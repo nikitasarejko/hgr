@@ -9,13 +9,9 @@ runScripts = function () {
           nav.classList.toggle("nav-active");
       
           navLinks.forEach((link, index) => {
-            if (link.style.animation) {
-              link.style.animation = "";
-            } else {
-              link.style.animation = `navLinksFade 0.5s cubic-bezier(0.23, 1, 0.32, 1) forwards ${
-                index / 7 + 0.25
-              }s`;
-            }
+            link.style.animation = `navLinksFade 0.5s cubic-bezier(0.23, 1, 0.32, 1) forwards ${
+              index / 7 + 0.25
+            }s`;
           });
       
           burger.classList.toggle("toggle");
@@ -124,14 +120,10 @@ barba.init({
 
         if (mobileNav.classList.contains('nav-active')) {
           mobileNav.classList.remove('nav-active')
-        } else {
-          mobileNav.classList.add('nav-active')
         }
 
         if (burgerIcon.classList.contains('toggle')) {
           burgerIcon.classList.remove('toggle')
-        } else {
-          burgerIcon.classList.add('toggle')
         }
 
         headerLinks.forEach((link) => {
