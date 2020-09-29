@@ -166,6 +166,10 @@ header.menu-fixed nav a {
     color: #262626;
 }
 
+.team__left__paragraph {
+    font-size: 1.6rem;
+}
+
 .hero__right h1 {
     font-size: 3.653rem;
     line-height: 1.25;
@@ -226,7 +230,7 @@ header.menu-fixed nav a {
 }
 
 p.team-grid__info {
-    font-size: 1.6rem;
+    font-size: 2.4rem;
 }
 
 h2.team-grid__title {
@@ -253,6 +257,10 @@ p.team-grid__headline {
 @media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
 
     .team-grid__icon p {
+        font-size: 1.6rem;
+    }
+
+    p.team-grid__info {
         font-size: 1.6rem;
     }
 }
