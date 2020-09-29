@@ -1,5 +1,7 @@
 {% include header.html %}
 
+<div class="modal-overlay"></div>
+
 <section class="page-header">
     <div class="page-header__left">
         <div class="page-header__left__headline">
@@ -12,56 +14,65 @@
 
     <div class="page-header__right">
         <div class="page-header__right__imagewrapper">
-            <img src="{{ page.group_image }}" alt="Team Group Image" class="anim" data-delay="0.5s">    
+            <img src="{{ page.group_image }}" alt="Team Group Image" class="anim" data-delay="0.5s">
         </div>
     </div>
 </section>
 
 <section class="team-grid">
-    <div class="team-grid__item dark">
+    <!-- <div class="team-grid__item dark">
         <div class="team-grid__item__headline">
             <h2 class="anim" data-delay="0.25s">{{ page.kurzbeschreibung_headline }}</h2>
         </div>
         <div class="team-grid__item__paragraph">
             <h3 class="anim" data-delay="0.375s">{{ page.kurzbeschreibung_text }}</h3>
         </div>
-    </div>
+    </div> -->
     {% assign sorted = site.team | sort: 'order' | reverse %}
     {% for item in sorted %}
     <div class="team-grid__item">
+
+        <div class="portraitwrapper">
+            <img class="portrait" src="{{ item.portrait_image }}" />
+        </div>
 
         <div class="team-grid__item__headline">
             <h2>{{ item.title }}</h2>
         </div>
 
         <div class="team-grid__keyfacts mb-sm">
-            <div class="team-grid__icon mb-xs"><img src="/assets/img/briefcase.svg" alt="Briefcase Icon"><h3>{{ item.stelle }}</h3></div>
-            <div class="team-grid__contact">
-                <div class="team-grid__icon"><img src="/assets/img/phone.svg" alt="Phone Icon"><p>{{ item.telefon }}</p></div>
-                <!-- <div class="team-grid__icon"><img src="/assets/img/mail.svg" alt="Mail Icon"><p>{{ item.mail }}</p></div> -->
+            <div class="team-grid__icon mt-xs mb-xs">
+                <h3>{{ item.stelle }}</h3>
             </div>
         </div>
 
-        <h3 class="toggle mb-sm">INFO</h3>
-    
-        <div class="team-grid__bio hidden">
-            <p class="team-grid__info mb-sm">{{ item.bio }}</p>
-            <p class="team-grid__headline">Schwerpunkte</p>
-            <div class="team-grid__tabelle mb-md">
-                {% for taetigkeitsschwerpunkt in item.taetigkeitsschwerpunkte %}
-                    <p>{{ taetigkeitsschwerpunkt }}</p>
-                {% endfor %}
+        <h3 class="toggle">INFO</h3>
+
+        <div class="team-grid__bio">
+            <div class="team-grid__bio__wrapper">
+                <div class="team-grid__bio__portrait">
+                    <img class="portrait-small" src="{{ item.portrait_image }}" />
+                </div>
+                <div class="team-grid__bio__content">
+
+                    <p class="team-grid__info mb-md">{{ item.bio }}</p>
+                    <p class="team-grid__headline">Schwerpunkte</p>
+                    <div class="team-grid__tabelle mb-md">
+                        {% for taetigkeitsschwerpunkt in item.taetigkeitsschwerpunkte %}
+                        <p>{{ taetigkeitsschwerpunkt }}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="team-grid__close">
+                <p>schliessen</p>
             </div>
         </div>
 
-        <div class="portraitwrapper">
-            <img class="portrait" src="{{ item.portrait_image }}" />
-        </div>
-        
     </div>
     {% endfor %}
 
-    <div class="team-grid__item light">
+    <!-- <div class="team-grid__item light">
         <div class="team-grid__item__headline">
             <h2 class="anim" data-delay="0.25s">{{ page.karriere_headline }}</h2>
         </div>
@@ -71,7 +82,7 @@
                 <a href="/karriere/" class="button-cta">Zur Übersicht</a>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 
 {% include footer.html %}
