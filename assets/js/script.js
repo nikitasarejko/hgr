@@ -1,46 +1,23 @@
 runScripts = function () {
 
-  const navSlide = () => {
-    const burger = document.querySelector(".menu-mobile__burger");
-    const nav = document.querySelector(".menu-mobile__links");
-    const navLinks = document.querySelectorAll(".menu-mobile__links li");
-
-    burger.addEventListener("click", function () {
-      nav.classList.toggle("nav-active");
-
-      navLinks.forEach((link, index) => {
-        if (link.style.animation) {
-          link.style.animation = "";
-        } else {
-          link.style.animation = `navLinksFade 0.5s cubic-bezier(0.23, 1, 0.32, 1) forwards ${
-                index / 7 + 0.25
-              }s`;
-        }
-      });
-
-      burger.classList.toggle("toggle");
-    });
-  };
-
-  navSlide();
-
+  // TEAM GRID MODAL
   const teamModal = () => {
 
     const teamMembers = document.querySelectorAll('.team-grid__item')
     const bodyTag = document.querySelector('body')
-  
+
     teamMembers.forEach(teamMember => {
-  
+
       const bioToggle = teamMember.querySelector('h3.toggle')
       const closeIcon = teamMember.querySelector('.team-grid__close')
       const bio = teamMember.querySelector('.team-grid__bio')
       const staggerIn = gsap.timeline()
       const staggerOut = gsap.timeline()
-  
+
       bioToggle.addEventListener('click', function () {
         bio.classList.add('box-open')
         bodyTag.classList.add('modal-open')
-  
+
         staggerIn
           .to('.modal-overlay', {
             height: '100vh',
@@ -65,11 +42,11 @@ runScripts = function () {
             ease: "power4.out"
           }, 1)
       })
-  
+
       closeIcon.addEventListener('click', function () {
         bio.classList.remove('box-open')
         bodyTag.classList.remove('modal-open')
-  
+
         staggerOut
           .to('.modal-overlay', {
             opacity: 0
@@ -90,24 +67,27 @@ runScripts = function () {
             ease: "power4.out"
           })
       })
-  
+
     })
 
   }
 
   teamModal();
 
+  // TEAM LIST FRONT PAGE
   $(document).ready(function () {
     $(".team__left__name").click(function () {
       $(".team__left__name.current").removeClass("current");
-      $(this).addClass("current");
       $(".team__right__image.visible").removeClass("visible in");
       $(".team__left__bio.visible").removeClass("visible");
+      $(this).addClass("current");
+      $(".team__left__bio").eq($(this).index() - 1).addClass("visible");
       $(".team__right__image").eq($(this).index()).addClass("visible in");
-      $(".team__left__bio").eq($(this).index()).addClass("visible");
+      console.log($(this.index));
     });
   });
 
+  // FADE IN ANIMATION
   const images = document.querySelectorAll(".anim");
 
   observer = new IntersectionObserver(
@@ -115,7 +95,7 @@ runScripts = function () {
       entries.forEach((entry) => {
         if (entry.intersectionRatio >= 0.1) {
           entry.target.style.animation = `anim1 1s ${entry.target.dataset.delay} forwards cubic-bezier(0.23, 1, 0.32, 1)`;
-        } 
+        }
       });
     }, {
       threshold: [0, 0.1, 1],
@@ -153,6 +133,32 @@ runScripts = function () {
     imageObserver.observe(referenz);
   });
 
+  // MOBILE NAVIGATION
+  const navSlide = () => {
+    const burger = document.querySelector(".menu-mobile__burger");
+    const nav = document.querySelector(".menu-mobile__links");
+    const navLinks = document.querySelectorAll(".menu-mobile__links li");
+
+    burger.addEventListener("click", function () {
+      nav.classList.toggle("nav-active");
+
+      navLinks.forEach((link, index) => {
+        if (link.style.animation) {
+          link.style.animation = "";
+        } else {
+          link.style.animation = `navLinksFade 0.5s cubic-bezier(0.23, 1, 0.32, 1) forwards ${
+                index / 7 + 0.25
+              }s`;
+        }
+      });
+
+      burger.classList.toggle("toggle");
+    });
+  };
+
+  navSlide();
+
+  // SMALL MENU TOGGLE
   const headerTag = document.querySelector(".menu-fixed");
 
   const toggleHeader = function () {
