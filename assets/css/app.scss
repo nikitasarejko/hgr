@@ -1187,6 +1187,26 @@ section.team {
     .team-grid {
         grid-template-columns: 1fr;
 
+        &__bio {
+            width: 95vw;
+            height: auto;
+            min-height: 100vh;
+
+            &__wrapper {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            &__portrait {
+                width: 50vw;
+            }
+
+            &__content {
+                width: 80vw;
+                padding: 1.6rem 0;
+            }
+        }
+
         &__item {
 
             border-right: none;
@@ -1198,7 +1218,7 @@ section.team {
 
         &__keyfacts {
             display: flex;
-            padding: .8rem 2rem;
+            padding: .8rem 0;
         }
     }
 } 

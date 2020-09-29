@@ -2,8 +2,6 @@
 title: Stefanie Bülow
 stelle: Projektassistenz
 portrait_image: "/uploads/stefanie-buelow-portrait.jpg"
-telefon: '038393 - 13 79 10'
-mail: stefanie.buelow@hgr-premium.de
 bio: Bei unserem Youngster paaren sich Köpfchen und Methodik. Aufgeschlossen und mit
   vielfältigen Ideen unterstützt sie glänzend das Team in allen Bereichen.
 taetigkeitsschwerpunkte:

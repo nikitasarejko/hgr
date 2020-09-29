@@ -225,6 +225,10 @@ header.menu-fixed nav a {
     text-transform: uppercase;
 }
 
+p.team-grid__info {
+    font-size: 1.6rem;
+}
+
 h2.team-grid__title {
     text-transform: uppercase;
     margin-bottom: -1rem;
