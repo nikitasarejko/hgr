@@ -9,6 +9,7 @@
 $background-color: #fff;
 $primary-color: #FF3300;
 $secondary-color: #FF4B1F;
+$off-white: #FDFBF4;
 $grey-light: #EBE4DC;
 $grey-medium: #C8BFB5;
 $grey-dark: #A69A8F;
@@ -90,6 +91,11 @@ body {
     background-color: $background-color;
     color: $black;
     padding-bottom: 20.6rem;
+
+    &.modal-open {
+        height: 100vh;
+        overflow-y: hidden;
+    }
 }
 
 header {
@@ -368,10 +374,11 @@ section.team {
 .team__left {
     width: 50vw;
     height: 100%;
-    background-color: $black;
+    background-color: $off-white;
+    @include b-r();
 
     &__headline {
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid $black;
 
         & h1 {
             margin: 2rem 4rem;
@@ -384,15 +391,15 @@ section.team {
 
     &__paragraph {
         max-width: 80rem;
-        color: #fff;
+        color: $black;
     }
 
     &__content {
         padding: 4rem;
     }
 
-    &__name h2 {
-        color: #fff;
+    &__name h1 {
+        color: $black;
         display: inline;
         cursor: pointer;
 
@@ -416,7 +423,7 @@ section.team {
 
         p,
         h3 {
-            color: #fff;
+            color: $black;
         }
 
         &.visible {
@@ -431,7 +438,7 @@ section.team {
 .team__right {
     width: 50vw;
     height: 100%;
-    background-color: $black;
+    background-color: $primary-color;
     overflow: hidden;
 }
 
@@ -974,16 +981,22 @@ section.team {
 // Unternehmen
 
 // Team
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 0;
+    background-color: $black;
+    z-index: 665;
+    opacity: 0;
+}
+
 .team-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    & img.portrait {
-        padding: 0 4rem 4rem 4rem;
-    }
-
     & h3.toggle {
-        margin: 0 4rem 4rem 4rem;
         display: inline-block;
         border-bottom: 2px solid;
         cursor: pointer;
@@ -994,12 +1007,13 @@ section.team {
     }
 
     &__item {
-        background-color: $primary-color;
-        transition: background-color .75s ease;
+        background-color: $off-white;
+        transition: background-color .75s ease-in;
+        padding: 1.6rem;
         @include b-r-b();
 
         &:hover {
-            background-color: $secondary-color;
+            background-color: $primary-color;
             transition: background-color 0s ease;
         }
 
@@ -1012,7 +1026,7 @@ section.team {
         }
 
         &__headline {
-            padding: 2rem 4rem;
+            padding: 0;
             @include b-b();
         }
 
@@ -1023,24 +1037,14 @@ section.team {
                 max-width: 64rem;
             }
         }
+    }
 
-        &.dark {
-            background-color: $black;
-            color: #fff;
-
-            & .team-grid__item__headline {
-                border-bottom: 1px solid $grey-light;
-            }
-        }
-
-        &.light {
-            background-color: $grey-light;
-            color: $black;
-        }
+    &__info {
+        font-size: 2.4rem;
+        line-height: 1.35;
     }
 
     &__keyfacts {
-        padding: 2rem 4rem;
         @include b-b();
     }
 
@@ -1053,23 +1057,69 @@ section.team {
     }
 
     &__bio {
-        visibility: initial;
-        display: block;
-        height: auto;
-        opacity: 1;
-        transform: translateY(0);
-        transition: all .5s ease;
-        padding: 0 4rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 80vw;
+        min-height: 100vh;
+        padding: 1.6rem;
+        z-index: 666;
+        transform: translateX(-100%);
+        background-color: $primary-color;
+        @include b-r();
+        transition: transform .5s ease-out;
 
-        &.hidden {
-            display: block;
-            visibility: hidden;
-            height: 0;
-            opacity: 0;
-            transform: translateY(50px);
-            transition: none;
+        &__wrapper {
+            display: flex;
+            align-items: center;
         }
 
+        &__portrait {
+            width: 40vw;
+            overflow: hidden;
+        }
+
+        &__portrait img.portrait-small {
+            max-height: 100vh;
+            opacity: 0;
+            transform: translate(0px, 100%);
+        }
+
+        &__content {
+            width: 40vw;
+            padding: 1.6rem;
+            position: relative;
+            opacity: 0;
+            transform: translate(0px, 100%);
+        }
+
+        &.box-open {
+            transform: translateX(0px);
+            transition: transform .5s ease-in;
+        }
+    }
+
+    &__close {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: .8rem 0;
+        background-color: $secondary-color;
+        display: flex;
+        justify-content: center;
+        @include b-t();
+        cursor: pointer;
+        transition: background-color .3s ease-out;
+
+        & p {
+            font-size: 1.4rem;
+            text-transform: uppercase;
+        }
+
+        &:hover {
+            background-color: $off-white;
+        }
     }
 
     &__icon {
@@ -1108,32 +1158,12 @@ section.team {
         display: block;
     }
 
-    .team-grid__item__headline,
-    .team-grid__item__keyfacts,
-    .team-grid__item__paragraph,
-    .page-header__left__headline,
-    .team-grid__keyfacts {
+    .page-header__left__headline {
         padding: 1.6rem 3rem;
     }
 
     .page-header__left__paragraph {
         padding: 3rem;
-    }
-
-    .team-grid__icon {
-        margin-bottom: 0;
-    }
-
-    .team-grid img.portrait {
-        padding: 0 3rem 3rem 3rem;
-    }
-
-    .team-grid h3.toggle {
-        margin: 0 3rem 2rem 3rem;
-    }
-
-    .team-grid__bio {
-        padding: 0 3rem;
     }
 
 }
@@ -1157,22 +1187,9 @@ section.team {
     .team-grid {
         grid-template-columns: 1fr;
 
-        & h3.toggle {
-            margin: 2rem;
-            margin-top: .8rem;
-        }
-
-        & img.portrait {
-            padding: 0 2rem 4rem 2rem;
-        }
-
         &__item {
 
             border-right: none;
-
-            &__headline {
-                padding: 1.6rem 2rem;
-            }
 
             &__paragraph {
                 padding: 2rem;
@@ -1183,14 +1200,6 @@ section.team {
             display: flex;
             padding: .8rem 2rem;
         }
-
-        &__icon {
-            margin-right: 4rem;
-        }
-
-        &__bio {
-            padding: 0 2rem;
-        }
     }
 } 
 
@@ -1199,6 +1208,7 @@ section.team {
 }
 
 .portraitwrapper img.portrait {
+    padding-bottom: 1.6rem;
     transform: translate(0, 50%) scale(0.98);
     opacity: 0;
     transition: all 1s 0.25s $timing;
@@ -1692,8 +1702,8 @@ div.footer-section {
 // Animation
 @-webkit-keyframes anim1 {
     from {
-    -webkit-transform: translateY(100px) skew(2.5deg, 2.5deg);
-            transform: translateY(100px) skew(2.5deg, 2.5deg);
+    -webkit-transform: translateY(100px) skew(0.5deg, 0.5deg);
+            transform: translateY(100px) skew(0.5deg, 0.5deg);
             opacity: 0;
     }
     to {
@@ -1705,8 +1715,8 @@ div.footer-section {
   
 @keyframes anim1 {
     from {
-    -webkit-transform: translateY(100px) skew(2.5deg, 2.5deg);
-    transform: translateY(100px) skew(2.5deg, 2.5deg);
+    -webkit-transform: translateY(100px) skew(0.5deg, 0.5deg);
+    transform: translateY(100px) skew(0.5deg, 0.5deg);
     opacity: 0;
     }
     to {
