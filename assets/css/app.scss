@@ -1008,8 +1008,7 @@ section.team {
 
     &__item {
         background-color: $off-white;
-        transition: background-color .5s ease-in;
-        padding: 1.6rem;
+        transition: background-color .2s ease-in;
         @include b-r-b();
 
         &:hover {
@@ -1022,11 +1021,11 @@ section.team {
         }
 
         &:nth-child(3n) {
-            border-right: none;
+            border-right: 1px solid transparent;
         }
 
         &__headline {
-            padding: 0;
+            padding: 0 1.6rem;
             @include b-b();
         }
 
@@ -1045,7 +1044,7 @@ section.team {
     }
 
     &__keyfacts {
-        @include b-b();
+        padding: .8rem 1.6rem
     }
 
     &__contact {
@@ -1119,17 +1118,6 @@ section.team {
 
         &:hover {
             background-color: $off-white;
-        }
-    }
-
-    &__icon {
-        display: flex;
-        align-items: center;
-
-        & img {
-            height: 3rem;
-            margin-left: -0.6rem;
-            margin-right: 0.6rem;
         }
     }
 
@@ -1225,10 +1213,11 @@ section.team {
 
 .portraitwrapper {
     overflow: hidden;
+    padding: 1.6rem;
 }
 
 .portraitwrapper img.portrait {
-    padding-bottom: 1.6rem;
+    cursor: pointer;
     transform: translate(0, 50%) scale(0.98);
     opacity: 0;
     transition: all 1s 0.25s $timing;
