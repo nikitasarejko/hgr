@@ -67,7 +67,6 @@ runScripts = function () {
             ease: "power4.out"
           })
 
-          teamModal()
       })
 
     })

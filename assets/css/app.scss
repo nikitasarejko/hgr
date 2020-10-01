@@ -1202,6 +1202,10 @@ section.team {
             &__paragraph {
                 padding: 2rem;
             }
+
+            &:hover {
+                background-color: $off-white;
+            }
         }
 
         &__keyfacts {
