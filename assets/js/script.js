@@ -8,7 +8,7 @@ runScripts = function () {
 
     teamMembers.forEach(teamMember => {
 
-      const bioToggle = teamMember.querySelector('h3.toggle')
+      const bioToggle = teamMember.querySelector('.portraitwrapper img')
       const closeIcon = teamMember.querySelector('.team-grid__close')
       const bio = teamMember.querySelector('.team-grid__bio')
       const staggerIn = gsap.timeline()

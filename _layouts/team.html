@@ -20,18 +20,9 @@
 </section>
 
 <section class="team-grid">
-    <!-- <div class="team-grid__item dark">
-        <div class="team-grid__item__headline">
-            <h2 class="anim" data-delay="0.25s">{{ page.kurzbeschreibung_headline }}</h2>
-        </div>
-        <div class="team-grid__item__paragraph">
-            <h3 class="anim" data-delay="0.375s">{{ page.kurzbeschreibung_text }}</h3>
-        </div>
-    </div> -->
     {% assign sorted = site.team | sort: 'order' | reverse %}
     {% for item in sorted %}
     <div class="team-grid__item">
-
         <div class="portraitwrapper">
             <img class="portrait" src="{{ item.portrait_image }}" />
         </div>
@@ -40,13 +31,9 @@
             <h2>{{ item.title }}</h2>
         </div>
 
-        <div class="team-grid__keyfacts mb-sm">
-            <div class="team-grid__icon mt-xs mb-xs">
-                <h3>{{ item.stelle }}</h3>
-            </div>
+        <div class="team-grid__keyfacts">
+            <h3>{{ item.stelle }}</h3>
         </div>
-
-        <h3 class="toggle">INFO</h3>
 
         <div class="team-grid__bio">
             <div class="team-grid__bio__wrapper">
@@ -68,7 +55,6 @@
                 <p>close window</p>
             </div>
         </div>
-
     </div>
     {% endfor %}
 
