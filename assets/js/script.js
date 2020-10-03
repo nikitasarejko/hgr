@@ -19,54 +19,36 @@ runScripts = function () {
         bodyTag.classList.add('modal-open')
 
         staggerIn
-          .to('.modal-overlay', {
-            height: '100vh',
-            duration: 0.5
-          }, 0)
-          .to('.modal-overlay', {
-            opacity: 0.8,
-            duration: 0.5,
-            delay: 0.5
-          }, 0)
-          .to('img.portrait-small', {
-            opacity: 1,
-            y: 0,
-            duration: 1,
-            delay: 0.5,
-            ease: "power4.out"
-          }, 0)
-          .to('div.team-grid__bio__content', {
-            opacity: 1,
-            y: 0,
-            duration: 1,
-            ease: "power4.out"
-          }, 1)
+        .from('img.portrait-small', { 
+          opacity: 0,
+          y: 250,
+          ease: Power3.easeOut,
+          duration: 1,
+          delay: 0.5
+         })
+        .from('p.team-grid__info', { 
+          opacity: 0,
+          y: 250,
+          ease: Power3.easeOut,
+          duration: 1,
+         }, "-=0.95")
+         .from('p.team-grid__headline', { 
+           opacity: 0,
+           y: 250,
+           ease: Power3.easeOut,
+           duration: 1
+          }, "-=0.9")
+         .from('div.team-grid__tabelle', { 
+           opacity: 0,
+           y: 250,
+           ease: Power3.easeOut,
+           duration: 1,
+          }, "-=0.85")
       })
 
       closeIcon.addEventListener('click', function () {
         bio.classList.remove('box-open')
         bodyTag.classList.remove('modal-open')
-
-        staggerOut
-          .to('.modal-overlay', {
-            opacity: 0
-          })
-          .to('.modal-overlay', {
-            height: 0
-          })
-          .to('img.portrait-small', {
-            opacity: 0,
-            y: '100%',
-            duration: 0.5,
-            ease: "power4.out"
-          })
-          .to('div.team-grid__bio__content', {
-            opacity: 0,
-            y: '100%',
-            duration: 0.5,
-            ease: "power4.out"
-          })
-
       })
 
     })
