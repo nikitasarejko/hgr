@@ -986,10 +986,20 @@ section.team {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 0;
+    height: 100vh;
     background-color: $black;
     z-index: 665;
     opacity: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .3s ease 0s, opacity .5s ease;
+}
+
+body.modal-open .modal-overlay {
+    transform: scaleX(1);
+    opacity: .8;
+    z-index: 555;
+    transition: transform .75s ease .3s, opacity 1s ease;
 }
 
 .team-grid {
@@ -1080,16 +1090,16 @@ section.team {
 
         &__portrait img.portrait-small {
             max-height: 100vh;
-            opacity: 0;
-            transform: translate(0px, 100%);
+            opacity: 1;
+            transform: translate(0, 0);
         }
 
         &__content {
             width: 40vw;
             padding: 1.6rem;
             position: relative;
-            opacity: 0;
-            transform: translate(0px, 100%);
+            opacity: 1;
+            transform: translate(0, 0);
         }
 
         &.box-open {
