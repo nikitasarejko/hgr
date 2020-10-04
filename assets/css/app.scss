@@ -1222,6 +1222,10 @@ body.modal-open .modal-overlay {
             display: flex;
             padding: .8rem 1.6rem;
         }
+
+        &__close {
+            padding: 2.4rem 0;
+        }
     }
 } 
 
