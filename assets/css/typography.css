@@ -243,7 +243,8 @@ h3.team-grid__position {
 }
 
 p.team-grid__headline {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.2px;
     text-transform: uppercase;
 }
 
@@ -261,7 +262,7 @@ p.team-grid__headline {
     }
 
     p.team-grid__info {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 }
 
