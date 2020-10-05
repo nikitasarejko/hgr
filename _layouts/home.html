@@ -74,7 +74,7 @@
         </div>
 
         <div class="team__left__biolist anim" data-delay="0.5s">
-            {% assign sorted = site.team | sort: 'order' | reverse %}
+            {% assign sorted = site.team | sort: 'order' %}
             {% for item in sorted %}
 
                 <div class="team__left__bio">
