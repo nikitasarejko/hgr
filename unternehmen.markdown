@@ -1,6 +1,7 @@
 ---
 title: Unternehmen
 permalink: "/unternehmen/"
+position: 6
 hero_image: "/uploads/DSC0989_postproduction-min.jpg"
 image_left: "/uploads/DSC0970_postproduction-min.jpg"
 image_right: "/uploads/DSC0914_postproduction-min.jpg"

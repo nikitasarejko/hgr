@@ -1,6 +1,7 @@
 ---
 title: Referenzen
 permalink: "/referenzen/"
+position: 0
 hero_image: "/uploads/DSC0766-min.jpg"
 layout: referenzen
 ---
