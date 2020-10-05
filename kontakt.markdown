@@ -1,6 +1,7 @@
 ---
 title: Kontakt
 permalink: "/kontakt/"
+position: 6
 hero_img: "/uploads/DSC0246_postproduction-min.jpg"
 kontaktdaten:
   phone: "(03 83 93) 13 79 00"

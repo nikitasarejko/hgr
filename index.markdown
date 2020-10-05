@@ -1,5 +1,6 @@
 ---
 title: Index
+position: 0
 hero-image: "/uploads/DSC0714_postproduction.jpg"
 hero-headline: HGR Immobilienmanagement. Wir verwalten ihr Grundstück.
 hero-subheadline: Langjährige Erfahrung onsetetur sadipscing elitr, sed diam nonumy

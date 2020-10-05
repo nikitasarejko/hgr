@@ -1,6 +1,7 @@
 ---
 title: Karriere
 permalink: "/karriere/"
+position: 5
 layout: karriere
 ---
 
