@@ -234,7 +234,7 @@ header.menu-fixed nav a {
 }
 
 p.team-grid__info {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
 }
 
 h2.team-grid__title {
@@ -256,6 +256,10 @@ p.team-grid__headline {
     
     .team-grid__item h3 {
             font-size: 1.6rem;
+    }
+
+    p.team-grid__info {
+        font-size: 2.4rem;
     }
 }
 
