@@ -1,7 +1,7 @@
 ---
 title: Das Team
 permalink: "/team/"
-position: 2
+position: 3
 layout: team
 group_image: "/uploads/DSC0424_postproduction.jpg"
 kurzbeschreibung_headline: Lorem Ipsum
