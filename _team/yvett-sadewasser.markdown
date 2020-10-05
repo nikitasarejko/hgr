@@ -2,9 +2,9 @@
 title: Yvett Sadewasser
 stelle: Teamassistenz
 portrait_image: "/uploads/yvett-sadewasser-portrait.jpg"
-bio: YYY Die beliebte Rüganerin verfügt über jahrzehntelange Erfahrung bei der Instandhaltung
-  von Immobilien und ist stets im Bilde. Mit Präzision und Stringenz steuert sie jedes
-  Vorhaben in ein sicheres Ziel.
+bio: Yvette, die beliebte Rüganerin verfügt über jahrzehntelange Erfahrung bei der
+  Instandhaltung von Immobilien und ist stets im Bilde. Mit Präzision und Stringenz
+  steuert sie jedes Vorhaben in ein sicheres Ziel.
 taetigkeitsschwerpunkte:
 - Juristische Verwaltung
 - Eigentümerversammlungen
@@ -14,4 +14,3 @@ taetigkeitsschwerpunkte:
 layout: team-profile
 ---
 
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
