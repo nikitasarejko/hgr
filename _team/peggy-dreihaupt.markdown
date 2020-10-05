@@ -13,5 +13,3 @@ taetigkeitsschwerpunkte:
 - Vertrieb & Marketing
 layout: team-profile
 ---
-
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.

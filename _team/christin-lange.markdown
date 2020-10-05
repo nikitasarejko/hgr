@@ -12,6 +12,3 @@ taetigkeitsschwerpunkte:
 - Vertrieb & Marketing
 layout: team-profile
 ---
-
-Bei unserem Youngster paaren sich Köpfchen und Methodik.
-Aufgeschlossen und mit vielfältigen Ideen unterstützt sie glänzend das Team in allen Bereichen.
