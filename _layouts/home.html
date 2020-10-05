@@ -63,7 +63,7 @@
             <div class="team__left__paragraph mb-md">
                 {{ page.team-text }}
             </div>
-            {% assign sorted = site.team | sort: 'order' | reverse %}
+            {% assign sorted = site.team | sort: 'order' %}
             {% for item in sorted %}
 
                 <div class="team__left__name">

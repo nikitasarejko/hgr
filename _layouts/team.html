@@ -20,7 +20,7 @@
 </section>
 
 <section class="team-grid">
-    {% assign sorted = site.team | sort: 'order' | reverse %}
+    {% assign sorted = site.team | sort: 'order' %}
     {% for item in sorted %}
     <div class="team-grid__item">
         <div class="portraitwrapper">
