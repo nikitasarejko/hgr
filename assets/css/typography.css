@@ -97,6 +97,10 @@ header.menu-fixed nav a {
          font-size: 1.802rem;
      }
 
+     p {
+         font-size: 1.5rem;
+     }
+
 }
 
 @media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
@@ -253,6 +257,14 @@ p.team-grid__headline {
     .team-grid__item h3 {
             font-size: 1.6rem;
     }
+}
+
+@media only screen and (max-device-width: 102.4rem) and (orientation: landscape) { 
+
+    p.team-grid__info {
+        font-size: 1.8rem;
+    }
+
 }
 
 @media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {

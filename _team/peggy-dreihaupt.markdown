@@ -11,6 +11,7 @@ taetigkeitsschwerpunkte:
 - Beratung Eigentümer & Beiräte
 - Strategische Entwicklung
 - Vertrieb & Marketing
+order: 3
 layout: team-profile
 ---
 

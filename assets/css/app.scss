@@ -1035,7 +1035,7 @@ body.modal-open .modal-overlay {
         }
 
         &__headline {
-            padding: 0 1.6rem;
+            padding: 0 1.6rem .8rem 1.6rem;
             @include b-b();
         }
 
@@ -1150,18 +1150,87 @@ body.modal-open .modal-overlay {
     }
 }
 
-@media only screen and (max-width: 144rem) {
+@media only screen and (max-width: 102.4rem) {
     
-    .team-grid__contact {
-        display: block;
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    
+        &__item {
+            background-color: $off-white;
+            transition: background-color .2s ease-in;
+            @include b-r-b();
+    
+            &:hover {
+                background-color: $primary-color;
+                transition: background-color 0s ease;
+            }
+    
+            &__wrapper {
+                padding: 2rem 4rem 4rem 4rem;
+            }
+    
+            &:nth-child(3n) {
+                border-right: 1px solid transparent;
+            }
+    
+            &__headline {
+                padding: 0 1.6rem .8rem 1.6rem;
+                @include b-b();
+            }
+    
+            &__paragraph {
+                padding: 2rem 4rem;
+    
+                & h3, p {
+                    max-width: 64rem;
+                }
+            }
+        }
+
+        &__bio {
+            width: 90vw;
+
+            &__portrait {
+                width: 45vw;
+
+                & img.portrait-small {
+                    max-height: 90vh;
+                }
+            }
+
+            &__content {
+                width: 45vw;
+            }
+        }
     }
 
-    .page-header__left__headline {
-        padding: 1.6rem 3rem;
+}
+
+@media only screen and (max-width: 144rem) {
+
+    .team-grid {
+        grid-template-columns: repeat(3, 1fr);
+
+        &__contact {
+            display: block;
+        }
     }
 
-    .page-header__left__paragraph {
-        padding: 3rem;
+    .page-header {
+
+        &__left {
+
+            &__headline {
+                padding: 1.6rem 3rem;
+            }
+
+            &__paragraph {
+                padding: 3rem;
+            }
+
+        }
+
     }
 
 }
@@ -1213,6 +1282,11 @@ body.modal-open .modal-overlay {
                 padding: 2rem;
             }
 
+            &__headline {
+                padding: 0 1.6rem;
+                border-bottom: none;
+            }
+
             &:hover {
                 background-color: $off-white;
             }
@@ -1220,7 +1294,7 @@ body.modal-open .modal-overlay {
 
         &__keyfacts {
             display: flex;
-            padding: .8rem 1.6rem;
+            padding: 0 1.6rem .8rem 1.6rem;
         }
 
         &__close {
@@ -1231,7 +1305,7 @@ body.modal-open .modal-overlay {
 
 .portraitwrapper {
     overflow: hidden;
-    padding: 1.6rem;
+    padding: 1.6rem 1.6rem .8rem 1.6rem;
 }
 
 .portraitwrapper img.portrait {
