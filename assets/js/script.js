@@ -12,7 +12,6 @@ runScripts = function () {
       const closeIcon = teamMember.querySelector('.team-grid__close')
       const bio = teamMember.querySelector('.team-grid__bio')
       const staggerIn = gsap.timeline()
-      const staggerOut = gsap.timeline()
 
       bioToggle.addEventListener('click', function () {
         bio.classList.add('box-open')
@@ -55,7 +54,7 @@ runScripts = function () {
 
   }
 
-  teamModal();
+  teamModal()
 
   // TEAM LIST FRONT PAGE
   $(document).ready(function () {
@@ -161,7 +160,8 @@ runScripts = function () {
   });
 }
 
-runScripts();
+runScripts()
+teamModal()
 
 barba.use(barbaCss);
 
@@ -199,7 +199,8 @@ barba.init({
         }
       });
 
-      runScripts();
+      runScripts()
+      teamModal()
 
       window.scrollTo({
         top: 0,
@@ -215,6 +216,7 @@ barba.init({
       return new Promise(resolve => {
         resolve()
         runScripts()
+        teamModal()
       })
     }
   }],
