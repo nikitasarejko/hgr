@@ -8,11 +8,11 @@ kontaktdaten:
   fax: "(03 83 93) 13 79 13"
   mail: mail@hgr-premium.de
 sprechzeiten:
-  mo: "9 - 12 Uhr & 14 - 17 Uhr"
-  di: "9 - 12 Uhr & 14 - 17 Uhr"
-  mi: "9 - 13 Uhr"
-  do: "9 - 12 Uhr & 14 - 17 Uhr"
-  fr: "9 - 13 Uhr"
+  mo: 9 - 12 Uhr & 14 - 17 Uhr
+  di: 9 - 12 Uhr & 14 - 17 Uhr
+  mi: 9 - 13 Uhr
+  do: 9 - 12 Uhr & 14 - 17 Uhr
+  fr: 9 - 13 Uhr
 adresse:
   str: Südstrand 204
   ort: 18609 Ostseebad Binz OT Prora
