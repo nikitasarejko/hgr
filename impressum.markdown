@@ -47,11 +47,8 @@ Die neue Anschrift der HGR Premium lautet seit dem (von vormals Strandstr. 35): 
 Copyright-Hinweis\
 Der Inhalt, die Struktur und die Gestaltung der Website sind urheberrechtlich geschützt. Einer Vervielfältigung von Informationen oder Daten, der Verwendung von Bildmaterial, Texten oder Textteilen wird hiermit durch die HGR GmbH widersprochen.\
 \
-Idee, Konzept und Inhalte der Website\
-Kerstin A. Strehlow\
-\
 Fotografie\
-[Lisa](mailto:lisa.strehlow@googlemail.com) & [Nikita Sarejko](mailto:info@nikitasarejko.com)\
+[Lisa Sarejko](mailto:lisa.sarejko@googlemail.com) & [Nikita Sarejko](mailto:info@nikitasarejko.com)\
 \
 Web Design & Web Development\
 Nikita Sarejko\

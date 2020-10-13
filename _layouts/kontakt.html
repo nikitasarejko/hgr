@@ -25,10 +25,23 @@
         </div>
         <div class="split-halves__paragraph">
             <div class="anim" data-delay="0.5s">
-                <h2>Telefonische Sprechzeiten</h2>
-                {% for tag in page.sprechzeiten %}
-                <p>{{ tag }}</p>
-            {% endfor %}
+                <h2 class="mb-sm">Telefonische Sprechzeiten</h2>
+                <div class="sprechzeiten-grid">
+                    <div class="sprechzeiten-grid__tag">Montag</div>
+                    <div class="sprechzeiten-grid__uhrzeit">{{ page.sprechzeiten.mo }}</div>
+
+                    <div class="sprechzeiten-grid__tag">Dienstag</div>
+                    <div class="sprechzeiten-grid__uhrzeit">{{ page.sprechzeiten.di }}</div>
+
+                    <div class="sprechzeiten-grid__tag">Mittwoch</div>
+                    <div class="sprechzeiten-grid__uhrzeit">{{ page.sprechzeiten.mi }}</div>
+
+                    <div class="sprechzeiten-grid__tag">Donnerstag</div>
+                    <div class="sprechzeiten-grid__uhrzeit">{{ page.sprechzeiten.do }}</div>
+
+                    <div class="sprechzeiten-grid__tag">Freitag</div>
+                    <div class="sprechzeiten-grid__uhrzeit">{{ page.sprechzeiten.fr }}</div>
+                </div>
             </div>
         </div>
     </div>

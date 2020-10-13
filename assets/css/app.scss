@@ -1572,6 +1572,15 @@ body.modal-open .modal-overlay {
 }
 
 // Kontakt
+div.sprechzeiten-grid {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+
+    &__tag {
+        margin-right: 2.4rem;
+        margin-top: .2rem;
+    }
+}
 
 // Karriere
 a div.karriere-cell {
