@@ -246,6 +246,12 @@ nav {
 
 }
 
+@media only screen and (max-width: 86rem) {
+    body {
+        padding-bottom: 19.6rem;
+    }
+}
+
 @media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
 
     body {
@@ -1263,7 +1269,11 @@ body.modal-open .modal-overlay {
         }
 
         &__item:nth-child(2n) {
-            border-right: none;
+            border-right: 1px solid transparent;
+        }
+
+        &__item:nth-child(3n) {
+            @include b-r();
         }
     }
 }
