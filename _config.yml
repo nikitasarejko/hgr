@@ -1,6 +1,6 @@
 ---
 title: HGR Immobilienmanagement
-timezone: UTC
+timezone: Europe/Berlin
 collections:
   objekte:
     title: Objekte
