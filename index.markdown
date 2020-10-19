@@ -2,28 +2,29 @@
 title: Index
 position: 0
 hero-image: "/uploads/DSC0714_postproduction.jpg"
-hero-headline: HGR Immobilienmanagement. Wir verwalten ihr Grundstück.
-hero-subheadline: Langjährige Erfahrung onsetetur sadipscing elitr, sed diam nonumy
-  eirmod tempor invidunt.
-mission-headline: Unsere Mission
-mission-text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-  At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-  no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-  dolore magna aliquyam erat.
+hero-headline: HGR
+hero-subheadline: 'Ihre Experten in Sachen Wohneigentum und WEG-Verwaltung auf der
+  Insel Rügen. '
+mission-headline: Unser Versprechen an Sie
+mission-text: 'Wenn Sie sich für die HGR als Ihre WEG-Verwaltung entscheiden, entscheiden
+  Sie sich für 30 Jahre Expertise in Sachen Wohneigentum. Dabei setzen wir auf eine
+  kaufmännisch, rechtlich und technisch kompetente Bewirtschaftung Ihrer Immobilie
+  durch qualifizierte Fachkräfte. Bis dato haben der HGR bereits 1.600 Kunden die
+  Verwaltung ihrer Eigentumswohnung anvertraut. Wir freuen uns, bald auch Ihre WEG
+  auf der Insel Rügen betreuen zu dürfen. '
 hardfacts-image: "/uploads/DSC0835-min.jpg"
 hardfacts-headline: HGR in Zahlen
 hardfacts:
-  liegschaften: 123
-  verwaltungseinheiten: 33
-  vermoegen: 1.000.000 €
+  liegschaften: 30
+  verwaltungseinheiten: 60
+  vermoegen: 1600
 team-headline: Das Team
-team-text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-  eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+team-text: 'Frauenpower und jede Menge Herzblut: Das sechsköpfige Team rund um Geschäftsführerin
+  Kerstin A. Strehlow kümmert sich mit Leidenschaft um Ihre Immobilie auf der Insel
+  Rügen.'
 team-image: "/uploads/DSC0424_postproduction.jpg"
-karriere-text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-  eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+karriere-text: 'Sie sind auf der Suche nach einer neuen Herausforderung in der Immobilienbranche?
+  Dann werfen Sie doch einen Blick in unser Stellenportal. '
 layout: home
 ---
 
