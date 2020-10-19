@@ -5,18 +5,20 @@ position: 2
 hero_image: "/uploads/DSC0989_postproduction-min.jpg"
 image_left: "/uploads/DSC0970_postproduction-min.jpg"
 image_right: "/uploads/DSC0914_postproduction-min.jpg"
-headline_erster_abschnitt: Headline erster Abschnitt
-beschreibung_erster_abschnitt: Unser Portfolio umfasst die WEG-Verwaltung (als Schwerpunkt),
-  sowie den Verkauf von einzelnen ausgewählten Eigentumswohnungen. Wir vermitteln
-  Ihnen keine Finanzierung, verkaufen Ihnen keine Versicherung, geben keine Wertgutachten
-  ab, vermieten keine Ferienwohnungen und wir sind auch nicht als Hausmeister, Bauträger
-  oder Architekt tätig. Dadurch können wir uns auf das Kerngeschäft konzentrieren
-  und uns fürsorglich um die schönen Immobilien kümmern.
-headline_zweiter_abschnitt: Headline zweiter Abschnitt
-beschreibung_zweiter_abschnitt: Die Berliner Immobilienfachfrau, mit familiären Wurzeln
-  auf Rügen, führt das Unternehmen abseits ausgetretener Pfade. Souverän und sympathisch
-  meistert sie jede Herausforderung und ist mit Leidenschaft für ihre Kunden da.
+headline_erster_abschnitt: Unsere Leistungen
+beschreibung_erster_abschnitt: 'Fachkundig und professionell: Wir decken das ganze
+  A bis Z der WEG-Verwaltung ab. Unser Leistungsspektrum erstreckt sich von der Organisation
+  der jährlichen Eigentümerversammlungen, über die technische Verwaltung bis hin zur
+  Buchhaltung unserer Objekte. Darüber hinaus vermitteln wir auch ausgewählte Immobilien
+  aus unserem Portfolio. Kurzum: Bei uns ist Ihre Eigentumswohnung in den besten Händen. '
+headline_zweiter_abschnitt: Unser Anspruch
+beschreibung_zweiter_abschnitt: 'Unsere Kunden investieren ausschließlich in exklusive
+  Immobilien in gehobenen Lagen auf Deutschlands schönster Insel. Dass sie auch in
+  puncto Verwaltung einen außerordentlichen Standard erwarten, ist unsere größte Motivation.
+  Wir sind stolz, dass der Großteil unserer Kunden uns bereits seit vielen Jahren
+  mit der Betreuung ihrer Eigentumswohnungen beauftragt hat und freuen uns, auch Sie
+  von unserem hohen Qualitätsanspruch überzeugen zu können. '
 layout: unternehmen
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+Wir arbeiten dort, wo andere Urlaub machen: Die HGR Premium – Gesellschaft für Verwaltung und Vermittlung von Immobilien mbH ist die Verwaltung für Ihre WEG auf der Insel Rügen. Bereits seit 30 Jahren betreuen wir unsere Kunden kompetent und qualifiziert. Ein siebenköpfiges Team kümmert sich dabei um die professionelle Bewirtschaftung der uns anvertrauten Objekte.  
