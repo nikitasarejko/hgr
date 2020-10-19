@@ -180,8 +180,8 @@ header.menu-fixed nav a {
 }
 
 .hero__right h3 {
-    font-size: 4.11rem;
-    line-height: 1.2;
+    font-size: 3.653rem;
+    line-height: 1.25;
 }
 
 .hardfacts {
@@ -321,10 +321,15 @@ p.team-grid__headline {
 }
 
 /* Kontakt */
-.sprechzeiten-grid__tag {
+.sprechzeiten-grid__tag,
+.kontaktdaten-grid__title {
     text-transform: uppercase;
     font-size: 1.2rem;
     letter-spacing: 0.1px;
+}
+
+.kontaktdaten-grid__value {
+    font-size: 1.6rem;
 }
 
 .sprechzeiten-grid__uhrzeit {

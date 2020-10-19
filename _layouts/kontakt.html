@@ -8,18 +8,19 @@
             </div>
         </div>
         <div class="split-halves__paragraph">
-            <div class="anim mb-md" data-delay="0.5s">
+            <div class="anim mb-sm" data-delay="0.5s">
                 {{ content }}
             </div>
             <div class="anim" data-delay="0.5s">
-                <div class="split-halves__cell">
-                    <h3>Fon: {{ page.kontaktdaten.phone }}</h3>
-                </div>
-                <div class="split-halves__cell">
-                    <h3>Fax: {{ page.kontaktdaten.fax }}</h3>
-                </div>
-                <div class="split-halves__cell">
-                    <h3>Mail: <a href="mailto:{{ page.kontaktdaten.mail }}">{{ page.kontaktdaten.mail }}</a></h3>
+                <div class="kontaktdaten-grid">
+                    <div class="kontaktdaten-grid__title">Telefon</div>
+                    <div class="kontaktdaten-grid__value">{{ page.kontaktdaten.phone }}</div>
+
+                    <div class="kontaktdaten-grid__title">Telefax</div>
+                    <div class="kontaktdaten-grid__value">{{ page.kontaktdaten.fax }}</div>
+
+                    <div class="kontaktdaten-grid__title">Mail</div>
+                    <div class="kontaktdaten-grid__value"><a href="mailto:{{ page.kontaktdaten.mail }}">{{ page.kontaktdaten.mail }}</a></div>
                 </div>
             </div>
         </div>

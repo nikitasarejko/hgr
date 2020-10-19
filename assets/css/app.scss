@@ -1599,6 +1599,16 @@ body.modal-open .modal-overlay {
 }
 
 // Kontakt
+div.kontaktdaten-grid {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+
+    &__title {
+        margin-right: 4.8rem;
+        margin-top: .2rem;
+    }
+}
+
 div.sprechzeiten-grid {
     display: grid;
     grid-template-columns: max-content 1fr;
