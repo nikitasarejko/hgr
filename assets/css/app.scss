@@ -321,7 +321,7 @@ nav {
         justify-content: flex-end;
         width: 33.333vw;
         height: 80vh;
-        padding: 8rem;
+        padding: 4.8rem;
         overflow: hidden;
         @include b-b();
     }
@@ -392,7 +392,7 @@ section.team {
     }
 
     &__namelist {
-        padding: 4rem;
+        padding: 2.4rem 4rem;
     }
 
     &__paragraph {

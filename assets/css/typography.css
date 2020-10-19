@@ -171,12 +171,17 @@ header.menu-fixed nav a {
 }
 
 .team__left__paragraph {
-    font-size: 1.6rem;
+    font-size: 2.281rem;
 }
 
 .hero__right h1 {
-    font-size: 3.653rem;
-    line-height: 1.25;
+    font-size: 13.642rem;
+    line-height: 1;
+}
+
+.hero__right h3 {
+    font-size: 4.624rem;
+    line-height: 1.2;
 }
 
 .hardfacts {
@@ -187,7 +192,12 @@ header.menu-fixed nav a {
 @media only screen and (max-width: 144rem) {
     
     .hero__right h1 {
-        font-size: 2.887rem;
+        font-size: 7.451rem;
+    }
+
+    .hero__right h3 {
+        font-size: 2.566rem;
+        line-height: 1.25;
     }
 
     .hardfacts {
@@ -195,20 +205,38 @@ header.menu-fixed nav a {
         line-height: 1;
     }
 
+    .team__left__paragraph {
+        font-size: 1.802rem;
+    }
+
 }
 
 @media only screen and (max-device-width: 102.4rem) and (orientation: landscape) { 
 
      .hero__right h1 {
-         font-size: 2.566rem;
+         font-size: 4.768rem;
+     }
+
+     .hero__right h3 {
+        font-size: 2.027rem;
+        line-height: 1.35;
      }
 
 }
 
 @media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
 
+    .hero__right h1 {
+        font-size: 3.247rem;
+    }
+
+    .hero__right h3 {
+        font-size: 1.802rem;
+        line-height: 1.45;
+    }
+
     .container__paragraph {
-        font-size: 1.602rem;
+        font-size: 1.802rem;
     }
 
     .hardfacts {
