@@ -2,14 +2,16 @@
 title: Susanne Figura
 stelle: Objektmanagement
 portrait_image: "/uploads/susanne-figura-portrait.jpg"
-bio: Bei unserem Youngster paaren sich Köpfchen und Methodik. Aufgeschlossen und mit
-  vielfältigen Ideen unterstützt sie glänzend das Team in allen Bereichen.
+bio: 'Bereits seit über 10 Jahren unterstützt Susanne Figura das Team der HGR als
+  Büroleiterin und Mitarbeiterin in der technischen Verwaltung. Unsere Kunden schätzen
+  an der gebürtigen Rüganerin vor allem ihre kompromisslose Servicebereitschaft und
+  ihren hohen Qualitätsanspruch. '
 taetigkeitsschwerpunkte:
-- Juristische Verwaltung
-- Eigentümerversammlungen
-- Beratung Eigentümer & Beiräte
-- Strategische Entwicklung
-- Vertrieb & Marketing
+- 'Büroleitung '
+- 'Laufende Instandhaltung '
+- 'Versicherungsschäden '
+- Legionellenprüfung & Hygiene
+- 'Außenanlagen '
 order: 2
 layout: team-profile
 ---
