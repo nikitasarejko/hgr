@@ -1,15 +1,16 @@
 ---
 title: Stefanie Bülow
-stelle: Projektassistenz
+stelle: Technische Verwaltung
 portrait_image: "/uploads/stefanie-buelow-portrait.jpg"
-bio: Bei unserem Youngster paaren sich Köpfchen und Methodik. Aufgeschlossen und mit
-  vielfältigen Ideen unterstützt sie glänzend das Team in allen Bereichen.
+bio: Als gelernte Kauffrau für Tourismus und Freizeit bringt Stefanie Bülow jede Menge
+  Know-how in das Team der technischen Verwaltung. Unsere Kunden erleben sie dabei
+  stets in bester Laune und immer im Einsatz für Ihre Immobilie.
 taetigkeitsschwerpunkte:
-- Juristische Verwaltung
-- Eigentümerversammlungen
-- Beratung Eigentümer & Beiräte
-- Strategische Entwicklung
-- Vertrieb & Marketing
+- 'Laufende Instandhaltung '
+- 'Versicherungsschäden '
+- Legionellenprüfung & Hygiene
+- Außenanlagen
+- Hausmeister
 order: 6
 layout: team-profile
 ---
