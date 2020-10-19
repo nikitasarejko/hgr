@@ -15,9 +15,9 @@ mission-text: 'Wenn Sie sich für die HGR als Ihre WEG-Verwaltung entscheiden, e
 hardfacts-image: "/uploads/DSC0835-min.jpg"
 hardfacts-headline: HGR in Zahlen
 hardfacts:
-  liegschaften: 30
+  erfahrung: 30
   verwaltungseinheiten: 60
-  vermoegen: 1600
+  kunden: 1600
 team-headline: Das Team
 team-text: 'Frauenpower und jede Menge Herzblut: Das sechsköpfige Team rund um Geschäftsführerin
   Kerstin A. Strehlow kümmert sich mit Leidenschaft um Ihre Immobilie auf der Insel
