@@ -26,4 +26,5 @@ layout: kontakt
 
 ## Nehmen Sie Kontakt zu uns auf
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+Wir stehen Ihnen gern für Fragen zur Verfügung. 
+Am schnellsten erreichen Sie uns telefonisch oder per E-Mail.   
