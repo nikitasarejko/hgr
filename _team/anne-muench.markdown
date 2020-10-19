@@ -1,16 +1,16 @@
 ---
 title: Anne Münch
-stelle: Finanzbuchhaltung
+stelle: Finanzverwaltung
 portrait_image: "/uploads/anne-muench-portrait.jpg"
-bio: Die beliebte Rüganerin verfügt über jahrzehntelange Erfahrung bei der Instandhaltung
-  von Immobilien und ist stets im Bilde. Mit Präzision und Stringenz steuert sie jedes
-  Vorhaben in ein sicheres Ziel.
+bio: 'In der Finanzverwaltung unserer Objekte entgeht Anne Münch kein Detail. Die
+  gelernte Hotelfachfrau mit Leidenschaft für buchhalterische Themen kümmert sich
+  zuverlässig um die sensiblen Belange Ihrer Immobilie. '
 taetigkeitsschwerpunkte:
-- Juristische Verwaltung
-- Eigentümerversammlungen
-- Beratung Eigentümer & Beiräte
-- Strategische Entwicklung
-- Vertrieb & Marketing
+- Buchhaltung
+- Wirtschaftspläne
+- Forderungsmanagement
+- Versorgungsverträge
+- Eigentümerwechsel
 order: 5
 layout: team-profile
 ---
