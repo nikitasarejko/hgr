@@ -211,16 +211,20 @@ header.menu-fixed nav a {
 
 }
 
-@media only screen and (max-device-width: 102.4rem) and (orientation: landscape) { 
+@media only screen and (max-width: 102.4rem) { 
 
-     .hero__right h1 {
-         font-size: 6.583rem;
-     }
+    .hero__right h1 {
+        font-size: 6.583rem;
+    }
 
-     .hero__right h3 {
-        font-size: 2.027rem;
-        line-height: 1.35;
-     }
+    .hero__right h3 {
+       font-size: 2.027rem;
+       line-height: 1.35;
+    }
+
+    .team__left__name h1 {
+        font-size: 2.281rem;
+    }
 
 }
 
@@ -425,6 +429,14 @@ a.button {
 
     .footer-section__headline {
         font-size: 1.3rem;
+    }
+
+}
+
+@media only screen and (max-width: 102.4rem) {
+
+    .footer-section__content p {
+        font-size: 1.266rem;
     }
 
 }

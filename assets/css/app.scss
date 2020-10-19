@@ -246,16 +246,18 @@ nav {
 
 }
 
-@media only screen and (max-width: 86rem) {
+@media only screen and (max-width: 102.4rem) {
+    
     body {
-        padding-bottom: 19rem;
+        padding-bottom: 15.8rem;
     }
-}
+ 
+ }
 
 @media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
 
     body {
-        padding-bottom: 12rem;
+        padding-bottom: 47rem;
     }
 
     header {
@@ -621,8 +623,8 @@ section.team {
             }
     
             &__paragraph {
-                padding: 4rem;
-                max-width: 120rem;
+                padding: 2.4rem 2rem;
+                max-width: 80rem;
     
                 & p {
                     display: block;
@@ -1816,10 +1818,6 @@ div.footer-section {
 
     div.footer-section {
         padding: 2rem;
-        display: none;
-    }
-
-    div.footer-section:first-of-type {
         display: block;
     }
 
