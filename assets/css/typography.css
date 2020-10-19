@@ -180,7 +180,7 @@ header.menu-fixed nav a {
 }
 
 .hero__right h3 {
-    font-size: 4.624rem;
+    font-size: 4.11rem;
     line-height: 1.2;
 }
 
@@ -214,7 +214,7 @@ header.menu-fixed nav a {
 @media only screen and (max-device-width: 102.4rem) and (orientation: landscape) { 
 
      .hero__right h1 {
-         font-size: 4.768rem;
+         font-size: 6.583rem;
      }
 
      .hero__right h3 {
