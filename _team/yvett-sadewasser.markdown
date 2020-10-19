@@ -2,15 +2,15 @@
 title: Yvett Sadewasser
 stelle: Teamassistenz
 portrait_image: "/uploads/yvett-sadewasser-portrait.jpg"
-bio: Yvette, die beliebte Rüganerin verfügt über jahrzehntelange Erfahrung bei der
-  Instandhaltung von Immobilien und ist stets im Bilde. Mit Präzision und Stringenz
-  steuert sie jedes Vorhaben in ein sicheres Ziel.
+bio: 'Als Teamassistenz sorgt Yvett Sadewasser dafür, dass alle administrativen Prozesse
+  bei der HGR reibungslos laufen. Ob persönlich am Empfang oder am Telefon: Yvett
+  Sadewasser ist immer für unsere Kunden da.'
 taetigkeitsschwerpunkte:
-- Juristische Verwaltung
-- Eigentümerversammlungen
-- Beratung Eigentümer & Beiräte
-- Strategische Entwicklung
-- Vertrieb & Marketing
+- Posteingang
+- Office Management
+- Telefonzentrale
+- Assistenz der Geschäftsführung
+- Empfang
 order: 7
 layout: team-profile
 ---
