@@ -43,10 +43,9 @@ defaults:
     type: stellen
   values:
     layout: karriere
-email: info@nikitasarejko.com
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+email: mail@hgr-premium.de
+description: Die HGR Premium GmbH ist die Adresse für professionelle WEG-Verwaltung
+  auf der Insel Rügen. Wir sind Ihre Experten in Sachen Wohneigentum.
 baseurl: 
 url: 
 twitter_username: 
