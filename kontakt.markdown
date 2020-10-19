@@ -16,11 +16,9 @@ sprechzeiten:
 adresse:
   str: Südstrand 204
   ort: 18609 Ostseebad Binz OT Prora
-anfahrt-text: Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-  sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-  At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-  no sea takimata sanctus est Lorem ipsum dolor sit amet.
+anfahrt-text: Unsere Büroräume befinden sich im geschichtsträchtigen Binzer Ortsteil
+  Prora. Mit Meerblick und frischer Brise genießen wir hier jeden Tag die einzigartige
+  Schönheit der Insel Rügen.
 layout: kontakt
 ---
 
