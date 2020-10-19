@@ -2,15 +2,15 @@
 title: Kerstin Strehlow
 stelle: Geschäftsführung
 portrait_image: "/uploads/kerstin-strehlow-portrait.jpg"
-bio: Kerstin, die Berliner Immobilienfachfrau, mit familiären Wurzeln auf Rügen, führt
-  das Unternehmen abseits ausgetretener Pfade. Souverän und sympathisch meistert sie
-  jede Herausforderung und ist mit Leidenschaft für ihre Kunden da.
+bio: 'Als Inhaberin und Geschäftsführerin leitet Kerstin A. Strehlow die HGR Premium
+  GmbH mit Herz und Verstand. Dabei ist sie federführend in der Vor- und Nachbereitung
+  von Eigentümerversammlungen sowie der juristischen Verwaltung der WEGem. '
 taetigkeitsschwerpunkte:
-- Juristische Verwaltung
-- Eigentümerversammlungen
-- Beratung Eigentümer & Beiräte
-- Strategische Entwicklung
-- Vertrieb & Marketing
+- 'Strategische Leitung '
+- 'Kommunikation mit Eigentümern '
+- 'Eigentümerversammlungen '
+- 'Juristische Verwaltung '
+- 'Behördenkommunikation '
 order: 1
 layout: team-profile
 ---
