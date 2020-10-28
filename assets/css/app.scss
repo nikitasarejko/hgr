@@ -757,16 +757,16 @@ section.team {
         @include b-b();
 
         &__headline {
-            padding: 2rem 4rem;
+            padding: 2.4rem 4rem;
             @include b-b();
         }
 
         &__paragraph {
-            padding: 4rem;
+            padding: 2.4rem 4rem;
         }
 
-        & h4 {
-            max-width: 80rem;
+        & h3 {
+            max-width: 96rem;
         }
     }
 }
@@ -799,13 +799,12 @@ section.team {
     }
 
     &__headline {
-        padding: 2rem 4rem;
+        padding: 2.4rem 4rem;
         @include b-b();
     }
 
     &__paragraph {
-        padding: 4rem;
-        padding-bottom: 2rem;
+        padding: 2.4rem 4rem;
 
         p {
             max-width: 80rem;
@@ -1062,7 +1061,7 @@ body.modal-open .modal-overlay {
     }
 
     &__keyfacts {
-        padding: .8rem 1.6rem
+        padding: 1.6rem
     }
 
     &__contact {
