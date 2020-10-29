@@ -52,9 +52,11 @@ Copyright-Hinweis
 
 Der Inhalt, die Struktur und die Gestaltung der Website sind urheberrechtlich geschützt. Einer Vervielfältigung von Informationen oder Daten, der Verwendung von Bildmaterial, Texten oder Textteilen wird hiermit durch die HGR GmbH widersprochen.
 
+
 Fotografie
 
 Lisa Sarejko & Nikita Sarejko
+
 
 Web Design & Web Development
 
