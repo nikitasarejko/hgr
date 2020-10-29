@@ -7,11 +7,11 @@ bio: Die gebürtige Rüganerin Christin Lange betreut die Finanzverwaltung der H
   bringt sie sich dabei erfolgreich mit ihren analytischen Fähigkeiten in das Tagesgeschäft
   der HGR ein.
 taetigkeitsschwerpunkte:
-- Buchhaltung
-- Wirtschaftspläne
+- 'Buchhaltung '
+- Wirtschaftspläne und Abrechnungen
 - Forderungsmanagement
-- Versorgungsverträge
-- Eigentümerwechsel
+- 
+- 
 order: 3
 layout: team-profile
 ---
