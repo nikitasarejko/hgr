@@ -9,8 +9,6 @@ taetigkeitsschwerpunkte:
 - Buchhaltung
 - Wirtschaftspläne und Abrechnungen
 - Forderungsmanagement
-- 
-- 
 order: 5
 layout: team-profile
 ---
