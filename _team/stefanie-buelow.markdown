@@ -9,8 +9,6 @@ taetigkeitsschwerpunkte:
 - Anfrage Kostenangebote
 - Organisation Termine
 - Koordination Hausmeister
-- 
-- 
 order: 6
 layout: team-profile
 ---
