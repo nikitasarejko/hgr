@@ -27,29 +27,26 @@ layout: impressum
 
 ## Anbieter
 
-HGR Premium - Gesellschaft für Verwaltung\
-und Vermittlung von Immobilien mbH\
-Geschäftsführerin: Kerstin A. Strehlow\
-\
-Südstrand 204\
-18609 Ostseebad Binz OT Prora\
-Telefon (03 83 93) 13 79 00\
-E-Mail: mail(at)hgr-premium.de\
-\
-Register: Amtsgericht Stralsund | HRB 773\
+HGR Premium - Gesellschaft für Verwaltung
+und Vermittlung von Immobilien mbH
+Geschäftsführerin: Kerstin A. Strehlow
+
+Südstrand 204
+18609 Ostseebad Binz OT Prora
+Telefon (03 83 93) 13 79 00
+E-Mail: mail(at)hgr-premium.de
+
+Register: Amtsgericht Stralsund | HRB 773
 USt-ID DE137555069
 
-### \+\+\+ WICHTIGE INFORMATION \+\+\+ WICHTIGE INFORMATION \+\+\+
-\
-Die Gemeinde Binz hat im Ortsteil Prora mit Wirkung vom 01.11.2018 die Straßen umbenannt und die Hausnummern geändert.
-Die neue Anschrift der HGR Premium lautet seit dem (von vormals Strandstr. 35): Südstrand 204 in 18609 Ostseebad Binz OT Prora\
-\
-Copyright-Hinweis\
-Der Inhalt, die Struktur und die Gestaltung der Website sind urheberrechtlich geschützt. Einer Vervielfältigung von Informationen oder Daten, der Verwendung von Bildmaterial, Texten oder Textteilen wird hiermit durch die HGR GmbH widersprochen.\
-\
-Fotografie\
-[Lisa Sarejko](mailto:lisa.sarejko@googlemail.com) & [Nikita Sarejko](mailto:info@nikitasarejko.com)\
-\
-Web Design & Web Development\
-Nikita Sarejko\
+
+
+Copyright-Hinweis
+Der Inhalt, die Struktur und die Gestaltung der Website sind urheberrechtlich geschützt. Einer Vervielfältigung von Informationen oder Daten, der Verwendung von Bildmaterial, Texten oder Textteilen wird hiermit durch die HGR GmbH widersprochen.
+
+Fotografie
+[Lisa Sarejko] & [Nikita Sarejko]
+
+Web Design & Web Development
+Nikita Sarejko
 [nikitasarejko.com](https://www.nikitasarejko.com)
