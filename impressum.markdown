@@ -37,8 +37,11 @@ Südstrand 204
 
 18609 Ostseebad Binz OT Prora
 
+
 Telefon (03 83 93) 13 79 00
+
 E-Mail: mail(at)hgr-premium.de
+
 
 Register: Amtsgericht Stralsund | HRB 773
 USt-ID DE137555069
@@ -46,11 +49,15 @@ USt-ID DE137555069
 
 
 Copyright-Hinweis
+
 Der Inhalt, die Struktur und die Gestaltung der Website sind urheberrechtlich geschützt. Einer Vervielfältigung von Informationen oder Daten, der Verwendung von Bildmaterial, Texten oder Textteilen wird hiermit durch die HGR GmbH widersprochen.
 
 Fotografie
-[Lisa Sarejko] & [Nikita Sarejko]
+
+Lisa Sarejko & Nikita Sarejko
 
 Web Design & Web Development
+
 Nikita Sarejko
+
 [nikitasarejko.com](https://www.nikitasarejko.com)
