@@ -9,8 +9,8 @@ taetigkeitsschwerpunkte:
 - Instandhaltung und Instandsetzung
 - Sanierungsmaßnahmen
 - 'Bearbeitung von Versicherungsschäden '
-- 'Legionellenprüfung und Hygiene '
-- Kontrolle der Objekte
+- 
+- 
 order: 4
 layout: team-profile
 ---
