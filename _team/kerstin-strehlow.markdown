@@ -7,10 +7,10 @@ bio: 'Als Inhaberin und Geschäftsführerin leitet Kerstin A. Strehlow die HGR P
   sowie der juristischen Verwaltung der WEGem. '
 taetigkeitsschwerpunkte:
 - 'Strategische Leitung '
-- 'Kommunikation mit Eigentümern '
 - 'Eigentümerversammlungen '
 - 'Juristische Verwaltung '
-- 'Behördenkommunikation '
+- 
+- 
 order: 1
 layout: team-profile
 ---
