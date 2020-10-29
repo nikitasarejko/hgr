@@ -1,6 +1,6 @@
 ---
 title: Stefanie Bülow
-stelle: Technische Verwaltung
+stelle: Projektassistenz
 portrait_image: "/uploads/stefanie-buelow-portrait.jpg"
 bio: Als gelernte Kauffrau für Tourismus und Freizeit bringt Stefanie Bülow jede Menge
   Know-how in das Team der technischen Verwaltung. Unsere Kunden erleben sie dabei
