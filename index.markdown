@@ -3,8 +3,7 @@ title: Index
 position: 0
 hero-image: "/uploads/DSC0714_postproduction.jpg"
 hero-headline: HGR
-hero-subheadline: 'Ihre Experten in Sachen Wohneigentum und WEG-Verwaltung auf der
-  Insel Rügen. '
+hero-subheadline: 'Ihre WEG-Verwaltung auf der Insel Rügen. '
 mission-headline: Unser Versprechen an Sie
 mission-text: 'Wenn Sie sich für die HGR als Ihre WEG-Verwaltung entscheiden, entscheiden
   Sie sich für 30 Jahre Expertise in Sachen Wohneigentum. Dabei setzen wir auf eine
