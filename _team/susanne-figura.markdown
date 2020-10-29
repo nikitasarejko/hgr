@@ -8,10 +8,10 @@ bio: 'Bereits seit über 10 Jahren unterstützt Susanne Figura das Team der HGR 
   ihren hohen Qualitätsanspruch. '
 taetigkeitsschwerpunkte:
 - 'Büroleitung '
-- 'Laufende Instandhaltung '
+- Instandhaltung und Instandsetzung
+- Sanierungsmaßnahmen
 - 'Versicherungsschäden '
-- Legionellenprüfung & Hygiene
-- 'Außenanlagen '
+- Legionellenprüfung und Hygiene
 order: 2
 layout: team-profile
 ---
