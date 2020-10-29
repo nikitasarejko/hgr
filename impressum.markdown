@@ -29,10 +29,14 @@ layout: impressum
 
 HGR Premium - Gesellschaft für Verwaltung
 und Vermittlung von Immobilien mbH
+
 Geschäftsführerin: Kerstin A. Strehlow
 
+
 Südstrand 204
+
 18609 Ostseebad Binz OT Prora
+
 Telefon (03 83 93) 13 79 00
 E-Mail: mail(at)hgr-premium.de
 
