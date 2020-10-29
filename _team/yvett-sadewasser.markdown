@@ -6,11 +6,9 @@ bio: 'Als Teamassistenz sorgt Yvett Sadewasser dafür, dass alle administrativen
   bei der HGR reibungslos laufen. Ob persönlich am Empfang oder am Telefon: Yvett
   Sadewasser ist immer für unsere Kunden da.'
 taetigkeitsschwerpunkte:
-- Posteingang
-- Office Management
+- 'Empfang '
 - Telefonzentrale
-- Assistenz der Geschäftsführung
-- Empfang
+- Officemanagement
 order: 7
 layout: team-profile
 ---

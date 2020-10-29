@@ -7,10 +7,8 @@ bio: 'In der Finanzverwaltung unserer Objekte entgeht Anne Münch kein Detail. D
   zuverlässig um die sensiblen Belange Ihrer Immobilie. '
 taetigkeitsschwerpunkte:
 - Buchhaltung
-- Wirtschaftspläne
+- Wirtschaftspläne und Abrechnungen
 - Forderungsmanagement
-- Versorgungsverträge
-- Eigentümerwechsel
 order: 5
 layout: team-profile
 ---
