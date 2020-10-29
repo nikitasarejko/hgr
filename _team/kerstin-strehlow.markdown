@@ -9,8 +9,6 @@ taetigkeitsschwerpunkte:
 - 'Strategische Leitung '
 - 'Eigentümerversammlungen '
 - 'Juristische Verwaltung '
-- 
-- 
 order: 1
 layout: team-profile
 ---
