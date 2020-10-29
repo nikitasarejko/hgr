@@ -1,6 +1,6 @@
 ---
 title: Kerstin A. Strehlow
-stelle: Inhaberin & Geschäftsführung
+stelle: Inhaberin & Geschäftsführerin
 portrait_image: "/uploads/kerstin-strehlow-portrait.jpg"
 bio: 'Als Inhaberin und Geschäftsführerin leitet Kerstin A. Strehlow die HGR Premium
   GmbH mit Herz und Verstand. Dabei ist sie federführend in der Durchführung von Eigentümerversammlungen
