@@ -15,7 +15,7 @@ hardfacts-headline: HGR in Zahlen
 hardfacts:
   erfahrung: 30
   verwaltungseinheiten: 60
-  kunden: 1600
+  kunden: 2000
 team-headline: Das Team
 team-text: 'Frauenpower und jede Menge Herzblut: Das sechsköpfige Team rund um Geschäftsführerin
   Kerstin A. Strehlow kümmert sich mit Leidenschaft um Ihre Immobilie auf der Insel
