@@ -9,8 +9,6 @@ taetigkeitsschwerpunkte:
 - 'Empfang '
 - Telefonzentrale
 - Officemanagement
-- 
-- 
 order: 7
 layout: team-profile
 ---
