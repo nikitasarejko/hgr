@@ -6,11 +6,11 @@ bio: Als gelernte Kauffrau für Tourismus und Freizeit bringt Stefanie Bülow je
   Know-how in das Team der technischen Verwaltung. Unsere Kunden erleben sie dabei
   stets in bester Laune und immer im Einsatz für Ihre Immobilie.
 taetigkeitsschwerpunkte:
-- 'Laufende Instandhaltung '
-- 'Versicherungsschäden '
-- Legionellenprüfung & Hygiene
-- Außenanlagen
-- Hausmeister
+- Erteilen von Reparaturaufträgen
+- Anfrage Kostenangebote
+- Organisation Termine
+- Koordination Hausmeister
+- Schlüsselbestellungen
 order: 6
 layout: team-profile
 ---
