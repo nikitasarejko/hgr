@@ -10,8 +10,6 @@ taetigkeitsschwerpunkte:
 - Instandhaltung und Instandsetzung
 - Sanierungsmaßnahmen
 - Bearbeitung von Versicherungsschäden
-- 
-- 
 order: 2
 layout: team-profile
 ---
