@@ -1,16 +1,16 @@
 ---
 title: Peggy Dreihaupt
-stelle: Objektmanagement
+stelle: Technische Verwaltung
 portrait_image: "/uploads/peggy-dreihaupt-portrait.jpg"
 bio: 'Für unsere Kunden gibt Peggy Dreihaupt alles: Das A bis Z der technischen Verwaltung
   bildet dabei den Kern ihres Aufgabenbereiches, den die gebürtige Rüganerin mit unermüdlichem
   Engagement betreut.'
 taetigkeitsschwerpunkte:
-- 'Laufende Instandhaltung '
-- 'Versicherungsschäden '
-- 'Legionellenprüfung & Hygiene '
-- 'Außenanlagen '
-- Hausmeister
+- Instandhaltung und Instandsetzung
+- Sanierungsmaßnahmen
+- 'Bearbeitung von Versicherungsschäden '
+- 'Legionellenprüfung und Hygiene '
+- Kontrolle der Objekte
 order: 4
 layout: team-profile
 ---
