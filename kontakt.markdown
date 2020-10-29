@@ -25,4 +25,5 @@ layout: kontakt
 ## Nehmen Sie Kontakt zu uns auf
 
 Wir stehen Ihnen gern für Fragen zur Verfügung. 
+
 Am schnellsten erreichen Sie uns telefonisch oder per E-Mail.   
