@@ -3,13 +3,13 @@ title: Index
 position: 0
 hero-image: "/uploads/DSC0714_postproduction.jpg"
 hero-headline: HGR
-hero-subheadline: 'Ihre WEG-Verwaltung auf der Insel Rügen. '
+hero-subheadline: 'Ihre WEG-Verwaltung auf der Insel Rügen.'
 mission-headline: Unser Versprechen an Sie
-mission-text: 'Wenn Sie sich für die HGR als Ihre WEG-Verwaltung entscheiden, entscheiden
+mission-text: "Wenn Sie sich für die HGR als Ihre WEG-Verwaltung entscheiden, entscheiden
   Sie sich für 30 Jahre Expertise in Sachen Wohneigentum. Dabei setzen wir auf eine
   kaufmännisch, rechtlich und technisch kompetente Bewirtschaftung Ihrer Immobilie
   durch qualifizierte Fachkräfte. Bis dato haben der HGR bereits 2.000 Kunden die
-  Verwaltung ihrer Eigentumswohnung anvertraut. '
+  Verwaltung ihrer Eigentumswohnung anvertraut."
 hardfacts-image: "/uploads/hgr_hardfacts_image.jpg"
 hardfacts-headline: HGR in Zahlen
 hardfacts:
@@ -22,7 +22,6 @@ team-text: 'Frauenpower und jede Menge Herzblut: Das sechsköpfige Team rund um 
   Rügen.'
 team-image: "/uploads/DSC0424_postproduction.jpg"
 karriere-text: 'Sie sind auf der Suche nach einer neuen Herausforderung in der Immobilienbranche?
-  Dann werfen Sie doch einen Blick in unser Stellenportal. '
+  Dann werfen Sie doch einen Blick in unser Stellenportal.'
 layout: home
 ---
-
