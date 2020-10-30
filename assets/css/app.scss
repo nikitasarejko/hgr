@@ -249,7 +249,7 @@ nav {
 @media only screen and (max-width: 102.4rem) {
     
     body {
-        padding-bottom: 15.8rem;
+        padding-bottom: 13.8rem;
     }
  
  }
@@ -1239,6 +1239,10 @@ body.modal-open .modal-overlay {
                     max-width: 64rem;
                 }
             }
+        }
+
+        &__keyfacts {
+            padding: .8rem 1.6rem;
         }
 
         &__bio {

@@ -10,7 +10,7 @@ mission-text: 'Wenn Sie sich für die HGR als Ihre WEG-Verwaltung entscheiden, e
   kaufmännisch, rechtlich und technisch kompetente Bewirtschaftung Ihrer Immobilie
   durch qualifizierte Fachkräfte. Bis dato haben der HGR bereits 2.000 Kunden die
   Verwaltung ihrer Eigentumswohnung anvertraut. '
-hardfacts-image: "/uploads/DSC0835-min.jpg"
+hardfacts-image: "/uploads/hgr_hardfacts_image.jpg"
 hardfacts-headline: HGR in Zahlen
 hardfacts:
   erfahrung: 30
