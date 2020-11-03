@@ -18,10 +18,6 @@ haftungsausschluss-text: |-
 
   4. Rechtswirksamkeit dieses Haftungsausschlusses
      Dieser Haftungsausschluss ist als Teil des Internetangebotes zu betrachten. Sofern Teile oder einzelne Formulierungen dieses Textes der geltenden Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in ihrem Inhalt und ihrer Gültigkeit davon unberührt.
-quellen:
-- Mirko Boy - ruegenfotos.de
-- Lisa Strehlow - privat
-- Thorsten Schmitt - fotolia.vom
 layout: impressum
 ---
 
@@ -55,7 +51,8 @@ Der Inhalt, die Struktur und die Gestaltung der Website sind urheberrechtlich ge
 
 Fotografie
 
-Lisa Sarejko & Nikita Sarejko<br><br>
+[Lisa Sarejko](mailto:lisa.sarejko@googlemail.com) & [Nikita Sarejko](https://www.nikitasarejko.com)<br>
+[Mirko Boy](https://ruegenfotos.de)<br><br>
 
 
 Web Design & Web Development
