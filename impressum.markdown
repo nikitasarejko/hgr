@@ -44,6 +44,7 @@ E-Mail: mail(at)hgr-premium.de<br><br>
 
 
 Register: Amtsgericht Stralsund | HRB 773
+
 USt-ID DE137555069<br><br>
 
 
