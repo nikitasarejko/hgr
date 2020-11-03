@@ -21,4 +21,4 @@ beschreibung_zweiter_abschnitt: 'Unsere Kunden investieren ausschließlich in ex
 layout: unternehmen
 ---
 
-Wir arbeiten dort, wo andere Urlaub machen: Die HGR Premium – Gesellschaft für Verwaltung und Vermittlung von Immobilien mbH ist die Verwaltung für Ihre WEG auf der Insel Rügen. Bereits seit 30 Jahren betreuen wir unsere Kunden kompetent und qualifiziert. Ein siebenköpfiges Team kümmert sich dabei um die professionelle Bewirtschaftung der uns anvertrauten Objekte.  
+Wir arbeiten dort, wo andere Urlaub machen: Die HGR Premium – Gesellschaft für Verwaltung und Vermittlung von Immobilien mbH - ist die Verwaltung für Ihre Wohnungseigentümergemeinschaft auf der Insel Rügen. Bereits seit 30 Jahren betreuen wir unsere Kunden kompetent und qualifiziert. Ein siebenköpfiges Team kümmert sich dabei um die professionelle Bewirtschaftung der uns anvertrauten Objekte.  
