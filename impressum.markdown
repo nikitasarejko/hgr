@@ -51,7 +51,7 @@ USt-ID DE137555069<br><br>
 
 Copyright-Hinweis
 
-Der Inhalt, die Struktur und die Gestaltung der Website sind urheberrechtlich geschützt. Einer Vervielfältigung von Informationen oder Daten, der Verwendung von Bildmaterial, Texten oder Textteilen wird hiermit durch die HGR GmbH widersprochen.<br><br>
+Der Inhalt, die Struktur und die Gestaltung der Website sind urheberrechtlich geschützt. Einer Vervielfältigung von Informationen oder Daten, der Verwendung von Bildmaterial, Texten oder Textteilen wird hiermit durch die HGR Premium widersprochen.<br><br>
 
 Fotografie
 
