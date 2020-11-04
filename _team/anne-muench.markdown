@@ -6,8 +6,8 @@ bio: 'In der Finanzverwaltung unserer Objekte entgeht Anne Münch kein Detail. D
   gelernte Hotelfachfrau mit Leidenschaft für buchhalterische Themen kümmert sich
   zuverlässig um die sensiblen Belange Ihrer Immobilie. '
 taetigkeitsschwerpunkte:
-- Buchhaltung
-- Wirtschaftspläne und Abrechnungen
+- 'Kreditoren-/ Debitoren-Buchhaltung '
+- Abrechnungen und Budgetplanungen
 - Forderungsmanagement
 order: 5
 layout: team-profile
