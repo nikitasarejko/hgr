@@ -257,7 +257,7 @@ nav {
 @media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
 
     body {
-        padding-bottom: 47rem;
+        padding-bottom: 41.5rem;
     }
 
     header {
@@ -600,10 +600,13 @@ section.team {
     
         &__headline {
             padding: 0 2rem;
+            text-align: left;
         }
     
         &__paragraph {
             padding: 1.6rem 2rem;
+            line-height: 1.4;
+            text-align: left;
         }
     
         &__content {
@@ -890,17 +893,21 @@ section.team {
             width: 100vw;
 
             &__headline {
-                padding: 2rem 2rem;
+                padding: 1.6rem 2rem;
             }
 
             &__paragraph {
-                padding: 2rem;
+                padding: 1.6rem 2rem;
                 border-right: none;
             }
         }
 
         &__right {
             width: 100vw;
+
+            &__imagewrapper {
+                padding: 1.6rem
+            }
         }
     }
 
@@ -963,7 +970,7 @@ section.team {
             width: 100vw;
 
             &__headline {
-                padding: 2rem;
+                padding: 1.6rem 2rem;
             }
 
             &__paragraph {
@@ -1292,7 +1299,7 @@ body.modal-open .modal-overlay {
 
             &__headline,
             &__paragraph {
-                padding: 2rem;
+                padding: 1.6rem 2rem;
             }
 
         }
@@ -1348,7 +1355,9 @@ body.modal-open .modal-overlay {
         }
 
         &__close {
-            padding: 2.4rem 0;
+            padding: 1.6rem 0;
+            border-top: none;
+            @include b-b();
         }
     }
 }

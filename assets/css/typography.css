@@ -15,12 +15,18 @@ body {
     line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     font-family: var(--base-font), Helvetica, sans-serif;
 }
 
 h1 {
-   font-size: 4.624rem; 
+    font-size: 4.624rem;
 }
 
 h2 {
@@ -48,32 +54,32 @@ header.menu-fixed nav a {
 }
 
 @media only screen and (max-width: 144rem) {
-    
+
     h1 {
-        font-size: 2.887rem; 
-     }
-     
-     h2 {
-         font-size: 2.281rem;
-     }
-     
-     h3 {
-         font-size: 1.802rem;
-     }
-     
-     h4 {
-         font-size: 1.7rem;
-     }
-     
-     p {
-         font-size: 1.6rem;
-     }
+        font-size: 2.887rem;
+    }
 
-     nav a {
-         font-size: 1.6rem;
-     }
+    h2 {
+        font-size: 2.281rem;
+    }
 
-     header.menu-fixed nav a {
+    h3 {
+        font-size: 1.802rem;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+
+    nav a {
+        font-size: 1.6rem;
+    }
+
+    header.menu-fixed nav a {
         font-size: 1.4rem;
     }
 
@@ -83,50 +89,50 @@ header.menu-fixed nav a {
 
 }
 
-@media only screen and (max-device-width: 102.4rem) and (orientation: landscape) { 
+@media only screen and (max-device-width: 102.4rem) and (orientation: landscape) {
 
     h1 {
-        font-size: 2.566rem; 
-     }
-     
-     h2 {
-         font-size: 2.027rem;
-     }
-     
-     h3 {
-         font-size: 1.802rem;
-     }
+        font-size: 2.566rem;
+    }
 
-     p {
-         font-size: 1.5rem;
-     }
+    h2 {
+        font-size: 2.027rem;
+    }
+
+    h3 {
+        font-size: 1.802rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
 
 }
 
 @media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
-    
+
     h1 {
-        font-size: 2.027rem; 
-     }
-     
+        font-size: 2.027rem;
+    }
+
     h2 {
         font-size: 1.802rem;
     }
-     
+
     h3 {
         font-size: 1.602rem;
     }
-     
+
     h4 {
         font-size: 1.424rem;
     }
-     
+
     p {
         font-size: 1.424rem;
     }
 
     nav a {
-         font-size: 1.424rem;
+        font-size: 1.424rem;
     }
 
     nav li a {
@@ -190,7 +196,7 @@ header.menu-fixed nav a {
 }
 
 @media only screen and (max-width: 144rem) {
-    
+
     .hero__right h1 {
         font-size: 7.451rem;
     }
@@ -211,15 +217,15 @@ header.menu-fixed nav a {
 
 }
 
-@media only screen and (max-width: 102.4rem) { 
+@media only screen and (max-width: 102.4rem) {
 
     .hero__right h1 {
         font-size: 6.583rem;
     }
 
     .hero__right h3 {
-       font-size: 2.027rem;
-       line-height: 1.35;
+        font-size: 2.027rem;
+        line-height: 1.35;
     }
 
     .team__left__name h1 {
@@ -231,7 +237,7 @@ header.menu-fixed nav a {
 @media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
 
     .hero__right h1 {
-        font-size: 3.247rem;
+        font-size: 5.6rem;
     }
 
     .hero__right h3 {
@@ -243,7 +249,11 @@ header.menu-fixed nav a {
         font-size: 1.802rem;
     }
 
-    .hardfacts {
+    .container__headline {
+        text-align: left;
+    }
+
+    .container__headline h1 {
         font-size: 2.566rem;
     }
 
@@ -285,9 +295,9 @@ p.team-grid__headline {
 }
 
 @media only screen and (max-width: 144rem) {
-    
+
     .team-grid__item h3 {
-            font-size: 1.6rem;
+        font-size: 1.6rem;
     }
 
     p.team-grid__info {
@@ -295,7 +305,7 @@ p.team-grid__headline {
     }
 }
 
-@media only screen and (max-device-width: 102.4rem) and (orientation: landscape) { 
+@media only screen and (max-device-width: 102.4rem) and (orientation: landscape) {
 
     p.team-grid__info {
         font-size: 2.1rem;
@@ -366,7 +376,7 @@ a.button {
 }
 
 @media only screen and (max-width: 144rem) {
-    
+
     button.job-link-back,
     a.button {
         font-size: 1.4rem;
@@ -422,7 +432,7 @@ a.button {
 }
 
 @media only screen and (max-width: 144rem) {
-    
+
     .footer-section__content p {
         font-size: 1.6rem;
     }
