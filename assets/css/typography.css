@@ -207,7 +207,7 @@ header.menu-fixed nav a {
     }
 
     .hardfacts {
-        font-size: 6.4rem;
+        font-size: 8rem;
         line-height: 1;
     }
 
@@ -257,6 +257,10 @@ header.menu-fixed nav a {
         font-size: 2.566rem;
     }
 
+    .hardfacts {
+        font-size: 6.4rem;
+    }
+
     .team__left__paragraph {
         font-size: 1.6rem;
     }
@@ -302,6 +306,11 @@ p.team-grid__headline {
 
     p.team-grid__info {
         font-size: 2.4rem;
+    }
+
+    .page-header__left__paragraph p {
+        font-size: 1.6rem;
+        line-height: 1.45;
     }
 }
 
