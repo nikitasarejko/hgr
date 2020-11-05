@@ -602,6 +602,19 @@ section.team {
     .container {
 
         @include b-b();
+
+        &.mission {
+            flex-direction: column;
+            padding: 6.4rem 2rem;
+
+            & .container__headline {
+                padding: 0;
+            }
+
+            & .container__paragraph {
+                padding: 1.6rem 0;
+            }
+        }
     
         &__headline {
             padding: 0 2rem;
@@ -1320,6 +1333,7 @@ body.modal-open .modal-overlay {
             min-height: 100vh;
 
             flex-direction: column-reverse;
+            justify-content: flex-end;
 
             &__wrapper {
                 flex-direction: column;
