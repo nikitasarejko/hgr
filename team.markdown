@@ -6,4 +6,4 @@ group_image: "/uploads/DSC0424_postproduction.jpg"
 layout: team
 ---
 
-Frauenpower und jede Menge Herzblut: Das sechsköpfige Team rund um Geschäftsführerin Kerstin A. Strehlow kümmert sich mit Leidenschaft um Ihre Immobilie auf der Insel Rügen.
+Frauenpower und jede Menge Herzblut: Das Team rund um die Inhaberin Kerstin A. Strehlow kümmert sich mit Leidenschaft um Ihre Immobilie auf der Insel Rügen.

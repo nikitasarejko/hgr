@@ -8,7 +8,7 @@ bio: "Als gelernte Kauffrau für Tourismus und Freizeit bringt Stefanie Bülow j
 taetigkeitsschwerpunkte:
 - Unterstützung der Technischen Verwaltung
 - Organisation Termine
-- Koordination Hausmeister
+- Koordination Servicekräfte
 order: 6
 layout: team-profile
 ---
