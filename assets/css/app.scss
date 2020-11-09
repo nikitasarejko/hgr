@@ -592,6 +592,10 @@ section.team {
         &.mission {
             display: flex;
             padding: 8rem 12rem;
+
+            & .container__paragraph {
+                margin-top: 0;
+            }
         }
 
         &__paragraph {
