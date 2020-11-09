@@ -336,11 +336,15 @@ nav {
     &.mission {
         display: flex;
         padding: 24rem 32rem;
+
+        & .container__paragraph {
+            margin-top: .65rem;
+        }
     }
 
     &__headline {
         text-align: left;
-        padding-right: 4rem;
+        padding-right: 4.8rem;
     }
 
     &__paragraph {
