@@ -40,7 +40,7 @@
     function initMap() {
       var binz = {lat: 54.432624, lng: 13.579601};
       var map = new google.maps.Map(
-          document.getElementById('map'), {zoom: 16, center: binz});
+          document.getElementById('map'), {zoom: 17, center: binz, mapId: 'c9220340be48442'});
       var marker = new google.maps.Marker({position: binz, map: map});
     }
     </script>
@@ -50,7 +50,7 @@
         * The callback parameter executes the initMap() function
         -->
     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv8iHJHwj5-IpmpD1lADSGPWMXfxmCR1Q&callback=initMap">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDHK0EXu7aDboRZGdSMGybdUE254Chtrc&map_ids=c9220340be48442&callback=initMap">
     </script>
 <script src="https://kwes.io/js/kwes.js"></script>
 </body>

@@ -254,10 +254,10 @@ nav {
  
  }
 
-@media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (max-width: 48.75rem) {
 
     body {
-        padding-bottom: 41.5rem;
+        padding-bottom: 43rem;
     }
 
     header {
@@ -605,7 +605,7 @@ section.team {
     }
 }
 
-@media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (max-width: 48.75rem) {
 
     .hero {
         flex-direction: column-reverse;
@@ -890,7 +890,7 @@ section.team {
 
 #map {
     height: 100%;
-    width: 50vw;
+    // width: 50vw;
 }
 
 @media only screen and (max-width: 144rem) {
@@ -925,7 +925,7 @@ section.team {
 
 }
 
-@media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (max-width: 48.75rem) {
 
     .page-header {
         flex-direction: column;
@@ -1342,7 +1342,7 @@ body.modal-open .modal-overlay {
     }
 }
 
-@media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (max-width: 48.75rem) {
 
     .page-header {
 
@@ -1605,7 +1605,7 @@ body.modal-open .modal-overlay {
 
 }
 
-@media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (max-width: 48.75rem) {
     
     .referenzen-grid {
         grid-template-columns: 1fr;
@@ -1791,7 +1791,7 @@ ul {
 
 }
 
-@media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (max-width: 48.75rem) {
 
     div.karriere-cell {
         flex-direction: column;
@@ -1876,7 +1876,7 @@ div.footer-section {
 
 }
 
-@media only screen and (max-width: 42rem) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (max-width: 48.75rem) {
     
     footer.footer-grid {
         grid-template-columns: 1fr;

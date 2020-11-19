@@ -1,116 +1,117 @@
 {% include header.html %}
 
 <section class="hero">
-    <div class="hero__left">
-        <div class="hero__left__img anim" style="background-image: url('{{ page.hero-image }}');" data-delay="0.5s"></div>
-    </div>
-    <div class="hero__right">
-        <h1 class="mb-xs anim" data-delay="0.25s">{{ page.hero-headline }}</h1>
-        <h3 class="anim" data-delay="0.5s">{{ page.hero-subheadline }}</h3>
-    </div>
+  <div class="hero__left">
+    <div
+      class="hero__left__img anim"
+      style="background-image: url('{{ page.hero-image }}');"
+      data-delay="0.5s"
+    ></div>
+  </div>
+  <div class="hero__right">
+    <h1 class="mb-xs anim" data-delay="0.25s">{{ page.hero-headline }}</h1>
+    <h3 class="anim" data-delay="0.5s">{{ page.hero-subheadline }}</h3>
+  </div>
 </section>
 
 <section class="container mission">
+  <div class="container__headline">
+    <h1 class="anim" data-delay="0s">{{ page.mission-headline }}</h1>
+  </div>
 
-    <div class="container__headline">
-        <h1 class="anim" data-delay="0s">{{ page.mission-headline }}</h1>
-    </div>
-
-    <div class="container__paragraph">
-        <div class="anim" data-delay="0.25s">{{ page.mission-text }}</div>
-    </div>
-
+  <div class="container__paragraph">
+    <div class="anim" data-delay="0.25s">{{ page.mission-text }}</div>
+  </div>
 </section>
 
 <section class="split-halves">
-    <div class="split-halves__imagewrapper left">
-        <div class="split-halves__heroimage anim" data-delay="0.25s" style="background-image: url('{{ page.hardfacts-image }}');"></div>
-    </div>
+  <div class="split-halves__imagewrapper left">
+    <div
+      class="split-halves__heroimage anim"
+      data-delay="0.25s"
+      style="background-image: url('{{ page.hardfacts-image }}');"
+    ></div>
+  </div>
 
-    <div class="split-halves__content">
-        <div class="split-halves__headline anim" data-delay="0.25s"><h1>{{ page.hardfacts-headline }}</h1></div>
-        <div class="split-halves__listingwrapper">
-            <div class="split-halves__listing anim" data-delay="0.25s">
-                <div class="hardfacts">
-                    {{ page.hardfacts.erfahrung }}
-                </div>
-                <h3>Jahre Erfahrung</h3>
-            </div>
-            <div class="split-halves__listing anim" data-delay="0.375s">
-                <div class="hardfacts">
-                    {{ page.hardfacts.verwaltungseinheiten }}
-                </div>
-                <h3>verwaltete Eigentümergemeinschaften</h3>
-            </div>
-            <div class="split-halves__listing anim" data-delay="0.5s">
-                <div class="hardfacts">
-                    {{ page.hardfacts.kunden }}
-                </div>
-                <h3>glückliche Kunden deutschlandweit</h3>
-            </div>
-        </div>
+  <div class="split-halves__content">
+    <div class="split-halves__headline anim" data-delay="0.25s">
+      <h1>{{ page.hardfacts-headline }}</h1>
     </div>
+    <div class="split-halves__listingwrapper">
+      <div class="split-halves__listing anim" data-delay="0.25s">
+        <div class="hardfacts">{{ page.hardfacts.erfahrung }}</div>
+        <h3>Jahre Erfahrung</h3>
+      </div>
+      <div class="split-halves__listing anim" data-delay="0.375s">
+        <div class="hardfacts">{{ page.hardfacts.verwaltungseinheiten }}</div>
+        <h3>verwaltete Eigentümergemeinschaften</h3>
+      </div>
+      <div class="split-halves__listing anim" data-delay="0.5s">
+        <div class="hardfacts">{{ page.hardfacts.kunden }}</div>
+        <h3>glückliche Kunden deutschlandweit</h3>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="container team">
-
-    <div class="team__left">
-        <div class="team__left__headline">
-            <h1 class="anim" data-delay="0.25s">{{ page.team-headline }}</h1>      
-        </div>
-
-        <div class="team__left__namelist anim" data-delay="0.25s">
-            <div class="team__left__paragraph mb-md">
-                {{ page.team-text }}
-            </div>
-            {% assign sorted = site.team | sort: 'order' %}
-            {% for item in sorted %}
-
-                <div class="team__left__name">
-                    <h1>{{ item.title }}</h1>
-                </div>
-    
-            {% endfor %}
-        </div>
-
-        <div class="team__left__biolist anim" data-delay="0.5s">
-            {% assign sorted = site.team | sort: 'order' %}
-            {% for item in sorted %}
-
-                <div class="team__left__bio">
-                    <div class="circle-dot mb-xs"></div>
-                    <h3>{{ item.bio }}</h3>
-                </div>
-    
-            {% endfor %}
-        </div>
+  <div class="team__left">
+    <div class="team__left__headline">
+      <h1 class="anim" data-delay="0.25s">{{ page.team-headline }}</h1>
     </div>
 
-    <div class="team__right">
-        <div class="team__right__image fade visible in" style="background-image: url('{{ page.team-image }}');"></div>
-            {% assign sorted = site.team | sort: 'order' %}
-            {% for item in sorted %}
+    <div class="team__left__namelist anim" data-delay="0.25s">
+      <div class="team__left__paragraph mb-md">{{ page.team-text }}</div>
+      {% assign sorted = site.team | sort: 'order' %} {% for item in sorted %}
 
-                <div class="team__right__image fade" style="background-image: url('{{ item.portrait_image }}');"></div>
+      <div class="team__left__name">
+        <h1>{{ item.title }}</h1>
+      </div>
 
-            {% endfor %}
+      {% endfor %}
     </div>
 
+    <div class="team__left__biolist anim" data-delay="0.5s">
+      {% assign sorted = site.team | sort: 'order' %} {% for item in sorted %}
+
+      <div class="team__left__bio">
+        <div class="circle-dot mb-xs"></div>
+        <h3>{{ item.bio }}</h3>
+      </div>
+
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="team__right">
+    <div
+      class="team__right__image fade visible in"
+      style="background-image: url('{{ page.team-image }}');"
+    ></div>
+    {% assign sorted = site.team | sort: 'order' %} {% for item in sorted %}
+
+    <div
+      class="team__right__image fade"
+      style="background-image: url('{{ item.portrait_image }}');"
+    ></div>
+
+    {% endfor %}
+  </div>
 </section>
 
 <!-- <section class="container bg-grey">
-    <div class="container__content">
-        <div class="container__content__headline">
-            <h1 class="anim" data-delay="0.25s">Karriere</h1>
-        </div>
-        
-        <div class="container__content__paragraph anim" data-delay="0.375s">
-            <p>{{ page.karriere-text }}</p>
-            <div class="button-wrap mt-sm">
-                <a href="/karriere/" class="button-cta">Offene Stellen</a>
-            </div>
-        </div>
+  <div class="container__content">
+    <div class="container__content__headline">
+      <h1 class="anim" data-delay="0.25s">Karriere</h1>
     </div>
+
+    <div class="container__content__paragraph anim" data-delay="0.375s">
+      <p>{{ page.karriere-text }}</p>
+      <div class="button-wrap mt-sm">
+        <a href="/karriere/" class="button-cta">Offene Stellen</a>
+      </div>
+    </div>
+  </div>
 </section> -->
 
 {% include footer.html %}
