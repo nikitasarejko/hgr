@@ -1,7 +1,7 @@
 ---
 title: Susanne Figura
 stelle: Technische Verwaltung & Büroleitung
-portrait_image: "/uploads/susanne-figura-portrait.jpg"
+portrait_image: "/uploads/susanne-figura-portrait-231b65.jpg"
 bio: 'Bereits seit über 10 Jahren unterstützt Susanne Figura das Team der HGR. Als
   Mitarbeiterin in der technischen Verwaltung schätzen unsere Kunden vor allem ihre
   kompromisslose Servicebereitschaft und ihren hohen Qualitätsanspruch. '
