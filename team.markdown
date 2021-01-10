@@ -2,7 +2,7 @@
 title: Das Team
 permalink: "/team/"
 position: 2
-group_image: "/uploads/DSC0424_postproduction.jpg"
+group_image: "/uploads/portrait-hgr-team.jpg"
 layout: team
 ---
 
