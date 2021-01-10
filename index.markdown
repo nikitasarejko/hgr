@@ -20,7 +20,7 @@ team-headline: Das Team
 team-text: 'Frauenpower und jede Menge Herzblut: Das sechsköpfige Team rund um Geschäftsführerin
   Kerstin A. Strehlow kümmert sich mit Leidenschaft um Ihre Immobilie auf der Insel
   Rügen.'
-team-image: "/uploads/DSC0424_postproduction.jpg"
+team-image: "/uploads/portrait-hgr-team.jpg"
 karriere-text: Sie sind auf der Suche nach einer neuen Herausforderung in der Immobilienbranche?
   Dann werfen Sie doch einen Blick in unser Stellenportal.
 layout: home
