@@ -1,7 +1,7 @@
 ---
 title: Anne Münch
 stelle: Finanzverwaltung
-portrait_image: "/uploads/anne-muench-portrait.jpg"
+portrait_image: "/uploads/portrait-anne-muench.jpg"
 bio: 'In der Finanzverwaltung unserer Objekte entgeht Anne Münch kein Detail. Die
   gelernte Hotelfachfrau mit Leidenschaft für buchhalterische Themen kümmert sich
   zuverlässig um die sensiblen Belange Ihrer Immobilie. '
