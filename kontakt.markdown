@@ -2,7 +2,7 @@
 title: Kontakt
 permalink: "/kontakt/"
 position: 4
-hero_img: "/uploads/hgr_contact_image.jpg"
+hero_img: "/uploads/DJI_0654_pp.jpg"
 kontaktdaten:
   phone: "(03 83 93) 13 79 00"
   fax: "(03 83 93) 13 79 13"
