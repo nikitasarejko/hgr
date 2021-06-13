@@ -27,4 +27,3 @@ layout: kontakt
 
 Wir stehen Ihnen gern für Fragen zur Verfügung. 
 
-Am schnellsten erreichen Sie uns telefonisch oder per E-Mail.   
