@@ -8,17 +8,18 @@ kontaktdaten:
   fax: "(03 83 93) 13 79 13"
   mail: mail@hgr-premium.de
 sprechzeiten:
-  mo: 9 - 12 Uhr & 14 - 17 Uhr
-  di: 9 - 12 Uhr & 14 - 17 Uhr
-  mi: 9 - 13 Uhr
-  do: 9 - 12 Uhr & 14 - 17 Uhr
-  fr: 9 - 13 Uhr
+  mo: 9 - 12 Uhr & 14 - 16 Uhr
+  di: 9 - 12 Uhr & 14 - 16 Uhr
+  mi: 9 - 12 Uhr
+  do: 9 - 12 Uhr & 14 - 16 Uhr
+  fr: 9 - 12 Uhr
 adresse:
   str: Südstrand 204
   ort: 18609 Ostseebad Binz OT Prora
-anfahrt-text: Unsere Büroräume befinden sich im geschichtsträchtigen Binzer Ortsteil
-  Prora. Mit Meerblick und frischer Brise genießen wir hier jeden Tag die einzigartige
-  Schönheit der Insel Rügen.
+anfahrt-text: |
+  Wir arbeiten da, wo andere Urlaub machen.
+
+  Unsere Büroräume befinden sich im Binzer Ortsteil Prora; direkt am Strand. Mit Meerblick und frischer Brise genießen wir hier jeden Tag die einzigartige Schönheit der Insel Rügen.
 layout: kontakt
 ---
 
