@@ -14,12 +14,12 @@ sprechzeiten:
   do: 9 - 12 Uhr & 14 - 16 Uhr
   fr: 9 - 12 Uhr
 adresse:
-  str: Südstrand 204
+  str: Südstrand 203 (Haus "Düne 7" im Erdgeschoss)
   ort: 18609 Ostseebad Binz OT Prora
 anfahrt-text: |
   Wir arbeiten da, wo andere Urlaub machen.
 
-  Unsere Büroräume befinden sich im Binzer Ortsteil Prora; direkt am Strand. Mit Meerblick und frischer Brise genießen wir hier jeden Tag die einzigartige Schönheit der Insel Rügen.
+  Unsere Büroräume befinden sich im Binzer Ortsteil Prora; direkt am Dünenstrand. Mit Meeresrauschen und frischer Brise genießen wir hier jeden Tag die einzigartige Schönheit der Insel Rügen.
 layout: kontakt
 ---
 
