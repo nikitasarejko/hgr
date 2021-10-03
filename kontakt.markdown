@@ -14,7 +14,8 @@ sprechzeiten:
   do: 9 - 12 Uhr & 14 - 16 Uhr
   fr: 9 - 12 Uhr
 adresse:
-  str: Südstrand 203 (Haus "Düne 7" im Erdgeschoss)
+  str: 'Südstrand 203 '
+  Ergänzung: 'Haus "Düne 7" im Erdgeschoss '
   ort: 18609 Ostseebad Binz OT Prora
 anfahrt-text: |
   Wir arbeiten da, wo andere Urlaub machen.
