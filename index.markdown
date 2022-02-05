@@ -8,7 +8,7 @@ mission-headline: Unser Versprechen an Sie
 mission-text: Wenn Sie sich für die HGR als Ihre WEG-Verwaltung entscheiden, entscheiden
   Sie sich für 30 Jahre Expertise in Sachen Wohneigentum. Dabei setzen wir auf eine
   kaufmännisch, rechtlich und technisch kompetente Bewirtschaftung Ihrer Immobilie
-  durch engagierte Fachkräfte. Bis dato haben der HGR bereits 2.000 Kunden die Verwaltung
+  durch engagierte Fachkräfte. Bis dato haben der HGR bereits 2.200 Kunden die Verwaltung
   ihrer Eigentumswohnung anvertraut.
 hardfacts-image: "/uploads/hgr_hardfacts_image.jpg"
 hardfacts-headline: HGR in Zahlen
