@@ -29,7 +29,7 @@ und Vermittlung von Immobilien mbH
 Geschäftsführerin: Kerstin A. Strehlow<br><br>
 
 
-Südstrand 204
+Südstrand 203
 
 18609 Ostseebad Binz OT Prora<br><br>
 
