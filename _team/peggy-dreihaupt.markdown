@@ -1,6 +1,6 @@
 ---
 title: Peggy Dreihaupt
-stelle: Technische Verwaltung
+stelle: Technisches Immobilienmanagement
 portrait_image: "/uploads/portrait-peggy-dreihaupt.jpg"
 bio: 'Für unsere Kunden gibt Peggy Dreihaupt alles: Das A bis Z der technischen Verwaltung
   bildet dabei den Kern ihres Aufgabenbereiches, den die gebürtige Rüganerin mit unermüdlichem
