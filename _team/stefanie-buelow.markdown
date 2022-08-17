@@ -1,6 +1,6 @@
 ---
 title: Stefanie Bülow
-stelle: Projektassistenz
+stelle: Technisches Immobilienmanagement
 portrait_image: "/uploads/stefanie-buelow-portrait.jpg"
 bio: "Als gelernte Kauffrau für Tourismus und Freizeit bringt Stefanie Bülow jede
   Menge Organisationstalent in das Team. \nUnsere Kunden und Partner erleben sie dabei
