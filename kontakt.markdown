@@ -8,6 +8,7 @@ kontaktdaten:
   fax: "(03 83 93) 13 79 13"
   mail: mail@hgr-premium.de
   Key: 
+Text Telefon: Test
 sprechzeiten:
   mo: 9 - 12 Uhr und 14 - 16 Uhr
   di: 9 - 12 Uhr und 14 - 16 Uhr
