@@ -8,10 +8,10 @@ kontaktdaten:
   fax: "(03 83 93) 13 79 13"
   mail: mail@hgr-premium.de
 sprechzeiten:
-  mo: 9 - 12 Uhr & 14 - 16 Uhr
-  di: 9 - 12 Uhr & 14 - 16 Uhr
+  mo: 9 - 12 Uhr und 14 - 16 Uhr
+  di: 9 - 12 Uhr und 14 - 16 Uhr
   mi: 9 - 12 Uhr
-  do: 9 - 12 Uhr & 14 - 16 Uhr
+  do: 9 - 12 Uhr und 14 - 16 Uhr
   fr: 9 - 12 Uhr
 adresse:
   str: Südstrand 203  (Haus "Düne 7" im Erdgeschoss)
