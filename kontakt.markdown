@@ -8,8 +8,6 @@ kontaktdaten:
   fax: "(03 83 93) 13 79 13"
   mail: mail@hgr-premium.de
   Key: 
-Field name: 'Wir sind telefonisch zu den nachfolgenden Zeiten zu erreichen (um uns
-  phasenweise auch dringenden Tagesangelegenheiten ungestört zu widmen). '
 sprechzeiten:
   mo: 9 - 12 Uhr und 14 - 16 Uhr
   di: 9 - 12 Uhr und 14 - 16 Uhr
