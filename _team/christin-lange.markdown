@@ -1,16 +1,16 @@
 ---
 title: Christin Lange
-stelle: Finanzbuchhaltung
-portrait_image: "/uploads/christin-lange-portrait.jpg"
-bio: Die gebürtige Rüganerin Christin Lange betreut die Finanzverwaltung der HGR.
+stelle: Finanzbuchhaltung + Büroleitung
+portrait_image: "/uploads/Christin_Lange.JPG"
+bio: Die gebürtige Rüganerin Christin Lange betreut die Finanzverwaltung in der HGR.
   Als gelernte Industriekauffrau mit einschlägiger Erfahrung in der Banken- und Versicherungsbranche
   bringt sie sich dabei erfolgreich mit ihren analytischen Fähigkeiten in das Tagesgeschäft
-  der HGR ein.
+  der WEG-Verwaltung ein.
 taetigkeitsschwerpunkte:
 - 'Kreditoren-/ Debitoren-Buchhaltung '
 - Abrechnungen und Budgetplanungen
 - Forderungsmanagement
-order: 3
+order: 2
 layout: team-profile
 ---
 

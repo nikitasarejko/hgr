@@ -2,12 +2,10 @@
 title: Kontakt
 permalink: "/kontakt/"
 position: 4
-hero_img: "/uploads/DJI_0654_pp.jpg"
+hero_img: "/uploads/HGR24-14.jpg"
 kontaktdaten:
   phone: "(03 83 93) 13 79 00"
-  fax: "(03 83 93) 13 79 13"
   mail: mail@hgr-premium.de
-  Key: 
 sprechzeiten:
   mo: 9 - 12 Uhr und 14 - 16 Uhr
   di: 9 - 12 Uhr und 14 - 16 Uhr

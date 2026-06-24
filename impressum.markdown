@@ -39,7 +39,7 @@ Telefon (03 83 93) 13 79 00
 E-Mail: mail(at)hgr-premium.de<br><br>
 
 
-Register: Amtsgericht Stralsund | HRB 773
+Register: Amtsgericht Stralsund - HRB 773<br><br>
 
 USt-ID DE137555069<br><br>
 
@@ -49,13 +49,13 @@ Copyright-Hinweis
 
 Der Inhalt, die Struktur und die Gestaltung der Website sind urheberrechtlich geschützt. Einer Vervielfältigung von Informationen oder Daten, der Verwendung von Bildmaterial, Texten oder Textteilen wird hiermit durch die HGR Premium widersprochen.<br><br>
 
-Fotografie
+Fotografie:
 
-[Lisa Sarejko](mailto:lisa.sarejko@googlemail.com) & [Nikita Sarejko](https://www.nikitasarejko.com)<br>
-[Mirko Boy](https://ruegenfotos.de)<br><br>
+[Kai Ohl](http://www.foto-ohl.de/)<br>
+[Danke an Mirko Boy für das Luftbild](https://ruegenfotos.de)<br><br>
 
 
-Web Design & Web Development
+Web Design & Web Development:
 
 Nikita Sarejko
 
