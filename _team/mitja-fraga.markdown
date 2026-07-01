@@ -2,7 +2,7 @@
 title: Mitja Fraga
 date: 2026-07-01 14:17:00 +02:00
 stelle: Teamassistenz
-portrait_image: 
+portrait_image: "/uploads/Peggy_Dreihaupt.JPG"
 bio: 
 taetigkeitsschwerpunkte:
 - Empfang
