@@ -10,7 +10,7 @@ taetigkeitsschwerpunkte:
 - 'Kreditoren-/ Debitoren-Buchhaltung '
 - Abrechnungen und Budgetplanungen
 - Forderungsmanagement
-order: 4
+order: 3
 layout: team-profile
 ---
 
