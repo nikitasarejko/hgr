@@ -5,7 +5,9 @@ stelle: Teamassistenz
 portrait_image: 
 bio: 
 taetigkeitsschwerpunkte:
-- 
+- Empfang
+- Bürotätigkeit
+order: 8
 ---
 
 Mitja Fraga ist neu bei uns im Team.
