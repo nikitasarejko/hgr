@@ -7,6 +7,6 @@ bio: Mitja Fraga ist neu bei uns im Team.
 taetigkeitsschwerpunkte:
 - Empfang
 - Bürotätigkeit
-order: 6
+order: 7
 ---
 
