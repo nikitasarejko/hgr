@@ -10,7 +10,7 @@ taetigkeitsschwerpunkte:
 - Empfang und Anrufzentrale
 - Koordination Eigentümerversammlungen
 - Officemanagement
-order: 7
+order: 5
 layout: team-profile
 ---
 
